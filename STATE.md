@@ -14,7 +14,7 @@
 ## 当前位置
 
 - 阶段：**B · 可控生成 / 扩散系统化**
-- 下一篇主菜：**B4 · 条件生成与 Guidance**（classifier guidance、classifier-free guidance，把条件控制理解成改写 score 方向）
+- 下一篇主菜：**B5 · 条件注入机制**（cross-attention、ControlNet、T2I-Adapter，把条件怎么进入 U-Net 特征讲清楚）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：无）
 
 ## 已讲清单
@@ -22,9 +22,11 @@
 - 2026-06-26 · **B1 DDPM** —— 前向闭式加噪、`L_simple` 是 reweighted ELBO、预测噪声≈预测 score、最小训练/采样代码
 - 2026-06-29 · **B2 DDIM** —— 非马尔可夫前向保持相同边缘、用 `ε_θ` 预测 x̂₀ 再合成、`η` 旋钮（0=确定性 / 1=DDPM）、子序列跳步加速、确定性→可逆与 ODE
 - 2026-07-01 · **B3 Score-based / SDE 统一框架** —— score 是 `∇ log p_t(x)`，预测噪声等价于学习 denoising score；DDPM 是反向 SDE 的离散随机采样，DDIM/ODE 是确定性 probability-flow 采样
+- 2026-07-02 · **B4 条件生成与 Guidance** —— 条件生成等价于把 `∇ log p_t(x)` 改成 `∇ log p_t(x|y)`；classifier guidance 用外部分类器梯度，CFG 用条件预测与无条件预测的差估计条件方向
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
 
 - **B1 DDPM**：口述"为什么训练是预测噪声的 MSE" → 7 天回顾于 07-03
 - **B2 DDIM**：口述"为什么能跳步还用同一个网络" → 复习于 2026-06-30 / 07-02 / 07-06
 - **B3 Score/SDE**：口述"`ε_θ` 为什么可以换成 score" → 复习于 2026-07-02 / 07-04 / 07-08
+- **B4 Guidance**：口述"为什么 `ε_cond - ε_uncond` 可以理解为条件方向" → 复习于 2026-07-03 / 07-05 / 07-09
