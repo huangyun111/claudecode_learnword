@@ -18,7 +18,7 @@
 - ☑ **B2 DDPM → DDIM**：确定性采样、加速、隐空间语义与可逆性　（2026-06-29 ✅）
 - ☑ **B3 Score-based / SDE 统一框架**：score matching、forward/reverse SDE、probability-flow ODE　（2026-07-01 ✅）
 - ☑ **B4 条件生成与 Guidance**：classifier guidance、classifier-free guidance（CFG）、权衡　（2026-07-02 ✅）
-- ☐ **B5 条件注入机制**：cross-attention、ControlNet、T2I-Adapter（贴偏振表征生成）
+- ☑ **B5 条件注入机制**：cross-attention、ControlNet、T2I-Adapter（贴偏振表征生成）　（2026-07-06 ✅）
 - ☐ **B6 Latent Diffusion（LDM / SD）**：为什么进 latent、VAE + diffusion 的协同
 - ☐ **B7 采样加速**：DPM-Solver、consistency models、distillation
 - ☐ **B8 训练实操**：noise schedule、v-prediction、EMA、混合精度与多卡工程
