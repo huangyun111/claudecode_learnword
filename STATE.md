@@ -14,7 +14,7 @@
 ## 当前位置
 
 - 阶段：**B · 可控生成 / 扩散系统化**
-- 下一篇主菜：**B6 · Latent Diffusion（LDM / Stable Diffusion）**（为什么不直接在像素空间扩散，而要进入 VAE latent；VAE + diffusion 如何协同）
+- 下一篇主菜：**B7 · 采样加速**（DPM-Solver、consistency models、distillation：为什么可以少步数采样，以及少步数为什么容易牺牲质量）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：无）
 
 ## 已讲清单
@@ -24,6 +24,7 @@
 - 2026-07-01 · **B3 Score-based / SDE 统一框架** —— score 是 `∇ log p_t(x)`，预测噪声等价于学习 denoising score；DDPM 是反向 SDE 的离散随机采样，DDIM/ODE 是确定性 probability-flow 采样
 - 2026-07-02 · **B4 条件生成与 Guidance** —— 条件生成等价于把 `∇ log p_t(x)` 改成 `∇ log p_t(x|y)`；classifier guidance 用外部分类器梯度，CFG 用条件预测与无条件预测的差估计条件方向
 - 2026-07-06 · **B5 条件注入机制** —— 条件不是贴标签，而是进入 U-Net 的特征流；类别条件可加到时间嵌入，文本常走 cross-attention，空间/物理条件更适合 ControlNet 或 T2I-Adapter 的多尺度注入
+- 2026-07-07 · **B6 Latent Diffusion（LDM / Stable Diffusion）** —— 先用 VAE 把图像压到 latent，再在 `z_t` 上做扩散，显著降低高分辨率生成成本；但普通图像 latent 可能丢掉 dense physical modality 需要的像素级/物理级细节
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
 
@@ -31,4 +32,5 @@
 - **B2 DDIM**：口述"为什么能跳步还用同一个网络" → 复习于 2026-06-30 / 07-02 / 07-06
 - **B3 Score/SDE**：口述"`ε_θ` 为什么可以换成 score" → 复习于 2026-07-02 / 07-04 / 07-08
 - **B4 Guidance**：口述"为什么 `ε_cond - ε_uncond` 可以理解为条件方向" → 复习于 2026-07-03 / 07-05 / 07-09
-- **B5 条件注入机制**：口述"ControlNet 为什么不是简单 concat" → 复习于 2026-07-07 / 07-09 / 07-13
+- **B5 条件注入机制**：口述“ControlNet 为什么不是简单 concat” → 复习于 2026-07-07 / 07-09 / 07-13
+- **B6 Latent Diffusion**：口述“为什么扩散发生在 `z_t` 而不是 `x_t`” → 复习于 2026-07-08 / 07-10 / 07-14
