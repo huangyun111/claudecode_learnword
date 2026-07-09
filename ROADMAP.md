@@ -20,7 +20,7 @@
 - ☑ **B4 条件生成与 Guidance**：classifier guidance、classifier-free guidance（CFG）、权衡　（2026-07-02 ✅）
 - ☑ **B5 条件注入机制**：cross-attention、ControlNet、T2I-Adapter（贴偏振表征生成）　（2026-07-06 ✅）
 - ☑ **B6 Latent Diffusion（LDM / SD）**：为什么进 latent、VAE + diffusion 的协同　（2026-07-07 ✅）
-- ☐ **B7 采样加速**：DPM-Solver、consistency models、distillation
+- ☑ **B7 采样加速**：DPM-Solver、consistency models、distillation　（2026-07-09 ✅）
 - ☐ **B8 训练实操**：noise schedule、v-prediction、EMA、混合精度与多卡工程
 
 ## 阶段 C · 不确定性建模
