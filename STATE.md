@@ -13,8 +13,8 @@
 
 ## 当前位置
 
-- 阶段：**B · 可控生成 / 扩散系统化**
-- 下一篇主菜：**B8 · 训练实操**（noise schedule、v-prediction、EMA、混合精度与多卡工程：真正训练 diffusion 时最容易踩坑的细节）
+- 阶段：**C · 不确定性建模**
+- 下一篇主菜：**C1 · aleatoric vs epistemic 不确定性**（分清数据固有噪声与模型知识不足，为 reliability / confidence estimation 打地基）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：无）
 
 ## 已讲清单
@@ -26,6 +26,7 @@
 - 2026-07-06 · **B5 条件注入机制** —— 条件不是贴标签，而是进入 U-Net 的特征流；类别条件可加到时间嵌入，文本常走 cross-attention，空间/物理条件更适合 ControlNet 或 T2I-Adapter 的多尺度注入
 - 2026-07-07 · **B6 Latent Diffusion（LDM / Stable Diffusion）** —— 先用 VAE 把图像压到 latent，再在 `z_t` 上做扩散，显著降低高分辨率生成成本；但普通图像 latent 可能丢掉 dense physical modality 需要的像素级/物理级细节
 - 2026-07-09 · **B7 采样加速** —— 采样慢的根源是 U-Net 前向次数太多；DPM-Solver 把反向过程当 ODE 用高阶求解器少走弯路，Consistency Models 学不同噪声水平到同一干净结果的一致映射，Distillation 让少步 student 模仿多步 teacher；少步数会放大误差，dense physical task 还要检查物理一致性
+- 2026-07-16 · **B8 训练实操** —— noise schedule 安排不同 SNR 的学习难度，`v-prediction` 在数据与噪声方向间建立可逆参数化，EMA 平滑评估权重；mixed precision、gradient accumulation 与 DDP 必须保持 prediction type、有效 batch、更新步和断点状态契约一致
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
 
@@ -36,3 +37,4 @@
 - **B5 条件注入机制**：口述“ControlNet 为什么不是简单 concat” → 复习于 2026-07-07 / 07-09 / 07-13
 - **B6 Latent Diffusion**：口述“为什么扩散发生在 `z_t` 而不是 `x_t`” → 复习于 2026-07-08 / 07-10 / 07-14
 - **B7 采样加速**：口述“为什么 DPM-Solver 是 ODE 求解器而不是魔法” → 复习于 2026-07-10 / 07-12 / 07-16
+- **B8 训练实操**：口述“为什么 `v` 能同时恢复 `x_0` 与 `ε`，训练和 sampler 又为何必须匹配” → 复习于 2026-07-17 / 07-19 / 07-23

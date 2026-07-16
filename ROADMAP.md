@@ -1,7 +1,7 @@
 # 知识路线图（ROADMAP）
 
 主线：**可控密集预测 → 可控生成 → 世界模型**。
-默认从 **阶段 B（可控生成 / 扩散系统化）** 起步——已具备阶段 A 基础，按需回填；之后 C → D → E → F 推进。
+已从 **阶段 B（可控生成 / 扩散系统化）** 起步并完成，现进入阶段 C；阶段 A 按需回填，之后 D → E → F 推进。
 每天主菜推进一个 ☐ 条目，讲完打勾并在 `STATE.md` 记录。
 
 ---
@@ -12,7 +12,7 @@
 - ☐ GAN / Normalizing Flow 的核心思想与对比
 - ☐ 四类生成模型（VAE / GAN / Flow / Diffusion）的统一概率视角
 
-## 阶段 B · 可控生成 / 扩散系统化 ⭐当前
+## 阶段 B · 可控生成 / 扩散系统化
 
 - ☑ **B1 DDPM**：前向加噪、反向去噪、训练目标、为什么 work　（2026-06-26 ✅）
 - ☑ **B2 DDPM → DDIM**：确定性采样、加速、隐空间语义与可逆性　（2026-06-29 ✅）
@@ -21,9 +21,9 @@
 - ☑ **B5 条件注入机制**：cross-attention、ControlNet、T2I-Adapter（贴偏振表征生成）　（2026-07-06 ✅）
 - ☑ **B6 Latent Diffusion（LDM / SD）**：为什么进 latent、VAE + diffusion 的协同　（2026-07-07 ✅）
 - ☑ **B7 采样加速**：DPM-Solver、consistency models、distillation　（2026-07-09 ✅）
-- ☐ **B8 训练实操**：noise schedule、v-prediction、EMA、混合精度与多卡工程
+- ☑ **B8 训练实操**：noise schedule、v-prediction、EMA、混合精度与多卡工程　（2026-07-16 ✅）
 
-## 阶段 C · 不确定性建模
+## 阶段 C · 不确定性建模 ⭐当前
 
 - ☐ aleatoric vs epistemic 不确定性
 - ☐ 贝叶斯深度学习、MC dropout、deep ensembles
