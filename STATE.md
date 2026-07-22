@@ -14,7 +14,7 @@
 ## 当前位置
 
 - 阶段：**C · 不确定性建模**
-- 下一篇主菜：**C1 · aleatoric vs epistemic 不确定性**（分清数据固有噪声与模型知识不足，为 reliability / confidence estimation 打地基）
+- 下一篇主菜：**C2 · 贝叶斯深度学习、MC Dropout 与 Deep Ensembles**（用多次预测近似参数 posterior，把 epistemic uncertainty 变成可计算量）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：无）
 
 ## 已讲清单
@@ -27,6 +27,7 @@
 - 2026-07-07 · **B6 Latent Diffusion（LDM / Stable Diffusion）** —— 先用 VAE 把图像压到 latent，再在 `z_t` 上做扩散，显著降低高分辨率生成成本；但普通图像 latent 可能丢掉 dense physical modality 需要的像素级/物理级细节
 - 2026-07-09 · **B7 采样加速** —— 采样慢的根源是 U-Net 前向次数太多；DPM-Solver 把反向过程当 ODE 用高阶求解器少走弯路，Consistency Models 学不同噪声水平到同一干净结果的一致映射，Distillation 让少步 student 模仿多步 teacher；少步数会放大误差，dense physical task 还要检查物理一致性
 - 2026-07-16 · **B8 训练实操** —— noise schedule 安排不同 SNR 的学习难度，`v-prediction` 在数据与噪声方向间建立可逆参数化，EMA 平滑评估权重；mixed precision、gradient accumulation 与 DDP 必须保持 prediction type、有效 batch、更新步和断点状态契约一致
+- 2026-07-22 · **C1 Aleatoric vs Epistemic** —— aleatoric 来自给定模型后的数据散布，epistemic 来自有限数据下参数 posterior 的分歧；heteroscedastic Gaussian NLL 可学习输入相关噪声，全方差公式把总预测方差拆为模型内方差与模型间均值分歧
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
 
@@ -38,3 +39,4 @@
 - **B6 Latent Diffusion**：口述“为什么扩散发生在 `z_t` 而不是 `x_t`” → 复习于 2026-07-08 / 07-10 / 07-14
 - **B7 采样加速**：口述“为什么 DPM-Solver 是 ODE 求解器而不是魔法” → 复习于 2026-07-10 / 07-12 / 07-16
 - **B8 训练实操**：口述“为什么 `v` 能同时恢复 `x_0` 与 `ε`，训练和 sampler 又为何必须匹配” → 复习于 2026-07-17 / 07-19 / 07-23
+- **C1 两类不确定性**：口述“全方差公式如何把总预测方差拆成 aleatoric 与 epistemic” → 复习于 2026-07-23 / 07-25 / 07-29

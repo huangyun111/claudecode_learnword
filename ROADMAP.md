@@ -25,7 +25,7 @@
 
 ## 阶段 C · 不确定性建模 ⭐当前
 
-- ☐ aleatoric vs epistemic 不确定性
+- ☑ **C1 aleatoric vs epistemic 不确定性**：数据固有噪声、模型知识不足、heteroscedastic NLL 与全方差分解　（2026-07-22 ✅）
 - ☐ 贝叶斯深度学习、MC dropout、deep ensembles
 - ☐ reliability / confidence estimation（**贴我 CVPR 方法核心**）
 - ☐ 不确定性在密集预测中的落地用法

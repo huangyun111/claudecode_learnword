@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-07-22 | Aleatoric vs Epistemic：模型说“不确定”时，到底在不确定什么 | C1 | uncertainty, aleatoric, epistemic, heteroscedastic regression, predictive variance |
 | 2026-07-16 | Diffusion 训练实操：真正决定模型能不能稳定收敛的细节 | B8 | diffusion, training, noise schedule, v-prediction, EMA, mixed precision, DDP |
 | 2026-07-09 | 采样加速：为什么扩散模型可以少走很多步 | B7 | diffusion, sampling acceleration, DPM-Solver, consistency models, distillation |
 | 2026-07-07 | Latent Diffusion：为什么 Stable Diffusion 不在像素里直接扩散 | B6 | diffusion, latent diffusion, Stable Diffusion, VAE |
