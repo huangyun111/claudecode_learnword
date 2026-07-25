@@ -14,7 +14,7 @@
 ## 当前位置
 
 - 阶段：**C · 不确定性建模**
-- 下一篇主菜：**C2 · 贝叶斯深度学习、MC Dropout 与 Deep Ensembles**（用多次预测近似参数 posterior，把 epistemic uncertainty 变成可计算量）
+- 下一篇主菜：**C3 · Reliability / Confidence Estimation**（把 uncertainty 信号校准成能预测错误、支持 selective prediction 与安全 refinement 的可靠度）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：无）
 
 ## 已讲清单
@@ -28,6 +28,7 @@
 - 2026-07-09 · **B7 采样加速** —— 采样慢的根源是 U-Net 前向次数太多；DPM-Solver 把反向过程当 ODE 用高阶求解器少走弯路，Consistency Models 学不同噪声水平到同一干净结果的一致映射，Distillation 让少步 student 模仿多步 teacher；少步数会放大误差，dense physical task 还要检查物理一致性
 - 2026-07-16 · **B8 训练实操** —— noise schedule 安排不同 SNR 的学习难度，`v-prediction` 在数据与噪声方向间建立可逆参数化，EMA 平滑评估权重；mixed precision、gradient accumulation 与 DDP 必须保持 prediction type、有效 batch、更新步和断点状态契约一致
 - 2026-07-22 · **C1 Aleatoric vs Epistemic** —— aleatoric 来自给定模型后的数据散布，epistemic 来自有限数据下参数 posterior 的分歧；heteroscedastic Gaussian NLL 可学习输入相关噪声，全方差公式把总预测方差拆为模型内方差与模型间均值分歧
+- 2026-07-25 · **C2 Bayesian Deep Learning** —— posterior predictive 对参数可能性积分；MC Dropout 用随机子网络近似采样，Deep Ensembles 用独立训练形成模型分歧，多次预测的模型间方差近似 epistemic uncertainty，并可与模型内 aleatoric variance 合成总方差
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
 
@@ -40,3 +41,4 @@
 - **B7 采样加速**：口述“为什么 DPM-Solver 是 ODE 求解器而不是魔法” → 复习于 2026-07-10 / 07-12 / 07-16
 - **B8 训练实操**：口述“为什么 `v` 能同时恢复 `x_0` 与 `ε`，训练和 sampler 又为何必须匹配” → 复习于 2026-07-17 / 07-19 / 07-23
 - **C1 两类不确定性**：口述“全方差公式如何把总预测方差拆成 aleatoric 与 epistemic” → 复习于 2026-07-23 / 07-25 / 07-29
+- **C2 贝叶斯深度学习**：口述“为什么 MC Dropout / Deep Ensembles 的多次预测能近似参数不确定性” → 复习于 2026-07-26 / 07-28 / 08-01
