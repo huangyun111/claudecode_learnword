@@ -27,7 +27,7 @@
 
 - ☑ **C1 aleatoric vs epistemic 不确定性**：数据固有噪声、模型知识不足、heteroscedastic NLL 与全方差分解　（2026-07-22 ✅）
 - ☑ **C2 贝叶斯深度学习、MC Dropout、Deep Ensembles**：posterior predictive、随机子网络与多模型分歧　（2026-07-25 ✅）
-- ☐ reliability / confidence estimation（**贴我 CVPR 方法核心**）
+- ☑ **C3 reliability / confidence estimation**：calibration、Temperature Scaling、risk-coverage 与安全 refinement　（2026-07-26 ✅）
 - ☐ 不确定性在密集预测中的落地用法
 
 ## 阶段 D · 可控密集预测
