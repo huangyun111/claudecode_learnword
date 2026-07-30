@@ -14,7 +14,7 @@
 ## 当前位置
 
 - 阶段：**D · 可控密集预测**
-- 下一篇主菜：**D1 · 单目深度估计基本范式**（metric depth 与 relative depth、scale / shift ambiguity、常用训练与评估协议）
+- 下一篇主菜：**D2 · 法向估计与深度—法向几何约束**（深度梯度到表面法向、透视投影、边界与离散化误差、多任务一致性）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：无）
 
 ## 已讲清单
@@ -31,6 +31,7 @@
 - 2026-07-25 · **C2 Bayesian Deep Learning** —— posterior predictive 对参数可能性积分；MC Dropout 用随机子网络近似采样，Deep Ensembles 用独立训练形成模型分歧，多次预测的模型间方差近似 epistemic uncertainty，并可与模型内 aleatoric variance 合成总方差
 - 2026-07-26 · **C3 Reliability / Confidence Estimation** —— uncertainty 只是风险信号，reliability 要用独立数据验证信号与真实错误的对应；分类可用 reliability diagram、ECE 与 Temperature Scaling 校准，密集回归可用 risk-coverage 同时检查排序能力，并把“哪里错”与“哪里值得安全修”分开
 - 2026-07-27 · **C4 Dense Prediction Uncertainty** —— heteroscedastic NLL 用误差加权项与 log-variance penalty 联合学习像素级 aleatoric uncertainty，ensemble 分歧近似 epistemic uncertainty；落地时要把 loss weighting、selective prediction、active learning 与 expected-benefit refinement 分开验证，高风险不等于 refiner 一定能改对
+- 2026-07-30 · **D1 单目深度估计基本范式** —— 针孔投影只观察 $X/Z$ 与 $Y/Z$，因此单幅图像天然存在整体 scale ambiguity；metric depth 要直接负责真实单位，relative depth 则允许 scale 或 inverse-depth 空间的 scale-and-shift 对齐；训练 loss、测试 alignment、相机内参与有效 mask 必须遵守同一输出契约
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
 
@@ -46,3 +47,4 @@
 - **C2 贝叶斯深度学习**：口述“为什么 MC Dropout / Deep Ensembles 的多次预测能近似参数不确定性” → 复习于 2026-07-26 / 07-28 / 08-01
 - **C3 可靠度与校准**：口述“calibration 与 risk ranking 有什么区别，为什么 confidence 高不等于可靠” → 复习于 2026-07-27 / 07-29 / 08-02
 - **C4 密集预测不确定性**：口述“为什么高 uncertainty 不等于值得大幅 refinement，expected-benefit gate 应学习什么” → 复习于 2026-07-28 / 07-30 / 08-03
+- **D1 单目深度估计范式**：口述“为什么单目图像不能仅靠投影确定米制尺度，对齐后的 relative 指标又为何不能证明 metric 能力” → 复习于 2026-07-31 / 08-02 / 08-06

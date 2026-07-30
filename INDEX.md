@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-07-30 | 单目深度估计：一张图里的“远近”，为什么不天然等于真实米数 | D1 | monocular depth estimation, metric depth, relative depth, scale ambiguity, shift ambiguity, inverse depth, evaluation |
 | 2026-07-27 | Dense Prediction Uncertainty：一张像素级不确定性图，怎样真正参与决策 | C4 | dense prediction, pixel-wise uncertainty, heteroscedastic NLL, selective prediction, active learning, safe refinement |
 | 2026-07-26 | Reliability / Confidence Estimation：模型说“我有把握”，这句话可信吗 | C3 | reliability, confidence, calibration, temperature scaling, selective prediction, risk-coverage |
 | 2026-07-25 | Bayesian Deep Learning：让神经网络不只给答案，也表达“我可能没学会” | C2 | Bayesian deep learning, posterior predictive, MC Dropout, Deep Ensembles, epistemic uncertainty |
