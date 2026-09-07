@@ -14,7 +14,7 @@
 ## 当前位置
 
 - 阶段：**D · 可控密集预测**
-- 下一篇主菜：**D2 · 法向估计与深度—法向几何约束**（深度梯度到表面法向、透视投影、边界与离散化误差、多任务一致性）
+- 下一篇主菜：**D3 · 用 diffusion 做密集预测**（生成先验到条件估计、Marigold 类方法、多样本 ensemble、尺度对齐与效率）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：无）
 
 ## 已讲清单
@@ -32,6 +32,7 @@
 - 2026-07-26 · **C3 Reliability / Confidence Estimation** —— uncertainty 只是风险信号，reliability 要用独立数据验证信号与真实错误的对应；分类可用 reliability diagram、ECE 与 Temperature Scaling 校准，密集回归可用 risk-coverage 同时检查排序能力，并把“哪里错”与“哪里值得安全修”分开
 - 2026-07-27 · **C4 Dense Prediction Uncertainty** —— heteroscedastic NLL 用误差加权项与 log-variance penalty 联合学习像素级 aleatoric uncertainty，ensemble 分歧近似 epistemic uncertainty；落地时要把 loss weighting、selective prediction、active learning 与 expected-benefit refinement 分开验证，高风险不等于 refiner 一定能改对
 - 2026-07-30 · **D1 单目深度估计基本范式** —— 针孔投影只观察 $X/Z$ 与 $Y/Z$，因此单幅图像天然存在整体 scale ambiguity；metric depth 要直接负责真实单位，relative depth 则允许 scale 或 inverse-depth 空间的 scale-and-shift 对齐；训练 loss、测试 alignment、相机内参与有效 mask 必须遵守同一输出契约
+- 2026-09-07 · **D2 法向估计与深度—法向几何约束** —— surface normal 来自反投影曲面的两条切向量叉乘；透视 depth-to-normal 显式依赖相机内参、像素位置与 depth gradient，全局乘法尺度不改变法向，但 additive shift、边界差分和错误内参会破坏几何；多任务 consistency 必须与独立监督、有效 mask 和 no-harm 分层评估配套
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
 
@@ -48,3 +49,4 @@
 - **C3 可靠度与校准**：口述“calibration 与 risk ranking 有什么区别，为什么 confidence 高不等于可靠” → 复习于 2026-07-27 / 07-29 / 08-02
 - **C4 密集预测不确定性**：口述“为什么高 uncertainty 不等于值得大幅 refinement，expected-benefit gate 应学习什么” → 复习于 2026-07-28 / 07-30 / 08-03
 - **D1 单目深度估计范式**：口述“为什么单目图像不能仅靠投影确定米制尺度，对齐后的 relative 指标又为何不能证明 metric 能力” → 复习于 2026-07-31 / 08-02 / 08-06
+- **D2 深度—法向几何约束**：口述“为什么 $(-z_u,-z_v,1)$ 只适合正交近似，以及强 consistency 为什么可能在边界传播错误” → 复习于 2026-09-08 / 09-10 / 09-14

@@ -33,7 +33,7 @@
 ## 阶段 D · 可控密集预测 ⭐当前
 
 - ☑ **D1 单目深度估计范式**：metric vs relative、scale / shift ambiguity、训练目标与公平评估协议　（2026-07-30 ✅）
-- ☐ 法向量估计、深度↔法向几何约束、多任务联合
+- ☑ **D2 法向量估计、深度↔法向几何约束、多任务联合**：透视 depth-to-normal、内参、边界差分与可靠一致性　（2026-09-07 ✅）
 - ☐ 用 diffusion 做密集预测（Marigold / DDP 类）
 - ☐ reliability-guided / confidence-guided 残差修正思想
 
