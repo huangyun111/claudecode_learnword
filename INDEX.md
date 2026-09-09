@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-09-09 | Reliability-guided Residual Refinement：不是“哪里可能错就改哪里”，而是先判断“改了是否更好” | D4 | reliability, residual refinement, expected benefit, no-harm gate, bounded residual, causal ablation |
 | 2026-09-08 | Diffusion 做密集预测：从“生成一张图”到“估计每个像素的深度” | D3 | dense prediction, conditional diffusion, Marigold, monocular depth, ensemble, affine alignment, uncertainty, efficiency |
 | 2026-09-07 | 深度与法向：一张“距离图”怎样变成一张“朝向图” | D2 | surface normal estimation, depth-normal consistency, perspective projection, camera intrinsics, multi-task learning |
 | 2026-07-30 | 单目深度估计：一张图里的“远近”，为什么不天然等于真实米数 | D1 | monocular depth estimation, metric depth, relative depth, scale ambiguity, shift ambiguity, inverse depth, evaluation |

@@ -14,7 +14,7 @@
 ## 当前位置
 
 - 阶段：**D · 可控密集预测**
-- 下一篇主菜：**D4 · Reliability-guided residual refinement**（风险与可修性的区别、expected benefit、no-harm gate、残差幅度控制与因果消融）
+- 下一篇主菜：**E1 · 多视图几何基础**（针孔相机、坐标变换、对极约束、essential / fundamental matrix 与三角测量）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：无）
 
 ## 已讲清单
@@ -34,6 +34,7 @@
 - 2026-07-30 · **D1 单目深度估计基本范式** —— 针孔投影只观察 $X/Z$ 与 $Y/Z$，因此单幅图像天然存在整体 scale ambiguity；metric depth 要直接负责真实单位，relative depth 则允许 scale 或 inverse-depth 空间的 scale-and-shift 对齐；训练 loss、测试 alignment、相机内参与有效 mask 必须遵守同一输出契约
 - 2026-09-07 · **D2 法向估计与深度—法向几何约束** —— surface normal 来自反投影曲面的两条切向量叉乘；透视 depth-to-normal 显式依赖相机内参、像素位置与 depth gradient，全局乘法尺度不改变法向，但 additive shift、边界差分和错误内参会破坏几何；多任务 consistency 必须与独立监督、有效 mask 和 no-harm 分层评估配套
 - 2026-09-08 · **D3 Diffusion 用于密集预测** —— conditional diffusion 把直接点估计改写为对 $p(d\mid I)$ 的逐步去噪建模，可复用预训练生成器的对象与布局先验；latent diffusion 降低空间计算成本，多次采样前要先处理 affine alignment，sample disagreement 只有经过 held-out error 校准后才能成为 reliability signal；总成本约随 ensemble size 与 denoising steps 的乘积增长
+- 2026-09-09 · **D4 Reliability-guided residual refinement** —— 高 uncertainty 只表示 base 可能错，不等于 candidate residual 值得采用；用 $b_i=e_{0,i}-e_{c,i}$ 定义真实收益并学习 expected-benefit gate，以 bounded residual、no-harm penalty 和输出空间几何控制修改，再用 shuffled/oracle/matched-capacity controls、harm rate 与 worst-group results 建立因果证据
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
 
@@ -52,3 +53,4 @@
 - **D1 单目深度估计范式**：口述“为什么单目图像不能仅靠投影确定米制尺度，对齐后的 relative 指标又为何不能证明 metric 能力” → 复习于 2026-07-31 / 08-02 / 08-06
 - **D2 深度—法向几何约束**：口述“为什么 $(-z_u,-z_v,1)$ 只适合正交近似，以及强 consistency 为什么可能在边界传播错误” → 复习于 2026-09-08 / 09-10 / 09-14
 - **D3 Diffusion 密集预测**：口述“为什么预测噪声能恢复 depth、affine-invariant ensemble 为何要先对齐，以及 sample spread 为什么不等于已校准 uncertainty” → 复习于 2026-09-09 / 09-11 / 09-15
+- **D4 Reliability-guided refinement**：口述“为什么 high uncertainty 不等于 should refine，以及 expected benefit gate 比 risk gate 多判断了什么” → 复习于 2026-09-10 / 09-12 / 09-16

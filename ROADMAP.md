@@ -35,7 +35,7 @@
 - ☑ **D1 单目深度估计范式**：metric vs relative、scale / shift ambiguity、训练目标与公平评估协议　（2026-07-30 ✅）
 - ☑ **D2 法向量估计、深度↔法向几何约束、多任务联合**：透视 depth-to-normal、内参、边界差分与可靠一致性　（2026-09-07 ✅）
 - ☑ **D3 用 diffusion 做密集预测**：conditional denoising、生成先验迁移、Marigold、affine-aligned ensemble、uncertainty 边界与推理成本　（2026-09-08 ✅）
-- ☐ reliability-guided / confidence-guided 残差修正思想
+- ☑ reliability-guided / confidence-guided 残差修正思想：risk vs repairability、expected benefit、no-harm gate、bounded residual 与因果消融　（2026-09-09 ✅）
 
 ## 阶段 E · 3D 与多视图（含偏振）
 
