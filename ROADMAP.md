@@ -1,7 +1,7 @@
 # 知识路线图（ROADMAP）
 
 主线：**可控密集预测 → 可控生成 → 世界模型**。
-已从 **阶段 B（可控生成 / 扩散系统化）** 起步并完成，现进入阶段 C；阶段 A 按需回填，之后 D → E → F 推进。
+已从 **阶段 B（可控生成 / 扩散系统化）** 起步并完成，现进入阶段 E；阶段 A 按需回填，之后继续 E → F 推进。
 每天主菜推进一个 ☐ 条目，讲完打勾并在 `STATE.md` 记录。
 
 ---
@@ -30,16 +30,16 @@
 - ☑ **C3 reliability / confidence estimation**：calibration、Temperature Scaling、risk-coverage 与安全 refinement　（2026-07-26 ✅）
 - ☑ **C4 不确定性在密集预测中的落地用法**：loss weighting、selective prediction、active learning 与 safe refinement　（2026-07-27 ✅）
 
-## 阶段 D · 可控密集预测 ⭐当前
+## 阶段 D · 可控密集预测
 
 - ☑ **D1 单目深度估计范式**：metric vs relative、scale / shift ambiguity、训练目标与公平评估协议　（2026-07-30 ✅）
 - ☑ **D2 法向量估计、深度↔法向几何约束、多任务联合**：透视 depth-to-normal、内参、边界差分与可靠一致性　（2026-09-07 ✅）
 - ☑ **D3 用 diffusion 做密集预测**：conditional denoising、生成先验迁移、Marigold、affine-aligned ensemble、uncertainty 边界与推理成本　（2026-09-08 ✅）
 - ☑ reliability-guided / confidence-guided 残差修正思想：risk vs repairability、expected benefit、no-harm gate、bounded residual 与因果消融　（2026-09-09 ✅）
 
-## 阶段 E · 3D 与多视图（含偏振）
+## 阶段 E · 3D 与多视图（含偏振） ⭐当前
 
-- ☐ 多视图几何基础、对极几何
+- ☑ **E1 多视图几何基础、对极几何**：针孔相机、刚体变换、essential / fundamental matrix、三角测量、尺度与误差　（2026-09-10 ✅）
 - ☐ SfM / COLMAP 管线
 - ☐ NeRF / 3D Gaussian Splatting
 - ☐ 偏振成像物理 → 偏振-法向-形状（Shape from Polarization）

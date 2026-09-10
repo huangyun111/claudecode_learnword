@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-09-10 | 多视图几何基础：第二台相机怎样把一条射线变成一个三维点 | E1 | multi-view geometry, pinhole camera, rigid transform, epipolar geometry, essential matrix, fundamental matrix, triangulation |
 | 2026-09-09 | Reliability-guided Residual Refinement：不是“哪里可能错就改哪里”，而是先判断“改了是否更好” | D4 | reliability, residual refinement, expected benefit, no-harm gate, bounded residual, causal ablation |
 | 2026-09-08 | Diffusion 做密集预测：从“生成一张图”到“估计每个像素的深度” | D3 | dense prediction, conditional diffusion, Marigold, monocular depth, ensemble, affine alignment, uncertainty, efficiency |
 | 2026-09-07 | 深度与法向：一张“距离图”怎样变成一张“朝向图” | D2 | surface normal estimation, depth-normal consistency, perspective projection, camera intrinsics, multi-task learning |
