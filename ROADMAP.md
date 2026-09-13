@@ -40,7 +40,7 @@
 ## 阶段 E · 3D 与多视图（含偏振） ⭐当前
 
 - ☑ **E1 多视图几何基础、对极几何**：针孔相机、刚体变换、essential / fundamental matrix、三角测量、尺度与误差　（2026-09-10 ✅）
-- ☐ SfM / COLMAP 管线
+- ☑ **E2 SfM / COLMAP 管线**：局部特征、匹配、RANSAC、增量注册、PnP、三角化、bundle adjustment 与 gauge freedom　（2026-09-13 ✅）
 - ☐ NeRF / 3D Gaussian Splatting
 - ☐ 偏振成像物理 → 偏振-法向-形状（Shape from Polarization）
 
