@@ -14,7 +14,7 @@
 ## 当前位置
 
 - 阶段：**E · 3D 与多视图（含偏振）**
-- 下一篇主菜：**E3 · NeRF / 3D Gaussian Splatting**（体渲染、隐式场、显式高斯、新视角合成与表示权衡）
+- 下一篇主菜：**E4 · 偏振成像物理 → Shape from Polarization**（Stokes、DoLP / AoLP、Fresnel、法向歧义与多视图消歧）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：无）
 
 ## 已讲清单
@@ -37,6 +37,7 @@
 - 2026-09-09 · **D4 Reliability-guided residual refinement** —— 高 uncertainty 只表示 base 可能错，不等于 candidate residual 值得采用；用 $b_i=e_{0,i}-e_{c,i}$ 定义真实收益并学习 expected-benefit gate，以 bounded residual、no-harm penalty 和输出空间几何控制修改，再用 shuffled/oracle/matched-capacity controls、harm rate 与 worst-group results 建立因果证据
 - 2026-09-10 · **E1 多视图几何基础** —— 单像素只确定一条相机射线，双视图通过共面关系得到 $\mathbf x_2^\top\mathbf E\mathbf x_1=0$ 与像素域 $\tilde{\mathbf x}_2^\top\mathbf F\tilde{\mathbf x}_1=0$；极线约束缩小匹配搜索，DLT/SVD 三角化恢复三维点，尺度、重投影、正深度和射线夹角决定结果是否可信
 - 2026-09-13 · **E2 SfM / COLMAP 管线** —— 局部特征与候选匹配建立 view graph，RANSAC 用极线几何隔离 outlier，可靠初始对产生首批相机与三维点，PnP 注册新相机、三角化扩展 tracks，bundle adjustment 再用稀疏重投影目标联合优化相机与结构；纯视觉重建仍有 similarity gauge freedom
+- 2026-09-14 · **E3 NeRF / 3D Gaussian Splatting** —— NeRF 用位置与方向到 density / radiance 的连续函数沿射线体渲染，3DGS 用可优化的 anisotropic Gaussians 投影并 splat 到屏幕；两者共享 front-to-back alpha compositing，但 novel-view 图像质量不能单独证明 metric geometry 或偏振物理正确
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
 
@@ -58,3 +59,4 @@
 - **D4 Reliability-guided refinement**：口述“为什么 high uncertainty 不等于 should refine，以及 expected benefit gate 比 risk gate 多判断了什么” → 复习于 2026-09-10 / 09-12 / 09-16
 - **E1 多视图几何**：口述“为什么 $\mathbf E$ 作用于归一化坐标、$\mathbf F$ 作用于像素坐标，以及双视图为何仍缺绝对尺度” → 复习于 2026-09-11 / 09-13 / 09-17
 - **E2 SfM / COLMAP**：口述“RANSAC 为什么对内点率呈幂次敏感，PnP 怎样把新图接入已有地图，以及 BA 为何必须固定 gauge” → 复习于 2026-09-14 / 09-16 / 09-20
+- **E3 NeRF / 3D Gaussian Splatting**：口述“怎样从 transmittance 推出 NeRF 权重，为什么 3DGS 与 NeRF 最终共享 alpha compositing，以及高 PSNR 为何不等于几何准确” → 复习于 2026-09-15 / 09-17 / 09-21

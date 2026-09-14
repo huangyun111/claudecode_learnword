@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-09-14 | NeRF / 3D Gaussian Splatting：同一组照片，为何一种沿射线积分，另一种把椭球投到屏幕 | E3 | NeRF, neural radiance field, volume rendering, transmittance, 3D Gaussian Splatting, alpha compositing, novel view synthesis |
 | 2026-09-13 | SfM / COLMAP：怎样从一堆无序照片恢复相机与三维结构 | E2 | Structure from Motion, COLMAP, local features, matching, RANSAC, PnP, triangulation, bundle adjustment |
 | 2026-09-10 | 多视图几何基础：第二台相机怎样把一条射线变成一个三维点 | E1 | multi-view geometry, pinhole camera, rigid transform, epipolar geometry, essential matrix, fundamental matrix, triangulation |
 | 2026-09-09 | Reliability-guided Residual Refinement：不是“哪里可能错就改哪里”，而是先判断“改了是否更好” | D4 | reliability, residual refinement, expected benefit, no-harm gate, bounded residual, causal ablation |
