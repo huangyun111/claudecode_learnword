@@ -1,7 +1,7 @@
 # 知识路线图（ROADMAP）
 
 主线：**可控密集预测 → 可控生成 → 世界模型**。
-已从 **阶段 B（可控生成 / 扩散系统化）** 起步并完成，现进入阶段 E；阶段 A 按需回填，之后继续 E → F 推进。
+已从 **阶段 B（可控生成 / 扩散系统化）** 起步并完成，阶段 E 也已完成，现进入阶段 F；阶段 A 按需回填。
 每天主菜推进一个 ☐ 条目，讲完打勾并在 `STATE.md` 记录。
 
 ---
@@ -37,14 +37,14 @@
 - ☑ **D3 用 diffusion 做密集预测**：conditional denoising、生成先验迁移、Marigold、affine-aligned ensemble、uncertainty 边界与推理成本　（2026-09-08 ✅）
 - ☑ reliability-guided / confidence-guided 残差修正思想：risk vs repairability、expected benefit、no-harm gate、bounded residual 与因果消融　（2026-09-09 ✅）
 
-## 阶段 E · 3D 与多视图（含偏振） ⭐当前
+## 阶段 E · 3D 与多视图（含偏振）
 
 - ☑ **E1 多视图几何基础、对极几何**：针孔相机、刚体变换、essential / fundamental matrix、三角测量、尺度与误差　（2026-09-10 ✅）
 - ☑ **E2 SfM / COLMAP 管线**：局部特征、匹配、RANSAC、增量注册、PnP、三角化、bundle adjustment 与 gauge freedom　（2026-09-13 ✅）
 - ☑ **E3 NeRF / 3D Gaussian Splatting**：radiance field、体渲染、transmittance、anisotropic Gaussian、screen-space splatting、alpha compositing 与几何证据边界　（2026-09-14 ✅）
-- ☐ 偏振成像物理 → 偏振-法向-形状（Shape from Polarization）
+- ☑ **E4 偏振成像物理 → 偏振-法向-形状（Shape from Polarization）**：Malus 二倍角模型、Stokes、DoLP / AoLP、Fresnel、法向歧义、可积性与多视图消歧　（2026-09-15 ✅）
 
-## 阶段 F · 世界模型
+## 阶段 F · 世界模型 ⭐当前
 
 - ☐ video diffusion 基础
 - ☐ action-conditioned prediction

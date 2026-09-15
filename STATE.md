@@ -13,9 +13,9 @@
 
 ## 当前位置
 
-- 阶段：**E · 3D 与多视图（含偏振）**
-- 下一篇主菜：**E4 · 偏振成像物理 → Shape from Polarization**（Stokes、DoLP / AoLP、Fresnel、法向歧义与多视图消歧）
-- 前沿速览节奏：建议每周二 / 周五各一次（上次：无）
+- 阶段：**F · 世界模型**
+- 下一篇主菜：**F1 · Video Diffusion 基础**（时空噪声、temporal attention、运动建模与一致性）
+- 前沿速览节奏：建议每周二 / 周五各一次（上次：2026-09-15，SfP / polarimetric vision）
 
 ## 已讲清单
 
@@ -38,6 +38,7 @@
 - 2026-09-10 · **E1 多视图几何基础** —— 单像素只确定一条相机射线，双视图通过共面关系得到 $\mathbf x_2^\top\mathbf E\mathbf x_1=0$ 与像素域 $\tilde{\mathbf x}_2^\top\mathbf F\tilde{\mathbf x}_1=0$；极线约束缩小匹配搜索，DLT/SVD 三角化恢复三维点，尺度、重投影、正深度和射线夹角决定结果是否可信
 - 2026-09-13 · **E2 SfM / COLMAP 管线** —— 局部特征与候选匹配建立 view graph，RANSAC 用极线几何隔离 outlier，可靠初始对产生首批相机与三维点，PnP 注册新相机、三角化扩展 tracks，bundle adjustment 再用稀疏重投影目标联合优化相机与结构；纯视觉重建仍有 similarity gauge freedom
 - 2026-09-14 · **E3 NeRF / 3D Gaussian Splatting** —— NeRF 用位置与方向到 density / radiance 的连续函数沿射线体渲染，3DGS 用可优化的 anisotropic Gaussians 投影并 splat 到屏幕；两者共享 front-to-back alpha compositing，但 novel-view 图像质量不能单独证明 metric geometry 或偏振物理正确
+- 2026-09-15 · **E4 偏振成像物理与 Shape from Polarization** —— analyzer 的二倍角强度由 $S_0,S_1,S_2$ 线性描述，DoLP 与 AoLP 分别提供反射几何的幅度和模 $\pi$ 方位线索；Fresnel 把观察角映射到偏振度，但 $\pi$、$\pi/2$、zenith 多解、未知材质和 mixed reflection 使单视图法向不唯一，需用可积性、stereo 与 multi-view consistency 消歧
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
 
@@ -60,3 +61,4 @@
 - **E1 多视图几何**：口述“为什么 $\mathbf E$ 作用于归一化坐标、$\mathbf F$ 作用于像素坐标，以及双视图为何仍缺绝对尺度” → 复习于 2026-09-11 / 09-13 / 09-17
 - **E2 SfM / COLMAP**：口述“RANSAC 为什么对内点率呈幂次敏感，PnP 怎样把新图接入已有地图，以及 BA 为何必须固定 gauge” → 复习于 2026-09-14 / 09-16 / 09-20
 - **E3 NeRF / 3D Gaussian Splatting**：口述“怎样从 transmittance 推出 NeRF 权重，为什么 3DGS 与 NeRF 最终共享 alpha compositing，以及高 PSNR 为何不等于几何准确” → 复习于 2026-09-15 / 09-17 / 09-21
+- **E4 偏振成像与 SfP**：口述“怎样从四方向强度恢复 Stokes，AoLP 为什么只有模 $\pi$，以及单视图 normal 为何仍有多解” → 复习于 2026-09-16 / 09-18 / 09-22
