@@ -46,7 +46,7 @@
 
 ## 阶段 F · 世界模型 ⭐当前
 
-- ☐ video diffusion 基础
+- ☑ **F1 video diffusion 基础**：整段视频的扩散目标、spatial / temporal factorization、temporal attention、运动对齐、多未来采样、级联超分与 world-model 证据边界　（2026-09-16 ✅）
 - ☐ action-conditioned prediction
 - ☐ latent world models（Dreamer 类）
 - ☐ Sora / Genie 类与可控生成的关系
