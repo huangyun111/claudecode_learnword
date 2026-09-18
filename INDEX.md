@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-09-18 | Action-conditioned Prediction：模型怎样预测“我这样做以后会发生什么” | F2 | action-conditioned prediction, state transition, intervention, stochastic dynamics, visual foresight, model predictive control, world model |
 | 2026-09-16 | Video Diffusion：把“每帧都好看”升级为“整段运动说得通” | F1 | video diffusion, spatiotemporal denoising, temporal attention, motion, consistency, video prediction, world model |
 | 2026-09-15 | 偏振成像与 Shape from Polarization：四张灰度图怎样约束表面法向 | E4 | polarization imaging, Stokes, DoLP, AoLP, Fresnel, Shape from Polarization, surface normal, ambiguity |
 | 2026-09-14 | NeRF / 3D Gaussian Splatting：同一组照片，为何一种沿射线积分，另一种把椭球投到屏幕 | E3 | NeRF, neural radiance field, volume rendering, transmittance, 3D Gaussian Splatting, alpha compositing, novel view synthesis |
