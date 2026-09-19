@@ -14,8 +14,8 @@
 ## 当前位置
 
 - 阶段：**F · 世界模型**
-- 下一篇主菜：**F3 · Latent World Models（Dreamer 类）**（latent dynamics、imagination、value learning 与规划）
-- 前沿速览节奏：建议每周二 / 周五各一次（上次：2026-09-18，Action-conditioned Prediction）
+- 下一篇主菜：**F4 · Sora / Genie 类世界生成与可控生成**（交互式生成、长时一致性、action controllability 与 agent planning 的证据边界）
+- 前沿速览节奏：建议每周二 / 周五各一次（上次：2026-09-19，Latent World Models / Dreamer）
 
 ## 已讲清单
 
@@ -41,6 +41,7 @@
 - 2026-09-15 · **E4 偏振成像物理与 Shape from Polarization** —— analyzer 的二倍角强度由 $S_0,S_1,S_2$ 线性描述，DoLP 与 AoLP 分别提供反射几何的幅度和模 $\pi$ 方位线索；Fresnel 把观察角映射到偏振度，但 $\pi$、$\pi/2$、zenith 多解、未知材质和 mixed reflection 使单视图法向不唯一，需用可积性、stereo 与 multi-view consistency 消歧
 - 2026-09-16 · **F1 Video Diffusion** —— 把整段 $C\times T\times H\times W$ 视频作为联合随机变量加噪与去噪，spatial module 恢复帧内外观，temporal convolution / attention 学跨帧对应、身份与运动；多次采样可表达多未来，但外观连贯、动力学合理与可干预的世界模型能力必须分层验证
 - 2026-09-18 · **F2 Action-conditioned Prediction** —— 用 $p(\text{future}\mid\text{past},\text{actions})$ 区分不同控制选择的后果，transition model 逐步 rollout，stochastic latent 表达不可控多未来，MPC 通过候选动作—预测—代价—执行一步形成闭环；action shuffle、同状态多动作与真实闭环验证用于排除模型忽略动作或只学相关性
+- 2026-09-19 · **F3 Latent World Models（Dreamer 类）** —— RSSM 用 deterministic recurrent state 保存历史、stochastic latent 表达多种可能；posterior 从真实 observation 校正状态，prior 在无未来观测时 rollout，KL 把二者接起来；actor / critic 再用 imagined rewards、continuation 与 $\lambda$-return 学行为，但最终仍需真实闭环排除 model exploitation
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
 
@@ -66,3 +67,4 @@
 - **E4 偏振成像与 SfP**：口述“怎样从四方向强度恢复 Stokes，AoLP 为什么只有模 $\pi$，以及单视图 normal 为何仍有多解” → 复习于 2026-09-16 / 09-18 / 09-22
 - **F1 Video Diffusion**：口述“为什么逐帧 image diffusion 不等于联合视频建模，独立前向噪声为何不妨碍反向时序一致性，以及原像素平滑为何会产生拖影” → 复习于 2026-09-17 / 09-19 / 09-23
 - **F2 Action-conditioned Prediction**：口述“为什么 action 不是普通标签，如何用 same-state/different-action 检查模型是否真的使用动作，以及 MPC 为何只执行第一步就重规划” → 复习于 2026-09-19 / 09-21 / 09-25
+- **F3 Latent World Models / Dreamer**：口述“posterior 为什么能看当前 observation、prior 为什么不能，以及 KL 与 $\lambda$-return 分别解决哪一段连接问题” → 复习于 2026-09-20 / 09-22 / 09-26

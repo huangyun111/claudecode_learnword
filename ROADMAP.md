@@ -48,8 +48,8 @@
 
 - ☑ **F1 video diffusion 基础**：整段视频的扩散目标、spatial / temporal factorization、temporal attention、运动对齐、多未来采样、级联超分与 world-model 证据边界　（2026-09-16 ✅）
 - ☑ **F2 action-conditioned prediction**：state transition、动作注入、motion-based prediction、stochastic futures、action-use diagnostics、MPC 与可干预性证据边界　（2026-09-18 ✅）
-- ☐ **F3 latent world models（Dreamer 类）**
-- ☐ Sora / Genie 类与可控生成的关系
+- ☑ **F3 latent world models（Dreamer 类）**：RSSM、posterior / prior、world-model ELBO、latent imagination、actor-critic、$\lambda$-return 与 model exploitation　（2026-09-19 ✅）
+- ☐ **F4 Sora / Genie 类与可控生成的关系**
 
 ---
 
