@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-09-21 | Sora / Genie 类世界生成：会生成视频，离“可交互世界模型”还有几道门 | F4 | Sora, Genie, world model, video diffusion, interactive generation, latent action, action controllability, counterfactual, planning |
 | 2026-09-19 | Latent World Models（Dreamer）：不必画出每个未来像素，怎样在“想象”里学会行动 | F3 | latent world model, Dreamer, RSSM, posterior, prior, latent imagination, actor-critic, lambda return, model-based reinforcement learning |
 | 2026-09-18 | Action-conditioned Prediction：模型怎样预测“我这样做以后会发生什么” | F2 | action-conditioned prediction, state transition, intervention, stochastic dynamics, visual foresight, model predictive control, world model |
 | 2026-09-16 | Video Diffusion：把“每帧都好看”升级为“整段运动说得通” | F1 | video diffusion, spatiotemporal denoising, temporal attention, motion, consistency, video prediction, world model |

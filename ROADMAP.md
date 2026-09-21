@@ -1,16 +1,16 @@
 # 知识路线图（ROADMAP）
 
 主线：**可控密集预测 → 可控生成 → 世界模型**。
-已从 **阶段 B（可控生成 / 扩散系统化）** 起步并完成，阶段 E 也已完成，现进入阶段 F；阶段 A 按需回填。
+已从 **阶段 B（可控生成 / 扩散系统化）** 起步，现已完成 B–F 主线，开始回填 **阶段 A（生成模型统一视角）**。
 每天主菜推进一个 ☐ 条目，讲完打勾并在 `STATE.md` 记录。
 
 ---
 
-## 阶段 A · 生成模型统一视角（前置地基，按需简讲）
+## 阶段 A · 生成模型统一视角（前置地基） ⭐当前回填
 
-- ☐ latent variable models 与 ELBO；VAE
-- ☐ GAN / Normalizing Flow 的核心思想与对比
-- ☐ 四类生成模型（VAE / GAN / Flow / Diffusion）的统一概率视角
+- ☐ **A1 latent variable models 与 ELBO；VAE**
+- ☐ **A2 GAN / Normalizing Flow 的核心思想与对比**
+- ☐ **A3 四类生成模型（VAE / GAN / Flow / Diffusion）的统一概率视角**
 
 ## 阶段 B · 可控生成 / 扩散系统化
 
@@ -44,12 +44,12 @@
 - ☑ **E3 NeRF / 3D Gaussian Splatting**：radiance field、体渲染、transmittance、anisotropic Gaussian、screen-space splatting、alpha compositing 与几何证据边界　（2026-09-14 ✅）
 - ☑ **E4 偏振成像物理 → 偏振-法向-形状（Shape from Polarization）**：Malus 二倍角模型、Stokes、DoLP / AoLP、Fresnel、法向歧义、可积性与多视图消歧　（2026-09-15 ✅）
 
-## 阶段 F · 世界模型 ⭐当前
+## 阶段 F · 世界模型
 
 - ☑ **F1 video diffusion 基础**：整段视频的扩散目标、spatial / temporal factorization、temporal attention、运动对齐、多未来采样、级联超分与 world-model 证据边界　（2026-09-16 ✅）
 - ☑ **F2 action-conditioned prediction**：state transition、动作注入、motion-based prediction、stochastic futures、action-use diagnostics、MPC 与可干预性证据边界　（2026-09-18 ✅）
 - ☑ **F3 latent world models（Dreamer 类）**：RSSM、posterior / prior、world-model ELBO、latent imagination、actor-critic、$\lambda$-return 与 model exploitation　（2026-09-19 ✅）
-- ☐ **F4 Sora / Genie 类与可控生成的关系**
+- ☑ **F4 Sora / Genie 类与可控生成的关系**：spacetime patches、autoregressive latent diffusion、latent action、action controllability、counterfactual、long-horizon state 与 agent planning 证据边界　（2026-09-21 ✅）
 
 ---
 
