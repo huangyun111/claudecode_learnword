@@ -14,7 +14,7 @@
 ## 当前位置
 
 - 阶段：**A · 生成模型统一视角（回填前置地基）**
-- 下一篇主菜：**A1 · Latent Variable Models 与 ELBO；VAE**（从 marginal likelihood 到 variational lower bound，讲清 encoder / decoder 与 reparameterization）
+- 下一篇主菜：**A2 · GAN / Normalizing Flow 的核心思想与对比**（讲清 implicit adversarial learning、invertible transformation、change of variables 与各自代价）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：2026-09-21，Sora / Genie 类世界生成）
 
 ## 已讲清单
@@ -43,6 +43,7 @@
 - 2026-09-18 · **F2 Action-conditioned Prediction** —— 用 $p(\text{future}\mid\text{past},\text{actions})$ 区分不同控制选择的后果，transition model 逐步 rollout，stochastic latent 表达不可控多未来，MPC 通过候选动作—预测—代价—执行一步形成闭环；action shuffle、同状态多动作与真实闭环验证用于排除模型忽略动作或只学相关性
 - 2026-09-19 · **F3 Latent World Models（Dreamer 类）** —— RSSM 用 deterministic recurrent state 保存历史、stochastic latent 表达多种可能；posterior 从真实 observation 校正状态，prior 在无未来观测时 rollout，KL 把二者接起来；actor / critic 再用 imagined rewards、continuation 与 $\lambda$-return 学行为，但最终仍需真实闭环排除 model exploitation
 - 2026-09-21 · **F4 Sora / Genie 类世界生成与可控生成** —— Sora 类模型用 latent spacetime patches 学开放域视觉轨迹，Genie 类模型用 autoregressive latent diffusion 把逐帧生成接到 action，latent action 可从无标注视频发现控制维度；但画质、长时状态、action controllability、counterfactual correctness、planning utility 与 real-world validity 必须逐层验证
+- 2026-09-23 · **A1 Latent Variable Models / ELBO / VAE** —— latent variable model 通过对 $\mathbf z$ 边缘化定义数据 likelihood，VAE 用 $q_\phi(\mathbf z\mid\mathbf x)$ 近似难算 posterior；Jensen inequality 将目标化为 expected reconstruction log-likelihood 减 posterior-to-prior KL，reparameterization 再让随机连续 latent 支持低方差 pathwise gradient
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
 
@@ -70,3 +71,4 @@
 - **F2 Action-conditioned Prediction**：口述“为什么 action 不是普通标签，如何用 same-state/different-action 检查模型是否真的使用动作，以及 MPC 为何只执行第一步就重规划” → 复习于 2026-09-19 / 09-21 / 09-25
 - **F3 Latent World Models / Dreamer**：口述“posterior 为什么能看当前 observation、prior 为什么不能，以及 KL 与 $\lambda$-return 分别解决哪一段连接问题” → 复习于 2026-09-20 / 09-22 / 09-26
 - **F4 Sora / Genie 类世界生成**：口述“autoregressive 与 diffusion 为什么不冲突，并用 action shuffle / same-state different-action 证明 controllability” → 复习于 2026-09-22 / 09-24 / 09-28
+- **A1 Latent Variable Models / ELBO / VAE**：口述“为什么引入 $q_\phi(\mathbf z\mid\mathbf x)$、Jensen inequality 怎样产生 ELBO，以及 reparameterization 为何能让梯度回到 encoder” → 复习于 2026-09-24 / 09-26 / 09-30

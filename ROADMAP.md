@@ -8,7 +8,7 @@
 
 ## 阶段 A · 生成模型统一视角（前置地基） ⭐当前回填
 
-- ☐ **A1 latent variable models 与 ELBO；VAE**
+- ☑ **A1 latent variable models 与 ELBO；VAE**：marginal likelihood、approximate posterior、ELBO 完整推导、Gaussian KL、reparameterization、amortized inference 与 posterior collapse　（2026-09-23 ✅）
 - ☐ **A2 GAN / Normalizing Flow 的核心思想与对比**
 - ☐ **A3 四类生成模型（VAE / GAN / Flow / Diffusion）的统一概率视角**
 

@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-09-23 | VAE 与 ELBO：为什么给数据加入“看不见的变量”，反而更容易学习生成 | A1 | latent variable model, variational inference, ELBO, VAE, encoder, decoder, reparameterization, KL divergence |
 | 2026-09-21 | Sora / Genie 类世界生成：会生成视频，离“可交互世界模型”还有几道门 | F4 | Sora, Genie, world model, video diffusion, interactive generation, latent action, action controllability, counterfactual, planning |
 | 2026-09-19 | Latent World Models（Dreamer）：不必画出每个未来像素，怎样在“想象”里学会行动 | F3 | latent world model, Dreamer, RSSM, posterior, prior, latent imagination, actor-critic, lambda return, model-based reinforcement learning |
 | 2026-09-18 | Action-conditioned Prediction：模型怎样预测“我这样做以后会发生什么” | F2 | action-conditioned prediction, state transition, intervention, stochastic dynamics, visual foresight, model predictive control, world model |
