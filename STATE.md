@@ -14,7 +14,7 @@
 ## 当前位置
 
 - 阶段：**A · 生成模型统一视角（回填前置地基）**
-- 下一篇主菜：**A2 · GAN / Normalizing Flow 的核心思想与对比**（讲清 implicit adversarial learning、invertible transformation、change of variables 与各自代价）
+- 下一篇主菜：**A3 · VAE / GAN / Flow / Diffusion 的统一概率视角**（比较四类模型逼近什么、优化什么，以及分别把 sampling、likelihood、inference 的计算难题放在哪里）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：2026-09-21，Sora / Genie 类世界生成）
 
 ## 已讲清单
@@ -44,6 +44,7 @@
 - 2026-09-19 · **F3 Latent World Models（Dreamer 类）** —— RSSM 用 deterministic recurrent state 保存历史、stochastic latent 表达多种可能；posterior 从真实 observation 校正状态，prior 在无未来观测时 rollout，KL 把二者接起来；actor / critic 再用 imagined rewards、continuation 与 $\lambda$-return 学行为，但最终仍需真实闭环排除 model exploitation
 - 2026-09-21 · **F4 Sora / Genie 类世界生成与可控生成** —— Sora 类模型用 latent spacetime patches 学开放域视觉轨迹，Genie 类模型用 autoregressive latent diffusion 把逐帧生成接到 action，latent action 可从无标注视频发现控制维度；但画质、长时状态、action controllability、counterfactual correctness、planning utility 与 real-world validity 必须逐层验证
 - 2026-09-23 · **A1 Latent Variable Models / ELBO / VAE** —— latent variable model 通过对 $\mathbf z$ 边缘化定义数据 likelihood，VAE 用 $q_\phi(\mathbf z\mid\mathbf x)$ 近似难算 posterior；Jensen inequality 将目标化为 expected reconstruction log-likelihood 减 posterior-to-prior KL，reparameterization 再让随机连续 latent 支持低方差 pathwise gradient
+- 2026-09-24 · **A2 GAN / Normalizing Flow** —— GAN 用 discriminator 提供 density-ratio signal，最优判别器下 objective 化为 $-\log4+2\,\mathrm{JSD}$，但实际训练仍受动态博弈与 mode collapse 影响；Flow 用可逆变换和 Jacobian determinant 精确追踪 probability mass，Real NVP 以 triangular coupling 换取 exact likelihood 与 inverse
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
 
@@ -72,3 +73,4 @@
 - **F3 Latent World Models / Dreamer**：口述“posterior 为什么能看当前 observation、prior 为什么不能，以及 KL 与 $\lambda$-return 分别解决哪一段连接问题” → 复习于 2026-09-20 / 09-22 / 09-26
 - **F4 Sora / Genie 类世界生成**：口述“autoregressive 与 diffusion 为什么不冲突，并用 action shuffle / same-state different-action 证明 controllability” → 复习于 2026-09-22 / 09-24 / 09-28
 - **A1 Latent Variable Models / ELBO / VAE**：口述“为什么引入 $q_\phi(\mathbf z\mid\mathbf x)$、Jensen inequality 怎样产生 ELBO，以及 reparameterization 为何能让梯度回到 encoder” → 复习于 2026-09-24 / 09-26 / 09-30
+- **A2 GAN / Normalizing Flow**：口述“为什么最优 discriminator 是 density ratio、怎样推出 JS divergence，以及 Flow 的 Jacobian determinant 为什么用于修正体积变化” → 复习于 2026-09-25 / 09-27 / 10-01
