@@ -13,8 +13,8 @@
 
 ## 当前位置
 
-- 阶段：**A · 生成模型统一视角（回填前置地基）**
-- 下一篇主菜：**A3 · VAE / GAN / Flow / Diffusion 的统一概率视角**（比较四类模型逼近什么、优化什么，以及分别把 sampling、likelihood、inference 的计算难题放在哪里）
+- 阶段：**G · 研究方法与论文证据**（A–F 主线与 A 阶段回填已完成）
+- 下一篇主菜：**G1 · 实验设计与证据链**（从 research question、hypothesis 和 estimand 出发，分清 baseline、matched control、ablation、negative control、held-out evaluation 与 causal claim）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：2026-09-21，Sora / Genie 类世界生成）
 
 ## 已讲清单
@@ -45,8 +45,11 @@
 - 2026-09-21 · **F4 Sora / Genie 类世界生成与可控生成** —— Sora 类模型用 latent spacetime patches 学开放域视觉轨迹，Genie 类模型用 autoregressive latent diffusion 把逐帧生成接到 action，latent action 可从无标注视频发现控制维度；但画质、长时状态、action controllability、counterfactual correctness、planning utility 与 real-world validity 必须逐层验证
 - 2026-09-23 · **A1 Latent Variable Models / ELBO / VAE** —— latent variable model 通过对 $\mathbf z$ 边缘化定义数据 likelihood，VAE 用 $q_\phi(\mathbf z\mid\mathbf x)$ 近似难算 posterior；Jensen inequality 将目标化为 expected reconstruction log-likelihood 减 posterior-to-prior KL，reparameterization 再让随机连续 latent 支持低方差 pathwise gradient
 - 2026-09-24 · **A2 GAN / Normalizing Flow** —— GAN 用 discriminator 提供 density-ratio signal，最优判别器下 objective 化为 $-\log4+2\,\mathrm{JSD}$，但实际训练仍受动态博弈与 mode collapse 影响；Flow 用可逆变换和 Jacobian determinant 精确追踪 probability mass，Real NVP 以 triangular coupling 换取 exact likelihood 与 inverse
+- 2026-09-25 · **A3 VAE / GAN / Flow / Diffusion 统一概率视角** —— 四类模型都希望 $p_\theta$ 接近 $p_{\mathrm{data}}$：VAE 用 approximate posterior 与 ELBO，GAN 用 adversarial density-ratio signal，Flow 用 bijection 与 Jacobian 获得 exact likelihood，Diffusion 则把 path-space variational bound 化成多步 denoising；它们分别把困难放进 inference gap、动态博弈、可逆架构与迭代采样
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **A3 四类生成模型统一视角**：能从 $D_{\mathrm{KL}}(p_{\text{data}}\|p_\theta)$ 解释 MLE，并说清 VAE / GAN / Flow / Diffusion 分别优化什么、能否算 likelihood、怎样 sampling 与把难题放在哪里 → 复习于 2026-09-26 / 09-28 / 10-02
 
 - **B1 DDPM**：口述"为什么训练是预测噪声的 MSE" → 7 天回顾于 07-03
 - **B2 DDIM**：口述"为什么能跳步还用同一个网络" → 复习于 2026-06-30 / 07-02 / 07-06

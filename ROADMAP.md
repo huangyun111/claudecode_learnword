@@ -1,7 +1,7 @@
 # 知识路线图（ROADMAP）
 
-主线：**可控密集预测 → 可控生成 → 世界模型**。
-已从 **阶段 B（可控生成 / 扩散系统化）** 起步，现已完成 B–F 主线，开始回填 **阶段 A（生成模型统一视角）**。
+主线：**可控密集预测 → 可控生成 → 世界模型 → 研究证据链**。
+已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 B–F 主线与阶段 A 的生成模型地基；下一轮进入 **阶段 G（研究方法与论文证据）**。
 每天主菜推进一个 ☐ 条目，讲完打勾并在 `STATE.md` 记录。
 
 ---
@@ -10,7 +10,7 @@
 
 - ☑ **A1 latent variable models 与 ELBO；VAE**：marginal likelihood、approximate posterior、ELBO 完整推导、Gaussian KL、reparameterization、amortized inference 与 posterior collapse　（2026-09-23 ✅）
 - ☑ **A2 GAN / Normalizing Flow 的核心思想与对比**：GAN minimax、最优判别器与 JS divergence，implicit density、mode collapse；Flow 的 change of variables、Jacobian determinant、Real NVP affine coupling 与 exact likelihood 代价　（2026-09-24 ✅）
-- ☐ **A3 四类生成模型（VAE / GAN / Flow / Diffusion）的统一概率视角**
+- ☑ **A3 四类生成模型（VAE / GAN / Flow / Diffusion）的统一概率视角**：从 MLE / forward KL 出发，比较 ELBO、adversarial density-ratio、exact likelihood 与 denoising objective，并梳理 inference、sampling、coverage 和架构代价　（2026-09-25 ✅）
 
 ## 阶段 B · 可控生成 / 扩散系统化
 
@@ -50,6 +50,10 @@
 - ☑ **F2 action-conditioned prediction**：state transition、动作注入、motion-based prediction、stochastic futures、action-use diagnostics、MPC 与可干预性证据边界　（2026-09-18 ✅）
 - ☑ **F3 latent world models（Dreamer 类）**：RSSM、posterior / prior、world-model ELBO、latent imagination、actor-critic、$\lambda$-return 与 model exploitation　（2026-09-19 ✅）
 - ☑ **F4 Sora / Genie 类与可控生成的关系**：spacetime patches、autoregressive latent diffusion、latent action、action controllability、counterfactual、long-horizon state 与 agent planning 证据边界　（2026-09-21 ✅）
+
+## 阶段 G · 研究方法与论文证据 ⭐下一阶段
+
+- ☐ **G1 实验设计与证据链**：从 research question、hypothesis 和 estimand 出发，区分 baseline、matched control、ablation、negative control、held-out evaluation 与 causal claim 的边界
 
 ---
 

@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-09-25 | VAE / GAN / Flow / Diffusion：四类生成模型到底把难题藏在了哪里 | A3 | generative modeling, maximum likelihood, VAE, GAN, Normalizing Flow, Diffusion, ELBO, implicit model, exact likelihood, denoising |
 | 2026-09-24 | GAN 与 Normalizing Flow：一个不写密度也会生成，一个把密度算得清清楚楚 | A2 | GAN, discriminator, minimax game, Jensen–Shannon divergence, mode collapse, Normalizing Flow, change of variables, Jacobian, Real NVP, exact likelihood |
 | 2026-09-23 | VAE 与 ELBO：为什么给数据加入“看不见的变量”，反而更容易学习生成 | A1 | latent variable model, variational inference, ELBO, VAE, encoder, decoder, reparameterization, KL divergence |
 | 2026-09-21 | Sora / Genie 类世界生成：会生成视频，离“可交互世界模型”还有几道门 | F4 | Sora, Genie, world model, video diffusion, interactive generation, latent action, action controllability, counterfactual, planning |
