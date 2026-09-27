@@ -14,7 +14,7 @@
 ## 当前位置
 
 - 阶段：**G · 研究方法与论文证据**（A–F 主线与 A 阶段回填已完成）
-- 下一篇主菜：**G1 · 实验设计与证据链**（从 research question、hypothesis 和 estimand 出发，分清 baseline、matched control、ablation、negative control、held-out evaluation 与 causal claim）
+- 下一篇主菜：**G2 · 数据划分与统计汇总**（从 split unit、leakage、selection bias 出发，讲清 paired evaluation、bootstrap、multiple seeds、subgroup 与 worst-case reporting）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：2026-09-21，Sora / Genie 类世界生成）
 
 ## 已讲清单
@@ -46,8 +46,11 @@
 - 2026-09-23 · **A1 Latent Variable Models / ELBO / VAE** —— latent variable model 通过对 $\mathbf z$ 边缘化定义数据 likelihood，VAE 用 $q_\phi(\mathbf z\mid\mathbf x)$ 近似难算 posterior；Jensen inequality 将目标化为 expected reconstruction log-likelihood 减 posterior-to-prior KL，reparameterization 再让随机连续 latent 支持低方差 pathwise gradient
 - 2026-09-24 · **A2 GAN / Normalizing Flow** —— GAN 用 discriminator 提供 density-ratio signal，最优判别器下 objective 化为 $-\log4+2\,\mathrm{JSD}$，但实际训练仍受动态博弈与 mode collapse 影响；Flow 用可逆变换和 Jacobian determinant 精确追踪 probability mass，Real NVP 以 triangular coupling 换取 exact likelihood 与 inverse
 - 2026-09-25 · **A3 VAE / GAN / Flow / Diffusion 统一概率视角** —— 四类模型都希望 $p_\theta$ 接近 $p_{\mathrm{data}}$：VAE 用 approximate posterior 与 ELBO，GAN 用 adversarial density-ratio signal，Flow 用 bijection 与 Jacobian 获得 exact likelihood，Diffusion 则把 path-space variational bound 化成多步 denoising；它们分别把困难放进 inference gap、动态博弈、可逆架构与迭代采样
+- 2026-09-27 · **G1 实验设计与证据链** —— 从 population、intervention、control、outcome 与 protocol 定义 research question 和 estimand；baseline 提供参照，matched control 隔离变量，ablation 分解系统，negative control 搜索伪解释，held-out evaluation 阻断选择泄漏，最终把 descriptive、comparative、mechanistic 与 causal claim 分层
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **G1 实验设计与证据链**：能为一个模块写出 $P,T,C,O,\Pi$，区分 baseline / matched control / ablation / negative control，并说明为什么 test set 只要参与决策就不再 truly held-out → 复习于 2026-09-28 / 09-30 / 10-04
 
 - **A3 四类生成模型统一视角**：能从 $D_{\mathrm{KL}}(p_{\text{data}}\|p_\theta)$ 解释 MLE，并说清 VAE / GAN / Flow / Diffusion 分别优化什么、能否算 likelihood、怎样 sampling 与把难题放在哪里 → 复习于 2026-09-26 / 09-28 / 10-02
 

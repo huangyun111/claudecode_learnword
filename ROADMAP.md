@@ -51,9 +51,10 @@
 - ☑ **F3 latent world models（Dreamer 类）**：RSSM、posterior / prior、world-model ELBO、latent imagination、actor-critic、$\lambda$-return 与 model exploitation　（2026-09-19 ✅）
 - ☑ **F4 Sora / Genie 类与可控生成的关系**：spacetime patches、autoregressive latent diffusion、latent action、action controllability、counterfactual、long-horizon state 与 agent planning 证据边界　（2026-09-21 ✅）
 
-## 阶段 G · 研究方法与论文证据 ⭐下一阶段
+## 阶段 G · 研究方法与论文证据 ⭐当前阶段
 
-- ☐ **G1 实验设计与证据链**：从 research question、hypothesis 和 estimand 出发，区分 baseline、matched control、ablation、negative control、held-out evaluation 与 causal claim 的边界
+- ☑ **G1 实验设计与证据链**：从 research question、hypothesis 和 estimand 出发，区分 baseline、matched control、ablation、negative control、held-out evaluation 与 causal claim 的边界　（2026-09-27 ✅）
+- ☐ **G2 数据划分与统计汇总**：split unit、data leakage、selection bias、paired evaluation、bootstrap、multiple seeds、subgroup 与 worst-case reporting
 
 ---
 
