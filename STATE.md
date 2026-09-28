@@ -14,7 +14,7 @@
 ## 当前位置
 
 - 阶段：**G · 研究方法与论文证据**（A–F 主线与 A 阶段回填已完成）
-- 下一篇主菜：**G2 · 数据划分与统计汇总**（从 split unit、leakage、selection bias 出发，讲清 paired evaluation、bootstrap、multiple seeds、subgroup 与 worst-case reporting）
+- 下一篇主菜：**G3 · 指标、决策与可复现记录**（从 effect size 与 practical significance 出发，讲清 error taxonomy、failure analysis、实验记录和 artifact package）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：2026-09-21，Sora / Genie 类世界生成）
 
 ## 已讲清单
@@ -47,10 +47,13 @@
 - 2026-09-24 · **A2 GAN / Normalizing Flow** —— GAN 用 discriminator 提供 density-ratio signal，最优判别器下 objective 化为 $-\log4+2\,\mathrm{JSD}$，但实际训练仍受动态博弈与 mode collapse 影响；Flow 用可逆变换和 Jacobian determinant 精确追踪 probability mass，Real NVP 以 triangular coupling 换取 exact likelihood 与 inverse
 - 2026-09-25 · **A3 VAE / GAN / Flow / Diffusion 统一概率视角** —— 四类模型都希望 $p_\theta$ 接近 $p_{\mathrm{data}}$：VAE 用 approximate posterior 与 ELBO，GAN 用 adversarial density-ratio signal，Flow 用 bijection 与 Jacobian 获得 exact likelihood，Diffusion 则把 path-space variational bound 化成多步 denoising；它们分别把困难放进 inference gap、动态博弈、可逆架构与迭代采样
 - 2026-09-27 · **G1 实验设计与证据链** —— 从 population、intervention、control、outcome 与 protocol 定义 research question 和 estimand；baseline 提供参照，matched control 隔离变量，ablation 分解系统，negative control 搜索伪解释，held-out evaluation 阻断选择泄漏，最终把 descriptive、comparative、mechanistic 与 causal claim 分层
+- 2026-09-28 · **G2 数据划分与统计汇总** —— split unit 决定结论覆盖的新图像、新物体或新传感器总体；leakage 也包括跨组样本、全量 preprocessing 与 test-driven selection；在匹配的 evaluation unit 上用 paired difference、正确层级 bootstrap、multiple seeds、预定义 subgroup 与 harm/worst-case 报告，避免总均值遮蔽失败
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
 
 - **G1 实验设计与证据链**：能为一个模块写出 $P,T,C,O,\Pi$，区分 baseline / matched control / ablation / negative control，并说明为什么 test set 只要参与决策就不再 truly held-out → 复习于 2026-09-28 / 09-30 / 10-04
+
+- **G2 数据划分与统计汇总**：能说明 split unit 如何决定泛化声称，写出 paired difference 和 bootstrap 重采样单位，并区分 sample、seed 与 subgroup uncertainty → 复习于 2026-09-29 / 10-01 / 10-05
 
 - **A3 四类生成模型统一视角**：能从 $D_{\mathrm{KL}}(p_{\text{data}}\|p_\theta)$ 解释 MLE，并说清 VAE / GAN / Flow / Diffusion 分别优化什么、能否算 likelihood、怎样 sampling 与把难题放在哪里 → 复习于 2026-09-26 / 09-28 / 10-02
 

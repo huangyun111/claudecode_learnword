@@ -54,7 +54,8 @@
 ## 阶段 G · 研究方法与论文证据 ⭐当前阶段
 
 - ☑ **G1 实验设计与证据链**：从 research question、hypothesis 和 estimand 出发，区分 baseline、matched control、ablation、negative control、held-out evaluation 与 causal claim 的边界　（2026-09-27 ✅）
-- ☐ **G2 数据划分与统计汇总**：split unit、data leakage、selection bias、paired evaluation、bootstrap、multiple seeds、subgroup 与 worst-case reporting
+- ☑ **G2 数据划分与统计汇总**：split unit、data leakage、selection bias、paired evaluation、bootstrap、multiple seeds、subgroup 与 worst-case reporting　（2026-09-28 ✅）
+- ☐ **G3 指标、决策与可复现记录**：effect size 与 practical significance、error taxonomy、failure analysis、实验记录和 artifact package
 
 ---
 

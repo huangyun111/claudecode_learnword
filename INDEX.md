@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-09-28 | 数据划分与统计汇总：别让“平均提升”偷走实验结论 | G2 | data split, leakage, selection bias, paired evaluation, bootstrap, multiple seeds, subgroup, worst-case reporting |
 | 2026-09-27 | 实验设计与证据链：一张更高的指标表，究竟能证明什么 | G1 | experimental design, research question, hypothesis, estimand, baseline, matched control, ablation, negative control, held-out evaluation, causal claim |
 | 2026-09-25 | VAE / GAN / Flow / Diffusion：四类生成模型到底把难题藏在了哪里 | A3 | generative modeling, maximum likelihood, VAE, GAN, Normalizing Flow, Diffusion, ELBO, implicit model, exact likelihood, denoising |
 | 2026-09-24 | GAN 与 Normalizing Flow：一个不写密度也会生成，一个把密度算得清清楚楚 | A2 | GAN, discriminator, minimax game, Jensen–Shannon divergence, mode collapse, Normalizing Flow, change of variables, Jacobian, Real NVP, exact likelihood |
