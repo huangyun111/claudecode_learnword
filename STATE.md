@@ -13,8 +13,8 @@
 
 ## 当前位置
 
-- 阶段：**G · 研究方法与论文证据**（A–F 主线与 A 阶段回填已完成）
-- 下一篇主菜：**G3 · 指标、决策与可复现记录**（从 effect size 与 practical significance 出发，讲清 error taxonomy、failure analysis、实验记录和 artifact package）
+- 阶段：**G · 研究方法与论文证据**（G1–G3 已完成；A–F 主线与 A 阶段回填已完成）
+- 下一篇主菜：**阶段 G 复盘与下一阶段规划**（把问题定义、matched evidence、统计汇总、决策门槛与 artifact 串成完整证据图；后续主题待路线图确认）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：2026-09-21，Sora / Genie 类世界生成）
 
 ## 已讲清单
@@ -48,8 +48,11 @@
 - 2026-09-25 · **A3 VAE / GAN / Flow / Diffusion 统一概率视角** —— 四类模型都希望 $p_\theta$ 接近 $p_{\mathrm{data}}$：VAE 用 approximate posterior 与 ELBO，GAN 用 adversarial density-ratio signal，Flow 用 bijection 与 Jacobian 获得 exact likelihood，Diffusion 则把 path-space variational bound 化成多步 denoising；它们分别把困难放进 inference gap、动态博弈、可逆架构与迭代采样
 - 2026-09-27 · **G1 实验设计与证据链** —— 从 population、intervention、control、outcome 与 protocol 定义 research question 和 estimand；baseline 提供参照，matched control 隔离变量，ablation 分解系统，negative control 搜索伪解释，held-out evaluation 阻断选择泄漏，最终把 descriptive、comparative、mechanistic 与 causal claim 分层
 - 2026-09-28 · **G2 数据划分与统计汇总** —— split unit 决定结论覆盖的新图像、新物体或新传感器总体；leakage 也包括跨组样本、全量 preprocessing 与 test-driven selection；在匹配的 evaluation unit 上用 paired difference、正确层级 bootstrap、multiple seeds、预定义 subgroup 与 harm/worst-case 报告，避免总均值遮蔽失败
+- 2026-09-29 · **G3 指标、决策与可复现记录** —— metric 只定义测量，paired effect 表示相对变化，practical threshold、harm 与成本决定是否值得行动；error taxonomy 把失败图变成可检验假设，run identity 与 artifact package 再把主张绑定到代码、数据、配置、选择规则、evaluator 和输出
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **G3 指标、决策与可复现记录**：能区分 effect size、statistical uncertainty 与 practical significance，为一次运行写出 $R=(C,D,S,H,E)$，并说明 artifact 可下载、可运行和复得主要结论为何是不同强度 → 复习于 2026-09-30 / 10-02 / 10-06
 
 - **G1 实验设计与证据链**：能为一个模块写出 $P,T,C,O,\Pi$，区分 baseline / matched control / ablation / negative control，并说明为什么 test set 只要参与决策就不再 truly held-out → 复习于 2026-09-28 / 09-30 / 10-04
 
