@@ -1,7 +1,7 @@
 # 知识路线图（ROADMAP）
 
-主线：**可控密集预测 → 可控生成 → 世界模型 → 研究证据链**。
-已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 B–F 主线与阶段 A 的生成模型地基；下一轮进入 **阶段 G（研究方法与论文证据）**。
+主线：**可控密集预测 → 可控生成 → 世界模型 → 研究证据链 → 论文论证与学术表达**。
+已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–G 主线与阶段 G 复盘；下一轮进入 **阶段 H（论文论证与学术表达）**。
 每天主菜推进一个 ☐ 条目，讲完打勾并在 `STATE.md` 记录。
 
 ---
@@ -51,11 +51,19 @@
 - ☑ **F3 latent world models（Dreamer 类）**：RSSM、posterior / prior、world-model ELBO、latent imagination、actor-critic、$\lambda$-return 与 model exploitation　（2026-09-19 ✅）
 - ☑ **F4 Sora / Genie 类与可控生成的关系**：spacetime patches、autoregressive latent diffusion、latent action、action controllability、counterfactual、long-horizon state 与 agent planning 证据边界　（2026-09-21 ✅）
 
-## 阶段 G · 研究方法与论文证据 ⭐当前阶段
+## 阶段 G · 研究方法与论文证据
 
 - ☑ **G1 实验设计与证据链**：从 research question、hypothesis 和 estimand 出发，区分 baseline、matched control、ablation、negative control、held-out evaluation 与 causal claim 的边界　（2026-09-27 ✅）
 - ☑ **G2 数据划分与统计汇总**：split unit、data leakage、selection bias、paired evaluation、bootstrap、multiple seeds、subgroup 与 worst-case reporting　（2026-09-28 ✅）
 - ☑ **G3 指标、决策与可复现记录**：effect size 与 practical significance、error taxonomy、failure analysis、实验记录和 artifact package　（2026-09-29 ✅）
+- ☑ **阶段 G 复盘 · 完整研究证据链**：把 estimand、matched control、split unit、paired effect、uncertainty、decision rule 与 provenance graph 串成从 claim 到 artifact 的闭环　（2026-10-08 ✅）
+
+## 阶段 H · 论文论证与学术表达 ⭐当前阶段
+
+- ☐ **H1 Claim–Evidence Mapping**：给主张分级，把论文中的 claim 映射到恰好足够的实验、图表、限制与 artifact，避免证据不足或表述越界
+- ☐ **H2 Method 叙事与设计必要性**：从 design gap、约束与可辨识性出发，说明每个模块为何需要，再进入结构、公式与训练目标
+- ☐ **H3 Results / Figures / Tables 的证据组织**：主结果、matched ablation、failure case、qualitative comparison 与 caption 怎样共同形成可扫描的论证
+- ☐ **H4 Review、Rebuttal 与答辩**：把质疑分类为事实、协议、机制、泛化与表达问题，用新增证据、边界收缩或澄清形成可核验回应
 
 ---
 

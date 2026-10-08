@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-10-08 | 从“我有一个想法”到“我有一条证据链”：研究实验怎样首尾闭环 | G·复盘 | research evidence, estimand, matched control, paired evaluation, uncertainty, decision rule, provenance, reproducibility |
 | 2026-09-29 | 指标、决策与可复现记录：0.1° 提升什么时候才值得采用 | G3 | effect size, practical significance, decision rule, error taxonomy, failure analysis, experiment tracking, artifact package, reproducibility |
 | 2026-09-28 | 数据划分与统计汇总：别让“平均提升”偷走实验结论 | G2 | data split, leakage, selection bias, paired evaluation, bootstrap, multiple seeds, subgroup, worst-case reporting |
 | 2026-09-27 | 实验设计与证据链：一张更高的指标表，究竟能证明什么 | G1 | experimental design, research question, hypothesis, estimand, baseline, matched control, ablation, negative control, held-out evaluation, causal claim |

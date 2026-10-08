@@ -4,6 +4,7 @@
 
 | 日期 | 主题标题 | 模块 | 标签 |
 |---|---|---|---|
+| 2026-10-08 | 谁生产知识，谁定义风险：现代科学为什么既需要实验室，也需要公共制度 | H7·复盘 | scientific institutions, falsifiability, paradigm, research programme, expertise, public participation, regulation, trust |
 | 2026-09-29 | 专家、公众与监管者为什么总像在各说各话：科学进入社会之后发生了什么 | H7-3 | science and technology studies, expertise, risk, uncertainty, regulation, public participation, trust, precautionary principle, AI governance |
 | 2026-09-28 | 科学为什么会犯错又能纠错：证伪、范式与复现危机 | H7-2 | Popper, Kuhn, Lakatos, falsification, paradigm, replication, reproducibility, open science, scientific progress |
 | 2026-09-27 | 科学革命：现代科学不是一张步骤表，而是一套允许别人检查你的制度 | H7-1 | 科学革命, 哥白尼, 开普勒, 伽利略, 培根, 笛卡尔, 波义耳, 牛顿, 实验, 数学化, 皇家学会, 学术期刊, 科学共同体 |
