@@ -60,7 +60,7 @@
 
 ## 阶段 H · 论文论证与学术表达 ⭐当前阶段
 
-- ☐ **H1 Claim–Evidence Mapping**：给主张分级，把论文中的 claim 映射到恰好足够的实验、图表、限制与 artifact，避免证据不足或表述越界
+- ☑ **H1 Claim–Evidence Mapping**：给主张分级，把论文中的 claim 映射到恰好足够的实验、图表、限制与 artifact，避免证据不足或表述越界　（2026-10-09 ✅）
 - ☐ **H2 Method 叙事与设计必要性**：从 design gap、约束与可辨识性出发，说明每个模块为何需要，再进入结构、公式与训练目标
 - ☐ **H3 Results / Figures / Tables 的证据组织**：主结果、matched ablation、failure case、qualitative comparison 与 caption 怎样共同形成可扫描的论证
 - ☐ **H4 Review、Rebuttal 与答辩**：把质疑分类为事实、协议、机制、泛化与表达问题，用新增证据、边界收缩或澄清形成可核验回应

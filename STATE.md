@@ -14,7 +14,7 @@
 ## 当前位置
 
 - 阶段：**H · 论文论证与学术表达**（A–G 主线及阶段 G 复盘已完成）
-- 下一篇主菜：**H1 Claim–Evidence Mapping**（给主张分级，把 claim 映射到恰好足够的实验、图表、限制与 artifact）
+- 下一篇主菜：**H2 Method 叙事与设计必要性**（从 design gap、约束与可辨识性出发，说明模块为何需要，再进入结构、公式与训练目标）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：2026-09-21，Sora / Genie 类世界生成）
 
 ## 已讲清单
@@ -50,8 +50,11 @@
 - 2026-09-28 · **G2 数据划分与统计汇总** —— split unit 决定结论覆盖的新图像、新物体或新传感器总体；leakage 也包括跨组样本、全量 preprocessing 与 test-driven selection；在匹配的 evaluation unit 上用 paired difference、正确层级 bootstrap、multiple seeds、预定义 subgroup 与 harm/worst-case 报告，避免总均值遮蔽失败
 - 2026-09-29 · **G3 指标、决策与可复现记录** —— metric 只定义测量，paired effect 表示相对变化，practical threshold、harm 与成本决定是否值得行动；error taxonomy 把失败图变成可检验假设，run identity 与 artifact package 再把主张绑定到代码、数据、配置、选择规则、evaluator 和输出
 - 2026-10-08 · **阶段 G 复盘：完整研究证据链** —— 用 $Q=(P,T,C,O,\Pi)$ 定义 estimand，以 matched design 隔离 nuisance、selection 与 measurement bias，在 claim 对应的 split unit 上计算 paired effect、uncertainty 与 harm，再用 practical threshold 作决策，并以 provenance graph 把 paper claim 追溯到代码、数据、配置、evaluator 和 artifact
+- 2026-10-09 · **H1 Claim–Evidence Mapping** —— 把经验性 claim 正规化为 $(P,T,K,O,\Pi,S)$，区分构成性、比较性、机制性与泛化性主张，再用 population、protocol、outcome 与 scope 匹配检查把每句论文表述绑定到恰好足够的 table、figure、limitation 和 artifact；证据不足时只能补实验、降措辞或缩边界
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **H1 Claim–Evidence Mapping**：能把一句论文主张写成 $(P,T,K,O,\Pi,S)$，区分比较、机制与泛化 claim 的最低证据，并在证据不足时选择补实验、降措辞或缩 scope → 复习于 2026-10-10 / 10-12 / 10-16
 
 - **阶段 G 复盘：完整研究证据链**：能从一个自然语言 claim 写出 $Q=(P,T,C,O,\Pi)$，解释 matched control、split / bootstrap unit、decision rule 与 provenance graph 怎样首尾相接 → 复习于 2026-10-09 / 10-11 / 10-15
 
