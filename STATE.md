@@ -14,7 +14,7 @@
 ## 当前位置
 
 - 阶段：**H · 论文论证与学术表达**（A–G 主线及阶段 G 复盘已完成）
-- 下一篇主菜：**H2 Method 叙事与设计必要性**（从 design gap、约束与可辨识性出发，说明模块为何需要，再进入结构、公式与训练目标）
+- 下一篇主菜：**H3 Results / Figures / Tables 的证据组织**（让主结果、matched ablation、failure case、qualitative comparison 与 caption 形成可扫描的论证）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：2026-09-21，Sora / Genie 类世界生成）
 
 ## 已讲清单
@@ -51,8 +51,11 @@
 - 2026-09-29 · **G3 指标、决策与可复现记录** —— metric 只定义测量，paired effect 表示相对变化，practical threshold、harm 与成本决定是否值得行动；error taxonomy 把失败图变成可检验假设，run identity 与 artifact package 再把主张绑定到代码、数据、配置、选择规则、evaluator 和输出
 - 2026-10-08 · **阶段 G 复盘：完整研究证据链** —— 用 $Q=(P,T,C,O,\Pi)$ 定义 estimand，以 matched design 隔离 nuisance、selection 与 measurement bias，在 claim 对应的 split unit 上计算 paired effect、uncertainty 与 harm，再用 practical threshold 作决策，并以 provenance graph 把 paper claim 追溯到代码、数据、配置、evaluator 和 artifact
 - 2026-10-09 · **H1 Claim–Evidence Mapping** —— 把经验性 claim 正规化为 $(P,T,K,O,\Pi,S)$，区分构成性、比较性、机制性与泛化性主张，再用 population、protocol、outcome 与 scope 匹配检查把每句论文表述绑定到恰好足够的 table、figure、limitation 和 artifact；证据不足时只能补实验、降措辞或缩边界
+- 2026-10-13 · **H2 Method 叙事与设计必要性** —— 把 Method 写成 design gap、task constraint、mechanism、observable prediction 与 matched evidence 的推导链；用 double-angle representation 和 inverse-variance fusion 展开约束到公式的完整推导，并以 replace / break / stratify 等 counterfactual 检查设计理由而非只列模块
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **H2 Method 叙事与设计必要性**：能为一个模块填写 gap / constraint / mechanism / prediction / evidence 五槽位，区分“约束必须处理”与“当前结构是唯一解”，并给出 matched replacement 或 cue intervention → 复习于 2026-10-14 / 10-16 / 10-20
 
 - **H1 Claim–Evidence Mapping**：能把一句论文主张写成 $(P,T,K,O,\Pi,S)$，区分比较、机制与泛化 claim 的最低证据，并在证据不足时选择补实验、降措辞或缩 scope → 复习于 2026-10-10 / 10-12 / 10-16
 

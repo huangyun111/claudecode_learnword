@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-10-13 | Method 叙事与设计必要性：别从模块名字开始，要从不可回避的约束开始 | H2 | method narrative, design gap, constraint, identifiability, inductive bias, representation, reliability weighting, ablation |
 | 2026-10-09 | Claim–Evidence Mapping：论文里的每一句主张，究竟需要什么证据 | H1 | claim–evidence mapping, claim taxonomy, scope, matched evidence, traceability, limitations, artifact |
 | 2026-10-08 | 从“我有一个想法”到“我有一条证据链”：研究实验怎样首尾闭环 | G·复盘 | research evidence, estimand, matched control, paired evaluation, uncertainty, decision rule, provenance, reproducibility |
 | 2026-09-29 | 指标、决策与可复现记录：0.1° 提升什么时候才值得采用 | G3 | effect size, practical significance, decision rule, error taxonomy, failure analysis, experiment tracking, artifact package, reproducibility |
