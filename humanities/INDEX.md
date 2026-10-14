@@ -4,6 +4,7 @@
 
 | 日期 | 主题标题 | 模块 | 标签 |
 |---|---|---|---|
+| 2026-10-14 | 为什么所有人都在争夺你的下一秒：社交媒体与注意力经济 | H8-3 | social media, attention economy, recommender system, advertising, network effects, creator incentives, feedback loop, platform governance |
 | 2026-10-13 | 为什么同一件事能变成三场争论：议程、框架与宣传如何工作 | H8-2 | agenda-setting, framing, propaganda, salience, repetition, illusory truth, strategic communication, media literacy |
 | 2026-10-09 | 从报纸头版到算法首页：谁在决定一个社会共同看见什么 | H8-1 | public sphere, print, broadcasting, platform, common attention, gatekeeping, watchdog, pluralism, accountability |
 | 2026-10-08 | 谁生产知识，谁定义风险：现代科学为什么既需要实验室，也需要公共制度 | H7·复盘 | scientific institutions, falsifiability, paradigm, research programme, expertise, public participation, regulation, trust |
