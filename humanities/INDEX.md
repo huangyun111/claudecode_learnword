@@ -4,6 +4,7 @@
 
 | 日期 | 主题标题 | 模块 | 标签 |
 |---|---|---|---|
+| 2026-10-16 | 谣言不只靠“相信”传播：错误信息、极化与公共纠错为什么必须分层治理 | H8-4 | misinformation, disinformation, exposure, sharing, belief, echo chamber, polarization, fact-checking, prebunking, trustworthiness |
 | 2026-10-14 | 为什么所有人都在争夺你的下一秒：社交媒体与注意力经济 | H8-3 | social media, attention economy, recommender system, advertising, network effects, creator incentives, feedback loop, platform governance |
 | 2026-10-13 | 为什么同一件事能变成三场争论：议程、框架与宣传如何工作 | H8-2 | agenda-setting, framing, propaganda, salience, repetition, illusory truth, strategic communication, media literacy |
 | 2026-10-09 | 从报纸头版到算法首页：谁在决定一个社会共同看见什么 | H8-1 | public sphere, print, broadcasting, platform, common attention, gatekeeping, watchdog, pluralism, accountability |

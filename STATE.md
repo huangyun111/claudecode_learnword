@@ -14,7 +14,7 @@
 ## 当前位置
 
 - 阶段：**H · 论文论证与学术表达**（A–G 主线及阶段 G 复盘已完成）
-- 下一篇主菜：**H4 Review、Rebuttal 与答辩**（把质疑分成事实、协议、机制、泛化与表达问题，并用新增证据、边界收缩或澄清形成可核验回应）
+- 下一篇主菜：**阶段 H 复盘 · 从主张到可核验决定**（把 Claim–Evidence Mapping、Method 必要性、Results 证据组织与 Rebuttal 串成完整论文论证链）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：2026-09-21，Sora / Genie 类世界生成）
 
 ## 已讲清单
@@ -53,8 +53,11 @@
 - 2026-10-09 · **H1 Claim–Evidence Mapping** —— 把经验性 claim 正规化为 $(P,T,K,O,\Pi,S)$，区分构成性、比较性、机制性与泛化性主张，再用 population、protocol、outcome 与 scope 匹配检查把每句论文表述绑定到恰好足够的 table、figure、limitation 和 artifact；证据不足时只能补实验、降措辞或缩边界
 - 2026-10-13 · **H2 Method 叙事与设计必要性** —— 把 Method 写成 design gap、task constraint、mechanism、observable prediction 与 matched evidence 的推导链；用 double-angle representation 和 inverse-variance fusion 展开约束到公式的完整推导，并以 replace / break / stratify 等 counterfactual 检查设计理由而非只列模块
 - 2026-10-14 · **H3 Results / Figures / Tables 的证据组织** —— 把 main table、matched ablation、mechanism / subgroup figure、qualitative comparison 与 failure case 分配给不同 claim；用 scene-level paired effect、uncertainty、harm rate、固定显示与六槽 caption 把协议、现象和边界封装成可扫描证据
+- 2026-10-16 · **H4 Review、Rebuttal 与答辩** —— 把 concern 正规化为 claim、evidence gap、decision impact、resolution 与 policy boundary，区分事实、协议、机制、泛化和表达问题；按决策相关性选择澄清、纠错、最小 matched check、scope 收缩或承认限制，让 paper、evidence 与 claim 重新一致
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **H4 Review、Rebuttal 与答辩**：能为一条 concern 填写 claim / gap / impact / resolution / boundary 五槽，区分澄清、补证据与缩 scope，并用 Concern / Answer / Evidence / Consequence 写成闭环回应 → 复习于 2026-10-17 / 10-19 / 10-23
 
 - **H3 Results / Figures / Tables 的证据组织**：能说明 main table、matched ablation、mechanism figure、qualitative comparison 与 failure case 分别回答什么，并为 caption 填写 what / data / encoding / metric / uncertainty / boundary 六槽 → 复习于 2026-10-15 / 10-17 / 10-21
 
