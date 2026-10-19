@@ -58,11 +58,11 @@
 - 2026-10-13 · **H8-2 Agenda-setting、framing 与宣传** —— agenda-setting 改变议题的注意优先级，framing 组织问题定义、因果、价值与方案，propaganda 则把选择、框架、重复和渠道系统服务于预定动员目标；传播效果同时受真实事件、来源竞争、受众经验、身份与反馈回路约束
 - 2026-10-14 · **H8-3 社交媒体与注意力经济** —— 有限注意进入用户、创作者、广告主与平台组成的多边市场；推荐系统用行为 proxy 分配可见性，广告模式为可预测注意定价，network effects 与 switching cost 塑造规模优势，创作者再适应指标，由曝光—互动—再曝光的反馈回路共同生成 feed
 - 2026-10-16 · **H8-4 错误信息、极化与公共纠错** —— 把 production、exposure、sharing、belief 与 action 分开，区分 issue、ideological、affective 与 perceived polarization；把 echo chamber 拆为 homophily、selective exposure、ranking 与 identity reinforcement，并以来源追踪、传播 friction、事实核查、平台审计和制度 trustworthiness 建立分层纠错
-- 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的可见与问责、agenda-setting 与 framing、注意力经济的分发激励、错误信息的多阶段路径，以及多源感知、来源追踪、纠正可达、申诉和制度学习连成完整反馈回路
+- 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
 
-- **H8 阶段复盘：可纠错的信息生态**：能用 Access / Agenda / Frame / Incentive / Path / Correction / Learning 七问拆解一条爆炸性消息，并解释为什么“可纠错”不同于“永不出错”或“单一真理中心” → 复习于 2026-10-20 / 10-22 / 10-26
+- **H8 阶段复盘：可纠错的信息生态**：能沿 Event / Source / Visibility / Frame / Outcome / Correction / Accountability 七问拆解热点，并解释可纠错为什么不等于永不犯错 → 复习于 2026-10-20 / 10-22 / 10-26
 
 - **H8-4 错误信息、极化与公共纠错**：能区分 misinformation / disinformation、exposure / sharing / belief / action 与四种 polarization，并用 claim / source / context / spread / correction 五问判断一条爆炸性消息 → 复习于 2026-10-17 / 10-19 / 10-23
 

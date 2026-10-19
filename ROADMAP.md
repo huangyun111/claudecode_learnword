@@ -1,7 +1,7 @@
 # 知识路线图（ROADMAP）
 
 主线：**可控密集预测 → 可控生成 → 世界模型 → 研究证据链 → 论文论证与学术表达**。
-已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–G 主线与阶段 G 复盘；下一轮进入 **阶段 H（论文论证与学术表达）**。
+已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–H 主线及阶段复盘；下一阶段待结合当前论文与实验进展规划。
 每天主菜推进一个 ☐ 条目，讲完打勾并在 `STATE.md` 记录。
 
 ---
@@ -58,7 +58,7 @@
 - ☑ **G3 指标、决策与可复现记录**：effect size 与 practical significance、error taxonomy、failure analysis、实验记录和 artifact package　（2026-09-29 ✅）
 - ☑ **阶段 G 复盘 · 完整研究证据链**：把 estimand、matched control、split unit、paired effect、uncertainty、decision rule 与 provenance graph 串成从 claim 到 artifact 的闭环　（2026-10-08 ✅）
 
-## 阶段 H · 论文论证与学术表达 ⭐当前阶段
+## 阶段 H · 论文论证与学术表达
 
 - ☑ **H1 Claim–Evidence Mapping**：给主张分级，把论文中的 claim 映射到恰好足够的实验、图表、限制与 artifact，避免证据不足或表述越界　（2026-10-09 ✅）
 - ☑ **H2 Method 叙事与设计必要性**：从 design gap、约束与可辨识性出发，说明每个模块为何需要，再进入结构、公式与训练目标　（2026-10-13 ✅）
