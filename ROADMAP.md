@@ -64,7 +64,7 @@
 - ☑ **H2 Method 叙事与设计必要性**：从 design gap、约束与可辨识性出发，说明每个模块为何需要，再进入结构、公式与训练目标　（2026-10-13 ✅）
 - ☑ **H3 Results / Figures / Tables 的证据组织**：主结果、matched ablation、failure case、qualitative comparison 与 caption 怎样共同形成可扫描的论证　（2026-10-14 ✅）
 - ☑ **H4 Review、Rebuttal 与答辩**：把质疑分类为事实、协议、机制、泛化与表达问题，用新增证据、边界收缩或澄清形成可核验回应　（2026-10-16 ✅）
-- ☐ **阶段 H 复盘 · 从主张到可核验决定**：把 Claim–Evidence Mapping、Method 必要性、Results 证据组织与 Rebuttal 串成完整论文论证链
+- ☑ **阶段 H 复盘 · 从主张到可核验决定**：把 Claim–Evidence Mapping、Method 必要性、Results 证据组织与 Rebuttal 串成完整论文论证链　（2026-10-19 ✅）
 
 ---
 

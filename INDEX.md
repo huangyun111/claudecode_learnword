@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-10-19 | 阶段 H 复盘：一篇论文不是结果集合，而是一条“主张到决定”的可核验链 | H·复盘 | paper argument, claim–evidence mapping, method necessity, results organization, rebuttal, decision rule, traceability, scope |
 | 2026-10-16 | Review / Rebuttal / 答辩：不要“赢过质疑”，要让争议变成可核验的判断 | H4 | peer review, rebuttal, defense, concern taxonomy, evidence gap, scope control, response matrix, decision relevance |
 | 2026-10-14 | Results / Figures / Tables：让读者扫一眼，就能找到每条主张的证据 | H3 | results organization, main table, matched ablation, qualitative comparison, failure case, caption, paired effect, uncertainty |
 | 2026-10-13 | Method 叙事与设计必要性：别从模块名字开始，要从不可回避的约束开始 | H2 | method narrative, design gap, constraint, identifiability, inductive bias, representation, reliability weighting, ablation |

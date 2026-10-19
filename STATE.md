@@ -13,8 +13,8 @@
 
 ## 当前位置
 
-- 阶段：**H · 论文论证与学术表达**（A–G 主线及阶段 G 复盘已完成）
-- 下一篇主菜：**阶段 H 复盘 · 从主张到可核验决定**（把 Claim–Evidence Mapping、Method 必要性、Results 证据组织与 Rebuttal 串成完整论文论证链）
+- 阶段：**H · 论文论证与学术表达已完成**（A–H 主线及阶段复盘均已完成）
+- 下一篇主菜：**待路线图扩展**（可先做当前论文的 claim–evidence 实战审计，或插入一次前沿速览）
 - 前沿速览节奏：建议每周二 / 周五各一次（上次：2026-09-21，Sora / Genie 类世界生成）
 
 ## 已讲清单
@@ -54,8 +54,11 @@
 - 2026-10-13 · **H2 Method 叙事与设计必要性** —— 把 Method 写成 design gap、task constraint、mechanism、observable prediction 与 matched evidence 的推导链；用 double-angle representation 和 inverse-variance fusion 展开约束到公式的完整推导，并以 replace / break / stratify 等 counterfactual 检查设计理由而非只列模块
 - 2026-10-14 · **H3 Results / Figures / Tables 的证据组织** —— 把 main table、matched ablation、mechanism / subgroup figure、qualitative comparison 与 failure case 分配给不同 claim；用 scene-level paired effect、uncertainty、harm rate、固定显示与六槽 caption 把协议、现象和边界封装成可扫描证据
 - 2026-10-16 · **H4 Review、Rebuttal 与答辩** —— 把 concern 正规化为 claim、evidence gap、decision impact、resolution 与 policy boundary，区分事实、协议、机制、泛化和表达问题；按决策相关性选择澄清、纠错、最小 matched check、scope 收缩或承认限制，让 paper、evidence 与 claim 重新一致
+- 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **阶段 H 复盘：从主张到可核验决定**：能从一条 claim 反推 constraint、mechanism、observable prediction、protocol、evidence、decision rule 与 artifact，并说明 review concern 应落在哪条论证边上 → 复习于 2026-10-20 / 10-22 / 10-26
 
 - **H4 Review、Rebuttal 与答辩**：能为一条 concern 填写 claim / gap / impact / resolution / boundary 五槽，区分澄清、补证据与缩 scope，并用 Concern / Answer / Evidence / Consequence 写成闭环回应 → 复习于 2026-10-17 / 10-19 / 10-23
 
