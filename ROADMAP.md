@@ -1,7 +1,7 @@
 # 知识路线图（ROADMAP）
 
 主线：**可控密集预测 → 可控生成 → 世界模型 → 研究证据链 → 论文论证与学术表达**。
-已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–H 主线及阶段复盘；下一阶段待结合当前论文与实验进展规划。
+已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–H 主线及阶段复盘；当前进入 **阶段 I（前馈式 3D 几何与重建基础模型）**。
 每天主菜推进一个 ☐ 条目，讲完打勾并在 `STATE.md` 记录。
 
 ---
@@ -65,6 +65,14 @@
 - ☑ **H3 Results / Figures / Tables 的证据组织**：主结果、matched ablation、failure case、qualitative comparison 与 caption 怎样共同形成可扫描的论证　（2026-10-14 ✅）
 - ☑ **H4 Review、Rebuttal 与答辩**：把质疑分类为事实、协议、机制、泛化与表达问题，用新增证据、边界收缩或澄清形成可核验回应　（2026-10-16 ✅）
 - ☑ **阶段 H 复盘 · 从主张到可核验决定**：把 Claim–Evidence Mapping、Method 必要性、Results 证据组织与 Rebuttal 串成完整论文论证链　（2026-10-19 ✅）
+
+## 阶段 I · 前馈式 3D 几何与重建基础模型
+
+- ☑ **I1 Pointmap 与 feed-forward 3D reconstruction**：从 depth 反投影推导 pointmap，理解 pairwise common frame、scale ambiguity、confidence、Sim(3) 全局对齐、相机恢复与几何证据边界　（2026-10-20 ✅）
+- ☐ **I2 坐标、相机与 gauge contract**：camera / world frame、SE(3) / Sim(3)、内参约定、尺度与 registration protocol，防止“对齐后很好看”掩盖真实误差
+- ☐ **I3 3D tracks、遮挡与跨视图一致性**：track supervision、visibility、cycle consistency、动态物体与 correspondence failure
+- ☐ **I4 从几何 backbone 到 Gaussian reconstruction**：pointmap / camera 怎样初始化 3DGS，appearance 与 geometry loss 如何分工，以及 novel-view 指标的边界
+- ☐ **阶段 I 复盘 · 从像素到可核验三维场景**：把 pointmap、camera、tracks、alignment、rendering 与独立 geometry evaluation 串成闭环
 
 ---
 

@@ -13,11 +13,13 @@
 
 ## 当前位置
 
-- 阶段：**H · 论文论证与学术表达已完成**（A–H 主线及阶段复盘均已完成）
-- 下一篇主菜：**待路线图扩展**（可先做当前论文的 claim–evidence 实战审计，或插入一次前沿速览）
-- 前沿速览节奏：建议每周二 / 周五各一次（上次：2026-09-21，Sora / Genie 类世界生成）
+- 阶段：**I · 前馈式 3D 几何与重建基础模型**（I1 已完成）
+- 下一篇主菜：**I2 坐标、相机与 gauge contract**（camera / world frame、SE(3) / Sim(3)、尺度与 registration protocol）
+- 前沿速览节奏：建议每周二 / 周五各一次（本次：2026-10-20，pointmap / feed-forward 3D reconstruction）
 
 ## 已讲清单
+
+- 2026-10-20 · **I1 Pointmap 与 feed-forward 3D reconstruction** —— pointmap 是逐像素三维坐标场；从 depth 反投影推导其 camera-frame 约束，再用 pairwise common frame、scale ambiguity、confidence loss、Sim(3) 全局对齐和相机重投影说明它统一了多种几何任务，但没有自动保证 metric scale、可见性与真实几何
 
 - 2026-06-26 · **B1 DDPM** —— 前向闭式加噪、`L_simple` 是 reweighted ELBO、预测噪声≈预测 score、最小训练/采样代码
 - 2026-06-29 · **B2 DDIM** —— 非马尔可夫前向保持相同边缘、用 `ε_θ` 预测 x̂₀ 再合成、`η` 旋钮（0=确定性 / 1=DDPM）、子序列跳步加速、确定性→可逆与 ODE
@@ -57,6 +59,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **I1 Pointmap 与 feed-forward 3D reconstruction**：能从 $\mathbf X=z\mathbf K^{-1}\tilde{\mathbf p}$ 推出逐像素 xyz，解释 pairwise common frame 与 Sim(3) 对齐，并说明为何直接输出 xyz 仍不自动拥有 metric scale 或可靠 confidence → 复习于 2026-10-21 / 10-23 / 10-27
 
 - **阶段 H 复盘：从主张到可核验决定**：能从一条 claim 反推 constraint、mechanism、observable prediction、protocol、evidence、decision rule 与 artifact，并说明 review concern 应落在哪条论证边上 → 复习于 2026-10-20 / 10-22 / 10-26
 
