@@ -13,11 +13,13 @@
 
 ## 当前位置
 
-- 阶段：**I · 前馈式 3D 几何与重建基础模型**（I1 已完成）
-- 下一篇主菜：**I2 坐标、相机与 gauge contract**（camera / world frame、SE(3) / Sim(3)、尺度与 registration protocol）
-- 前沿速览节奏：建议每周二 / 周五各一次（本次：2026-10-20，pointmap / feed-forward 3D reconstruction）
+- 阶段：**I · 前馈式 3D 几何与重建基础模型**（I2 已完成）
+- 下一篇主菜：**I3 3D tracks、遮挡与跨视图一致性**（track supervision、visibility、cycle consistency、动态物体与 correspondence failure）
+- 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-10-21，camera / gauge / registration contract）
 
 ## 已讲清单
+
+- 2026-10-21 · **I2 坐标、相机与 gauge contract** —— 从 W2C / C2W 与 camera center 完整推导相机外参，区分 $z$-depth 与 ray distance、SE(3) 与 Sim(3)，说明纯视觉的 frame / scale gauge freedom，并用冻结的 registration protocol 防止 alignment 掩盖 metric、pose 与几何误差
 
 - 2026-10-20 · **I1 Pointmap 与 feed-forward 3D reconstruction** —— pointmap 是逐像素三维坐标场；从 depth 反投影推导其 camera-frame 约束，再用 pairwise common frame、scale ambiguity、confidence loss、Sim(3) 全局对齐和相机重投影说明它统一了多种几何任务，但没有自动保证 metric scale、可见性与真实几何
 
@@ -59,6 +61,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **I2 坐标、相机与 gauge contract**：能从 W2C 外参推出 camera center，区分 SE(3) / Sim(3) alignment 与 $z$-depth / ray distance，并说明 registration protocol 为什么决定一条 metric claim 是否成立 → 复习于 2026-10-22 / 10-24 / 10-28
 
 - **I1 Pointmap 与 feed-forward 3D reconstruction**：能从 $\mathbf X=z\mathbf K^{-1}\tilde{\mathbf p}$ 推出逐像素 xyz，解释 pairwise common frame 与 Sim(3) 对齐，并说明为何直接输出 xyz 仍不自动拥有 metric scale 或可靠 confidence → 复习于 2026-10-21 / 10-23 / 10-27
 

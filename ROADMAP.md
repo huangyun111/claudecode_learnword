@@ -69,7 +69,7 @@
 ## 阶段 I · 前馈式 3D 几何与重建基础模型
 
 - ☑ **I1 Pointmap 与 feed-forward 3D reconstruction**：从 depth 反投影推导 pointmap，理解 pairwise common frame、scale ambiguity、confidence、Sim(3) 全局对齐、相机恢复与几何证据边界　（2026-10-20 ✅）
-- ☐ **I2 坐标、相机与 gauge contract**：camera / world frame、SE(3) / Sim(3)、内参约定、尺度与 registration protocol，防止“对齐后很好看”掩盖真实误差
+- ☑ **I2 坐标、相机与 gauge contract**：camera / world frame、SE(3) / Sim(3)、内参约定、尺度与 registration protocol，防止“对齐后很好看”掩盖真实误差　（2026-10-21 ✅）
 - ☐ **I3 3D tracks、遮挡与跨视图一致性**：track supervision、visibility、cycle consistency、动态物体与 correspondence failure
 - ☐ **I4 从几何 backbone 到 Gaussian reconstruction**：pointmap / camera 怎样初始化 3DGS，appearance 与 geometry loss 如何分工，以及 novel-view 指标的边界
 - ☐ **阶段 I 复盘 · 从像素到可核验三维场景**：把 pointmap、camera、tracks、alignment、rendering 与独立 geometry evaluation 串成闭环
