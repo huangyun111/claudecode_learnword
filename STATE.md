@@ -13,11 +13,13 @@
 
 ## 当前位置
 
-- 阶段：**I · 前馈式 3D 几何与重建基础模型**（I2 已完成）
-- 下一篇主菜：**I3 3D tracks、遮挡与跨视图一致性**（track supervision、visibility、cycle consistency、动态物体与 correspondence failure）
-- 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-10-21，camera / gauge / registration contract）
+- 阶段：**I · 前馈式 3D 几何与重建基础模型**（I3 已完成）
+- 下一篇主菜：**I4 从几何 backbone 到 Gaussian reconstruction**（pointmap / camera 初始化 3DGS、appearance / geometry loss 分工、novel-view 指标边界）
+- 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-10-22，3D tracks / visibility / cross-view consistency）
 
 ## 已讲清单
+
+- 2026-10-22 · **I3 3D tracks、遮挡与跨视图一致性** —— 把 track 定义为同一物理点的跨视图身份，用 reprojection 与 world-frame 3D 会合连接 correspondence、depth 和 camera；显式区分 visibility、confidence 与 coverage，说明 cycle consistency 的必要非充分性，并把 static / dynamic scene、重复纹理、视角相关外观和独立 track / geometry evaluation 分层
 
 - 2026-10-21 · **I2 坐标、相机与 gauge contract** —— 从 W2C / C2W 与 camera center 完整推导相机外参，区分 $z$-depth 与 ray distance、SE(3) 与 Sim(3)，说明纯视觉的 frame / scale gauge freedom，并用冻结的 registration protocol 防止 alignment 掩盖 metric、pose 与几何误差
 
@@ -61,6 +63,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **I3 3D tracks、遮挡与跨视图一致性**：能把 track 写成 $(i,\mathbf p_{ik},v_{ik})$ 观测集合，解释 visibility 为什么不能被 confidence 替代、cycle consistency 为什么不是充分条件，并区分 static point 与 dynamic 4D track → 复习于 2026-10-23 / 10-25 / 10-29
 
 - **I2 坐标、相机与 gauge contract**：能从 W2C 外参推出 camera center，区分 SE(3) / Sim(3) alignment 与 $z$-depth / ray distance，并说明 registration protocol 为什么决定一条 metric claim 是否成立 → 复习于 2026-10-22 / 10-24 / 10-28
 

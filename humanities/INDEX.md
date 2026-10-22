@@ -4,6 +4,7 @@
 
 | 日期 | 主题标题 | 模块 | 标签 |
 |---|---|---|---|
+| 2026-10-22 | 家庭变小以后，谁来照顾孩子、病人和老人：看不见的照护经济 | H9-3 | care economy, unpaid care, family structure, gender division, childcare, long-term care, time poverty, intergenerational relations |
 | 2026-10-21 | 人为什么涌向城市：集聚、迁移与空间分化怎样同时发生 | H9-2 | urbanization, migration, push-pull, agglomeration, matching, public services, hukou, housing, spatial inequality, city system |
 | 2026-10-20 | 人口转变：为什么“孩子变少”和“老人变多”其实是同一条历史链 | H9-1 | demographic transition, fertility, mortality, life expectancy, population momentum, ageing, dependency ratio, demographic dividend, migration |
 | 2026-10-19 | 一个社会怎样保留纠错能力：从公共领域到可纠错的信息生态 | H8·复盘 | public sphere, agenda-setting, framing, attention economy, misinformation, correction, provenance, platform governance, institutional trust |

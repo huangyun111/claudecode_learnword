@@ -16,11 +16,13 @@
 
 ## 当前位置
 
-- 模块：**H9 · 人口、城市与社会结构**（H9-2 已完成）
-- 下一篇主线：**H9-3 家庭结构与照护经济**（家庭小型化、性别分工、无偿照护、托育与长期照护）
+- 模块：**H9 · 人口、城市与社会结构**（H9-3 已完成）
+- 下一篇主线：**H9-4 教育、住房与代际流动**（人力资本、学区和房产、机会不平等与社会流动）
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-10-22 · **H9-3 家庭结构与照护经济** —— 把照护拆成 paid / unpaid、direct / indirect 与 supervisory care，用家庭供需缺口和 24 小时时间预算解释家庭小型化、time poverty 与性别分工；再把托育、长期照护、三明治一代、照护劳动市场和 recognize / reduce / redistribute / reward / represent 五类政策接成一条制度链
 
 - 2026-10-21 · **H9-2 城市化与人口迁移** —— 区分城市化、城市增长与迁移，用预期净收益解释迁移选择，以 sharing / matching / learning 说明集聚经济，再把住房、通勤、户籍与公共服务、空间排序、迁出地和城市体系接入同一条机会—成本—权利链
 
@@ -65,6 +67,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H9-3 家庭结构与照护经济**：能区分 paid / unpaid、direct / indirect 与 supervisory care，用 need / time / money / provider / gender / quality / access 七问拆解照护政策，并解释为什么提高劳动参与率必须同步重分配无偿照护 → 复习于 2026-10-23 / 10-25 / 10-29
 
 - **H9-2 城市化与人口迁移**：能区分 urbanization / urban growth / migration，用 sharing / matching / learning 解释集聚，并沿 definition / flow / motive / gain / cost / access / distribution 七问拆解一条城市新闻 → 复习于 2026-10-22 / 10-24 / 10-28
 
