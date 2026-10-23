@@ -13,11 +13,13 @@
 
 ## 当前位置
 
-- 阶段：**I · 前馈式 3D 几何与重建基础模型**（I3 已完成）
-- 下一篇主菜：**I4 从几何 backbone 到 Gaussian reconstruction**（pointmap / camera 初始化 3DGS、appearance / geometry loss 分工、novel-view 指标边界）
-- 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-10-22，3D tracks / visibility / cross-view consistency）
+- 阶段：**I · 前馈式 3D 几何与重建基础模型**（I4 已完成）
+- 下一篇主菜：**阶段 I 复盘 · 从像素到可核验三维场景**（pointmap、camera、tracks、Gaussian rendering 与独立 geometry evaluation）
+- 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-10-23，geometry backbone / Gaussian reconstruction）
 
 ## 已讲清单
+
+- 2026-10-23 · **I4 从几何 backbone 到 Gaussian reconstruction** —— 从 pointmap / camera 的 frame contract 初始化 Gaussian center，用局部 footprint 与 normal 理解 covariance，再完整推导 $\mathbf\Sigma^{2D}\approx\mathbf J\mathbf R\mathbf\Sigma^w\mathbf R^\top\mathbf J^\top$ 和 front-to-back alpha compositing；把 geometry、appearance、camera 与 regularization loss 分工，并明确 novel-view PSNR 不能替代独立 surface geometry evidence
 
 - 2026-10-22 · **I3 3D tracks、遮挡与跨视图一致性** —— 把 track 定义为同一物理点的跨视图身份，用 reprojection 与 world-frame 3D 会合连接 correspondence、depth 和 camera；显式区分 visibility、confidence 与 coverage，说明 cycle consistency 的必要非充分性，并把 static / dynamic scene、重复纹理、视角相关外观和独立 track / geometry evaluation 分层
 
@@ -63,6 +65,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **I4 从几何 backbone 到 Gaussian reconstruction**：能从 pointmap / camera 写出 Gaussian center 初始化，解释 covariance 如何经投影 Jacobian 变成 screen-space footprint，区分 geometry / appearance loss，并说明 novel-view PSNR 为什么不能证明 surface geometry 正确 → 复习于 2026-10-24 / 10-26 / 10-30
 
 - **I3 3D tracks、遮挡与跨视图一致性**：能把 track 写成 $(i,\mathbf p_{ik},v_{ik})$ 观测集合，解释 visibility 为什么不能被 confidence 替代、cycle consistency 为什么不是充分条件，并区分 static point 与 dynamic 4D track → 复习于 2026-10-23 / 10-25 / 10-29
 

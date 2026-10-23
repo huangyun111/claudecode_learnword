@@ -16,11 +16,13 @@
 
 ## 当前位置
 
-- 模块：**H9 · 人口、城市与社会结构**（H9-3 已完成）
-- 下一篇主线：**H9-4 教育、住房与代际流动**（人力资本、学区和房产、机会不平等与社会流动）
+- 模块：**H9 · 人口、城市与社会结构**（H9-4 已完成）
+- 下一篇主线：**H9 阶段复盘 · 人口如何变成社会结构**（队列、迁移、城市、家庭、公共服务与代际分配）
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-10-23 · **H9-4 教育、住房与代际流动** —— 区分 absolute / relative mobility，把家庭背景通过早期投入、学校质量、住房与社区、信息网络、风险承受力和财富转移进入下一代结果的路径拆开；说明教育既能扩大机会也会被空间和资源竞争重新分层，并用 sticky floor / sticky ceiling 与 access / quality / conversion 理清政策边界
 
 - 2026-10-22 · **H9-3 家庭结构与照护经济** —— 把照护拆成 paid / unpaid、direct / indirect 与 supervisory care，用家庭供需缺口和 24 小时时间预算解释家庭小型化、time poverty 与性别分工；再把托育、长期照护、三明治一代、照护劳动市场和 recognize / reduce / redistribute / reward / represent 五类政策接成一条制度链
 
@@ -67,6 +69,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H9-4 教育、住房与代际流动**：能区分 absolute / relative mobility，用 outcome / stage / place / price / information / risk / conversion 拆解一条流动叙事，并解释为什么教育扩张不自动等于机会平等 → 复习于 2026-10-24 / 10-26 / 10-30
 
 - **H9-3 家庭结构与照护经济**：能区分 paid / unpaid、direct / indirect 与 supervisory care，用 need / time / money / provider / gender / quality / access 七问拆解照护政策，并解释为什么提高劳动参与率必须同步重分配无偿照护 → 复习于 2026-10-23 / 10-25 / 10-29
 

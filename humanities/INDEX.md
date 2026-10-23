@@ -4,6 +4,7 @@
 
 | 日期 | 主题标题 | 模块 | 标签 |
 |---|---|---|---|
+| 2026-10-23 | 同一场考试之后，人生为什么越走越远：教育、住房与代际流动 | H9-4 | social mobility, education, housing, neighborhood effects, human capital, school district, wealth, opportunity inequality, intergenerational transmission |
 | 2026-10-22 | 家庭变小以后，谁来照顾孩子、病人和老人：看不见的照护经济 | H9-3 | care economy, unpaid care, family structure, gender division, childcare, long-term care, time poverty, intergenerational relations |
 | 2026-10-21 | 人为什么涌向城市：集聚、迁移与空间分化怎样同时发生 | H9-2 | urbanization, migration, push-pull, agglomeration, matching, public services, hukou, housing, spatial inequality, city system |
 | 2026-10-20 | 人口转变：为什么“孩子变少”和“老人变多”其实是同一条历史链 | H9-1 | demographic transition, fertility, mortality, life expectancy, population momentum, ageing, dependency ratio, demographic dividend, migration |

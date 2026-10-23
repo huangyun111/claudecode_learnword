@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-10-23 | 从 Geometry Backbone 到 Gaussian Reconstruction：有了三维点，为什么还没有一幅可渲染的新视图 | I4 | geometry backbone, 3D Gaussian Splatting, pointmap, camera, covariance, opacity, appearance loss, geometry loss, novel-view synthesis |
 | 2026-10-22 | 3D Tracks、遮挡与跨视图一致性：同一个表面点怎样在多张图里保持身份 | I3 | 3D tracks, correspondence, visibility, occlusion, reprojection, cycle consistency, dynamic scene, tracking evaluation |
 | 2026-10-21 | 坐标、相机与 Gauge Contract：为什么“对齐后很好看”仍可能算错几何 | I2 | coordinate frame, camera extrinsics, W2C, C2W, SE(3), Sim(3), gauge freedom, registration, metric scale |
 | 2026-10-20 | Pointmap 与前馈式 3D 重建：模型直接回归三维点，是否就绕开了相机几何 | I1 | pointmap, feed-forward 3D reconstruction, DUSt3R, VGGT, camera frame, projective geometry, Sim(3), confidence |
