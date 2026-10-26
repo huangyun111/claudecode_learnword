@@ -72,7 +72,7 @@
 - ☑ **I2 坐标、相机与 gauge contract**：camera / world frame、SE(3) / Sim(3)、内参约定、尺度与 registration protocol，防止“对齐后很好看”掩盖真实误差　（2026-10-21 ✅）
 - ☑ **I3 3D tracks、遮挡与跨视图一致性**：track supervision、visibility、cycle consistency、动态物体与 correspondence failure　（2026-10-22 ✅）
 - ☑ **I4 从几何 backbone 到 Gaussian reconstruction**：pointmap / camera 怎样初始化 3DGS，appearance 与 geometry loss 如何分工，以及 novel-view 指标的边界　（2026-10-23 ✅）
-- ☐ **阶段 I 复盘 · 从像素到可核验三维场景**：把 pointmap、camera、tracks、alignment、rendering 与独立 geometry evaluation 串成闭环
+- ☑ **阶段 I 复盘 · 从像素到可核验三维场景**：把 pointmap、camera、tracks、alignment、rendering 与独立 geometry evaluation 串成闭环　（2026-10-26 ✅）
 
 ---
 

@@ -16,11 +16,13 @@
 
 ## 当前位置
 
-- 模块：**H9 · 人口、城市与社会结构**（H9-4 已完成）
-- 下一篇主线：**H9 阶段复盘 · 人口如何变成社会结构**（队列、迁移、城市、家庭、公共服务与代际分配）
+- 模块：**H9 · 人口、城市与社会结构**（阶段复盘已完成）
+- 下一篇主线：**待路线图扩展**（模块 H9 已闭环，下一模块尚未指定）
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-10-26 · **H9 阶段复盘：人口如何变成社会结构** —— 用 cohort equation 把出生、死亡、迁移和人口惯性接到年龄与地区结构，再沿城市集聚、家庭照护、公共服务、教育住房与代际分配形成反馈闭环；强调人口总量不是宿命，政策要同时检查 cohort / place / household / service / market / distribution / feedback
 
 - 2026-10-23 · **H9-4 教育、住房与代际流动** —— 区分 absolute / relative mobility，把家庭背景通过早期投入、学校质量、住房与社区、信息网络、风险承受力和财富转移进入下一代结果的路径拆开；说明教育既能扩大机会也会被空间和资源竞争重新分层，并用 sticky floor / sticky ceiling 与 access / quality / conversion 理清政策边界
 
@@ -69,6 +71,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H9 阶段复盘：人口如何变成社会结构**：能沿 cohort / place / household / service / market / distribution / feedback 七问拆解人口新闻，并解释出生、迁移、照护、住房与代际机会怎样形成长期反馈，而非把人口总量当作宿命 → 复习于 2026-10-27 / 10-29 / 11-02
 
 - **H9-4 教育、住房与代际流动**：能区分 absolute / relative mobility，用 outcome / stage / place / price / information / risk / conversion 拆解一条流动叙事，并解释为什么教育扩张不自动等于机会平等 → 复习于 2026-10-24 / 10-26 / 10-30
 
