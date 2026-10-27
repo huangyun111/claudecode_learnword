@@ -1,7 +1,7 @@
 # 知识路线图（ROADMAP）
 
 主线：**可控密集预测 → 可控生成 → 世界模型 → 研究证据链 → 论文论证与学术表达**。
-已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–H 主线及阶段复盘；当前进入 **阶段 I（前馈式 3D 几何与重建基础模型）**。
+已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–I 主线及阶段复盘；当前进入 **阶段 J（Inverse Graphics 与物理可辨识重建）**。
 每天主菜推进一个 ☐ 条目，讲完打勾并在 `STATE.md` 记录。
 
 ---
@@ -73,6 +73,14 @@
 - ☑ **I3 3D tracks、遮挡与跨视图一致性**：track supervision、visibility、cycle consistency、动态物体与 correspondence failure　（2026-10-22 ✅）
 - ☑ **I4 从几何 backbone 到 Gaussian reconstruction**：pointmap / camera 怎样初始化 3DGS，appearance 与 geometry loss 如何分工，以及 novel-view 指标的边界　（2026-10-23 ✅）
 - ☑ **阶段 I 复盘 · 从像素到可核验三维场景**：把 pointmap、camera、tracks、alignment、rendering 与独立 geometry evaluation 串成闭环　（2026-10-26 ✅）
+
+## 阶段 J · Inverse Graphics 与物理可辨识重建
+
+- ☑ **J1 Inverse Graphics 与 differentiable rendering**：从 rendering equation、Lambertian 小模型和链式法则理解 geometry / material / lighting / camera 的联合反演，区分 differentiability 与 identifiability，并建立图像、几何、分解和机制四层证据　（2026-10-27 ✅）
+- ☐ **J2 几何表示与正则化**：mesh、SDF、occupancy 与 3D Gaussians 的梯度路径、拓扑能力、初始化依赖和几何偏差
+- ☐ **J3 Intrinsic decomposition 与材质—光照解耦**：albedo、normal、roughness、environment lighting、light baking 与 relighting evidence
+- ☐ **J4 多模态物理线索融合**：RGB、depth、normal、polarization 与 illumination intervention 怎样切断不同不可辨识方向
+- ☐ **阶段 J 复盘 · 从可导拟合到可辨识物理场景**：把 forward model、observation design、parameterization、optimization 与 independent evidence 串成闭环
 
 ---
 

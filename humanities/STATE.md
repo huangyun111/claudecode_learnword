@@ -16,11 +16,13 @@
 
 ## 当前位置
 
-- 模块：**H9 · 人口、城市与社会结构**（阶段复盘已完成）
-- 下一篇主线：**待路线图扩展**（模块 H9 已闭环，下一模块尚未指定）
+- 模块：**H10 · 制度、组织与集体行动**
+- 下一篇主线：**H10-2 官僚制、专业化与问责**（大型组织如何获得执行力，又为何产生僵化、信息上滤和责任漂移）
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-10-27 · **H10-1 制度、激励与路径依赖** —— 把制度拆成 formal rules、informal norms 与 enforcement，区分规则与组织，用 expected penalty 和 transaction costs 解释行为与合作边界；再从制度互补、执行能力、合法性、组织适应和路径依赖说明为什么移植纸面规则不等于复制结果，以及改革为何必须预设二阶效应与纠错反馈
 
 - 2026-10-26 · **H9 阶段复盘：人口如何变成社会结构** —— 用 cohort equation 把出生、死亡、迁移和人口惯性接到年龄与地区结构，再沿城市集聚、家庭照护、公共服务、教育住房与代际分配形成反馈闭环；强调人口总量不是宿命，政策要同时检查 cohort / place / household / service / market / distribution / feedback
 
@@ -71,6 +73,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H10-1 制度、激励与路径依赖**：能区分 institutions / organizations 与 formal rules / informal norms / enforcement，用 transaction costs 解释一项合作为何不发生，并说明路径依赖不等于历史宿命、改革还要检查组织适应和二阶效应 → 复习于 2026-10-28 / 10-30 / 11-03
 
 - **H9 阶段复盘：人口如何变成社会结构**：能沿 cohort / place / household / service / market / distribution / feedback 七问拆解人口新闻，并解释出生、迁移、照护、住房与代际机会怎样形成长期反馈，而非把人口总量当作宿命 → 复习于 2026-10-27 / 10-29 / 11-02
 

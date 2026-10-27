@@ -4,6 +4,7 @@
 
 | 日期 | 主题标题 | 模块 | 标签 |
 |---|---|---|---|
+| 2026-10-27 | 为什么换一条规则，所有人就像换了性格：制度、激励与路径依赖 | H10-1 | institutions, incentives, transaction costs, formal rules, informal norms, enforcement, organizations, path dependence, institutional change |
 | 2026-10-26 | 一个人的一生怎样变成社会结构：人口、城市、家庭与代际分配的闭环 | H9·复盘 | demographic transition, cohort, migration, urbanization, family, care economy, public services, social mobility, intergenerational distribution |
 | 2026-10-23 | 同一场考试之后，人生为什么越走越远：教育、住房与代际流动 | H9-4 | social mobility, education, housing, neighborhood effects, human capital, school district, wealth, opportunity inequality, intergenerational transmission |
 | 2026-10-22 | 家庭变小以后，谁来照顾孩子、病人和老人：看不见的照护经济 | H9-3 | care economy, unpaid care, family structure, gender division, childcare, long-term care, time poverty, intergenerational relations |
