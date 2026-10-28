@@ -17,10 +17,12 @@
 ## 当前位置
 
 - 模块：**H10 · 制度、组织与集体行动**
-- 下一篇主线：**H10-2 官僚制、专业化与问责**（大型组织如何获得执行力，又为何产生僵化、信息上滤和责任漂移）
+- 下一篇主线：**H10-3 公共物品、集体行动与 commons**（搭便车、选择性激励、边界与监测、多中心治理何时有效）
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-10-28 · **H10-2 官僚制、专业化与问责** —— 从 hierarchy、division of labor、rules、written records 与 professional career 解释大型组织的 repeatable capacity，再沿 street-level discretion、层级信息压缩、指标替代、principal–agent chain 与 many hands problem 拆解僵化和责任漂移；区分 answerability 与 enforcement，并把 vertical、horizontal、administrative、professional、social accountability 组织成可解释、可救济、可学习的责任网
 
 - 2026-10-27 · **H10-1 制度、激励与路径依赖** —— 把制度拆成 formal rules、informal norms 与 enforcement，区分规则与组织，用 expected penalty 和 transaction costs 解释行为与合作边界；再从制度互补、执行能力、合法性、组织适应和路径依赖说明为什么移植纸面规则不等于复制结果，以及改革为何必须预设二阶效应与纠错反馈
 
@@ -73,6 +75,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H10-2 官僚制、专业化与问责**：能解释分工、层级、规则、档案和专业职位怎样形成 repeatable capacity，用 task / jurisdiction / information / handoff / rule / discretion / metric / responsibility / remedy / learning 十问拆解组织失败，并区分 answerability、enforcement 与多方向 accountability → 复习于 2026-10-29 / 10-31 / 11-04
 
 - **H10-1 制度、激励与路径依赖**：能区分 institutions / organizations 与 formal rules / informal norms / enforcement，用 transaction costs 解释一项合作为何不发生，并说明路径依赖不等于历史宿命、改革还要检查组织适应和二阶效应 → 复习于 2026-10-28 / 10-30 / 11-03
 

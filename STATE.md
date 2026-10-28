@@ -14,10 +14,12 @@
 ## 当前位置
 
 - 阶段：**J · Inverse Graphics 与物理可辨识重建**
-- 下一篇主菜：**J2 几何表示与正则化**（mesh、SDF 与 3D Gaussians 的优化景观、拓扑能力和几何偏差）
+- 下一篇主菜：**J3 Intrinsic decomposition 与材质—光照解耦**（albedo、normal、roughness、environment lighting、light baking 与 relighting evidence）
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-10-27，inverse graphics / differentiable rendering）
 
 ## 已讲清单
+
+- 2026-10-28 · **J2 几何表示与正则化** —— 把 mesh、SDF、occupancy 与 3D Gaussians 放进同一 representation contract，逐步推导 mesh Laplacian、SDF Eikonal 与 ray–surface implicit gradient，区分 zero set、distance field、decision boundary 与 radiance primitives；说明 topology、initialization、visibility 和 regularization 如何共同决定优化偏差，并以 fixed-support independent geometry evidence 约束“正则化改善几何”的主张
 
 - 2026-10-27 · **J1 Inverse Graphics 与 differentiable rendering** —— 从 rendering equation 和 Lambertian 小模型拆开 geometry / material / lighting / camera / visibility，完整推导 photometric objective 的链式梯度，区分“能反传”与“参数可辨识”；用 Jacobian null direction 理解多视图、多光照和 polarization 怎样增加约束，并建立 image fitting、geometry、decomposition、mechanism 四层 evidence ladder
 
@@ -69,6 +71,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **J2 几何表示与正则化**：能比较 mesh / SDF / occupancy / 3D Gaussians 的 surface 定义、gradient path、topology 和 initialization，手推 ray–SDF implicit gradient，解释 same zero set 不等于 same distance field、same rendered depth 不等于 same surface thickness，并为 polarization geometry cue 设计 fixed-representation matched control → 复习于 2026-10-29 / 10-31 / 11-04
 
 - **J1 Inverse Graphics 与 differentiable rendering**：能从 rendering equation 化简到 Lambertian 单像素模型，手推 albedo–lighting ambiguity 与 photometric loss 梯度，解释 differentiability 为什么不等于 identifiability，并为一个 inverse method 分开列出图像、几何、分解和机制证据 → 复习于 2026-10-28 / 10-30 / 11-03
 
