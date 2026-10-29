@@ -4,6 +4,7 @@
 
 | 日期 | 主题标题 | 模块 | 标签 |
 |---|---|---|---|
+| 2026-10-29 | 大家都想要，为什么还是没人愿意先付钱：公共物品、集体行动与 Commons | H10-3 | public goods, collective action, free rider, commons, common-pool resources, selective incentives, monitoring, polycentric governance, Elinor Ostrom |
 | 2026-10-28 | 为什么每个人都按流程办事，事情还是可能没人负责：官僚制、专业化与问责 | H10-2 | bureaucracy, professionalization, hierarchy, division of labor, discretion, principal-agent, information filtering, accountability, street-level bureaucracy |
 | 2026-10-27 | 为什么换一条规则，所有人就像换了性格：制度、激励与路径依赖 | H10-1 | institutions, incentives, transaction costs, formal rules, informal norms, enforcement, organizations, path dependence, institutional change |
 | 2026-10-26 | 一个人的一生怎样变成社会结构：人口、城市、家庭与代际分配的闭环 | H9·复盘 | demographic transition, cohort, migration, urbanization, family, care economy, public services, social mobility, intergenerational distribution |

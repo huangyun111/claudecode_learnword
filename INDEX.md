@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-10-29 | 把光从物体上“剥下来”：Intrinsic Decomposition 为什么不能只靠重建原图 | J3 | intrinsic decomposition, inverse rendering, albedo, normal, roughness, environment lighting, BRDF, light baking, relighting, identifiability |
 | 2026-10-28 | Mesh、SDF、Occupancy 与 3D Gaussians：你选择的几何表示，正在替优化决定答案 | J2 | geometry representation, mesh, SDF, occupancy, 3D Gaussian Splatting, regularization, topology, differentiable rendering, geometry bias |
 | 2026-10-27 | 把照片倒着渲染：Inverse Graphics 为什么不只是“让渲染器可导” | J1 | inverse graphics, inverse rendering, differentiable rendering, rendering equation, identifiability, geometry, material, lighting, visibility |
 | 2026-10-26 | 阶段 I 复盘：从像素到可核验三维场景——别让一张好看的新视图替你证明几何 | I·复盘 | feed-forward 3D, pointmap, camera, gauge, 3D tracks, visibility, Gaussian rendering, geometry evaluation, evidence chain |

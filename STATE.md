@@ -14,10 +14,12 @@
 ## 当前位置
 
 - 阶段：**J · Inverse Graphics 与物理可辨识重建**
-- 下一篇主菜：**J3 Intrinsic decomposition 与材质—光照解耦**（albedo、normal、roughness、environment lighting、light baking 与 relighting evidence）
+- 下一篇主菜：**J4 多模态物理线索融合**（RGB、depth、normal、polarization 与 illumination intervention 怎样切断不同不可辨识方向）
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-10-27，inverse graphics / differentiable rendering）
 
 ## 已讲清单
+
+- 2026-10-29 · **J3 Intrinsic decomposition 与材质—光照解耦** —— 从 rendering equation 与 $I=R\odot S$ 完整推出 albedo–shading scale ambiguity，再沿 Lambertian gradient、microfacet roughness 与 environment lighting 的频率补偿解释 parameter compensation 和 light baking；把同光照 novel view、intrinsic GT、held-out illumination、cross-combination 与物理端点组织成分层 relighting evidence，并为 RGB-only / RGB+polarization 冻结 matched protocol
 
 - 2026-10-28 · **J2 几何表示与正则化** —— 把 mesh、SDF、occupancy 与 3D Gaussians 放进同一 representation contract，逐步推导 mesh Laplacian、SDF Eikonal 与 ray–surface implicit gradient，区分 zero set、distance field、decision boundary 与 radiance primitives；说明 topology、initialization、visibility 和 regularization 如何共同决定优化偏差，并以 fixed-support independent geometry evidence 约束“正则化改善几何”的主张
 
@@ -71,6 +73,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **J3 Intrinsic decomposition 与材质—光照解耦**：能从 rendering equation 化简并手推 $R'=cR,S'=S/c$ 的 scale ambiguity，解释 roughness / environment lighting compensation 与 light baking，用同光照 novel view / intrinsic GT / held-out illumination / cross-combination 分层判断分解证据，并为 polarization 设计 fixed-renderer matched control → 复习于 2026-10-30 / 11-01 / 11-05
 
 - **J2 几何表示与正则化**：能比较 mesh / SDF / occupancy / 3D Gaussians 的 surface 定义、gradient path、topology 和 initialization，手推 ray–SDF implicit gradient，解释 same zero set 不等于 same distance field、same rendered depth 不等于 same surface thickness，并为 polarization geometry cue 设计 fixed-representation matched control → 复习于 2026-10-29 / 10-31 / 11-04
 

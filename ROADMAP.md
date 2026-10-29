@@ -78,7 +78,7 @@
 
 - ☑ **J1 Inverse Graphics 与 differentiable rendering**：从 rendering equation、Lambertian 小模型和链式法则理解 geometry / material / lighting / camera 的联合反演，区分 differentiability 与 identifiability，并建立图像、几何、分解和机制四层证据　（2026-10-27 ✅）
 - ☑ **J2 几何表示与正则化**：mesh、SDF、occupancy 与 3D Gaussians 的梯度路径、拓扑能力、初始化依赖和几何偏差　（2026-10-28 ✅）
-- ☐ **J3 Intrinsic decomposition 与材质—光照解耦**：albedo、normal、roughness、environment lighting、light baking 与 relighting evidence
+- ☑ **J3 Intrinsic decomposition 与材质—光照解耦**：albedo、normal、roughness、environment lighting、light baking 与 relighting evidence　（2026-10-29 ✅）
 - ☐ **J4 多模态物理线索融合**：RGB、depth、normal、polarization 与 illumination intervention 怎样切断不同不可辨识方向
 - ☐ **阶段 J 复盘 · 从可导拟合到可辨识物理场景**：把 forward model、observation design、parameterization、optimization 与 independent evidence 串成闭环
 
