@@ -17,10 +17,12 @@
 ## 当前位置
 
 - 模块：**H10 · 制度、组织与集体行动**
-- 下一篇主线：**H10-4 信任、合法性与制度改革**（程序公平、执行能力、渐进试点、政策反馈与 adaptive institutions）
+- 下一篇主线：**H10 阶段复盘 · 合作怎样被组织起来**（把规则、组织、信息、激励、执行、信任与纠错连成制度分析框架）
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-10-30 · **H10-4 信任、合法性与制度改革** —— 区分 trust、descriptive / normative legitimacy 与 compliance，用 input / throughput / output 三层解释授权、程序公平和执行能力为何互补；再沿 trustworthiness 反馈、制度互补、policy feedback、pilot trap 与 adaptive institutions 说明改革怎样通过有限试点、harm 监测、scale / stop 决策、补救和组织记忆获得可持续纠错能力
 
 - 2026-10-29 · **H10-3 公共物品、集体行动与 commons** —— 用 excludability / rivalry 区分 private、club、public goods 与 common-pool resources，以五人贡献模型推出“社会划算但个人不划算”的 free-rider 条件；再从 selective incentives、资源存量、Ostrom 的边界 / 参与 / 监测 / 渐进制裁 / 冲突解决 / nested governance 说明合作何时可持续，并保留地方权力不对称、跨边界外部性与规模错配的边界
 
@@ -77,6 +79,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H10-4 信任、合法性与制度改革**：能区分 trust / legitimacy / compliance，用 input / throughput / output 分析制度正当性，说明 trustworthiness 为什么先于要求信任，并用 problem / authority / voice / reason / fairness / capacity / incentive / pilot / harm / feedback / decision / memory 十二问设计可学习的改革 → 复习于 2026-10-31 / 11-02 / 11-06
 
 - **H10-3 公共物品、集体行动与 commons**：能用 excludability / rivalry 区分 public goods 与 common-pool resources，手推 $b>c$ 但 $b/n<c$ 时的 free-rider dilemma，并用 good / group / payoff / boundary / monitoring / sanction / voice / scale 拆解一个集体行动问题 → 复习于 2026-10-30 / 11-01 / 11-05
 
