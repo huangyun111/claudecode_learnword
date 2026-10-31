@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-10-31 | 阶段 J 复盘：从“渲染得像”到“恢复得对”——可辨识物理场景的五道关 | J·复盘 | inverse graphics, differentiable rendering, identifiability, forward model, observation design, parameterization, optimization, independent evidence |
 | 2026-10-30 | 当 RGB、深度、法向与偏振同时说话：多模态融合怎样真正减少物理多解 | J4 | multimodal fusion, inverse graphics, identifiability, RGB-D, surface normal, polarization, photometric stereo, illumination intervention, uncertainty, sensor calibration |
 | 2026-10-29 | 把光从物体上“剥下来”：Intrinsic Decomposition 为什么不能只靠重建原图 | J3 | intrinsic decomposition, inverse rendering, albedo, normal, roughness, environment lighting, BRDF, light baking, relighting, identifiability |
 | 2026-10-28 | Mesh、SDF、Occupancy 与 3D Gaussians：你选择的几何表示，正在替优化决定答案 | J2 | geometry representation, mesh, SDF, occupancy, 3D Gaussian Splatting, regularization, topology, differentiable rendering, geometry bias |

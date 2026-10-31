@@ -1,7 +1,7 @@
 # 知识路线图（ROADMAP）
 
 主线：**可控密集预测 → 可控生成 → 世界模型 → 研究证据链 → 论文论证与学术表达**。
-已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–I 主线及阶段复盘；当前进入 **阶段 J（Inverse Graphics 与物理可辨识重建）**。
+已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–J 主线及阶段复盘；下一阶段主题将在后续扩展。
 每天主菜推进一个 ☐ 条目，讲完打勾并在 `STATE.md` 记录。
 
 ---
@@ -80,7 +80,7 @@
 - ☑ **J2 几何表示与正则化**：mesh、SDF、occupancy 与 3D Gaussians 的梯度路径、拓扑能力、初始化依赖和几何偏差　（2026-10-28 ✅）
 - ☑ **J3 Intrinsic decomposition 与材质—光照解耦**：albedo、normal、roughness、environment lighting、light baking 与 relighting evidence　（2026-10-29 ✅）
 - ☑ **J4 多模态物理线索融合**：RGB、depth、normal、polarization 与 illumination intervention 怎样切断不同不可辨识方向　（2026-10-30 ✅）
-- ☐ **阶段 J 复盘 · 从可导拟合到可辨识物理场景**：把 forward model、observation design、parameterization、optimization 与 independent evidence 串成闭环
+- ☑ **阶段 J 复盘 · 从可导拟合到可辨识物理场景**：把 forward model、observation design、parameterization、optimization 与 independent evidence 串成闭环　（2026-10-31 ✅）
 
 ---
 

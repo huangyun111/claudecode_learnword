@@ -16,11 +16,13 @@
 
 ## 当前位置
 
-- 模块：**H10 · 制度、组织与集体行动**
-- 下一篇主线：**H10 阶段复盘 · 合作怎样被组织起来**（把规则、组织、信息、激励、执行、信任与纠错连成制度分析框架）
+- 模块：**H10 · 制度、组织与集体行动（已完成阶段复盘）**
+- 下一篇主线：**待路线图扩展**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-10-31 · **H10 阶段复盘：合作怎样被组织起来** —— 从 good / boundary / rights / payoff 出发，把 formal rules、informal norms、enforcement、transaction costs、bureaucratic capacity、information filtering、collective action、accountability、trust / legitimacy 与 adaptive reform 串成制度闭环；说明市场、政府和社区分别掌握不同信息并产生不同 failure，以十四问卡定位合作最早断裂的接口
 
 - 2026-10-30 · **H10-4 信任、合法性与制度改革** —— 区分 trust、descriptive / normative legitimacy 与 compliance，用 input / throughput / output 三层解释授权、程序公平和执行能力为何互补；再沿 trustworthiness 反馈、制度互补、policy feedback、pilot trap 与 adaptive institutions 说明改革怎样通过有限试点、harm 监测、scale / stop 决策、补救和组织记忆获得可持续纠错能力
 
@@ -79,6 +81,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H10 阶段复盘：合作怎样被组织起来**：能用 good / boundary / rights / payoff / cost / information / organization / discretion / monitoring / enforcement / legitimacy / accountability / scale / feedback 十四问拆解合作问题，解释共同利益为何不自动产生集体行动，并区分市场、政府、社区的不同信息优势和 failure mode → 复习于 2026-11-01 / 11-03 / 11-07
 
 - **H10-4 信任、合法性与制度改革**：能区分 trust / legitimacy / compliance，用 input / throughput / output 分析制度正当性，说明 trustworthiness 为什么先于要求信任，并用 problem / authority / voice / reason / fairness / capacity / incentive / pilot / harm / feedback / decision / memory 十二问设计可学习的改革 → 复习于 2026-10-31 / 11-02 / 11-06
 
