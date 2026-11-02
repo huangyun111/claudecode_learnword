@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-11-02 | 一段 2D 光流为什么还不是 3D 运动：Scene Flow、相机运动与动态重建 | K1 | dynamic reconstruction, optical flow, scene flow, camera motion, object motion, canonical space, deformation field, 4D reconstruction, occlusion |
 | 2026-10-31 | 阶段 J 复盘：从“渲染得像”到“恢复得对”——可辨识物理场景的五道关 | J·复盘 | inverse graphics, differentiable rendering, identifiability, forward model, observation design, parameterization, optimization, independent evidence |
 | 2026-10-30 | 当 RGB、深度、法向与偏振同时说话：多模态融合怎样真正减少物理多解 | J4 | multimodal fusion, inverse graphics, identifiability, RGB-D, surface normal, polarization, photometric stereo, illumination intervention, uncertainty, sensor calibration |
 | 2026-10-29 | 把光从物体上“剥下来”：Intrinsic Decomposition 为什么不能只靠重建原图 | J3 | intrinsic decomposition, inverse rendering, albedo, normal, roughness, environment lighting, BRDF, light baking, relighting, identifiability |

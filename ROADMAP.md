@@ -1,7 +1,7 @@
 # 知识路线图（ROADMAP）
 
 主线：**可控密集预测 → 可控生成 → 世界模型 → 研究证据链 → 论文论证与学术表达**。
-已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–J 主线及阶段复盘；下一阶段主题将在后续扩展。
+已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–J 主线及阶段复盘；当前进入 **阶段 K（动态场景与 4D 重建）**。
 每天主菜推进一个 ☐ 条目，讲完打勾并在 `STATE.md` 记录。
 
 ---
@@ -81,6 +81,14 @@
 - ☑ **J3 Intrinsic decomposition 与材质—光照解耦**：albedo、normal、roughness、environment lighting、light baking 与 relighting evidence　（2026-10-29 ✅）
 - ☑ **J4 多模态物理线索融合**：RGB、depth、normal、polarization 与 illumination intervention 怎样切断不同不可辨识方向　（2026-10-30 ✅）
 - ☑ **阶段 J 复盘 · 从可导拟合到可辨识物理场景**：把 forward model、observation design、parameterization、optimization 与 independent evidence 串成闭环　（2026-10-31 ✅）
+
+## 阶段 K · 动态场景、Scene Flow 与 4D 重建
+
+- ☑ **K1 Optical flow、scene flow 与相机—物体运动分解**：从 pixel correspondence、depth 与 camera pose 推出 world-frame scene flow，理解单目深度—运动多解、camera-induced flow、rigid / non-rigid motion、occlusion 和动态几何证据边界　（2026-11-02 ✅）
+- ☐ **K2 Canonical space、deformation field 与动态 gauge**：canonical identity、forward / backward warp、cycle、topology change、local rigidity 与 deformation compensation
+- ☐ **K3 Dynamic NeRF / 4D Gaussian Splatting**：时空表示、per-primitive motion、densification / pruning、visibility、temporal aliasing 与实时渲染
+- ☐ **K4 动态重建的观测与证据合同**：同步多视图、scene flow / tracks / per-time geometry、held-out view-time、motion subgroup 与 matched controls
+- ☐ **阶段 K 复盘 · 从视频变化到可核验四维场景**：把 frame、time、identity、motion、visibility、representation 与 independent 4D evidence 串成闭环
 
 ---
 

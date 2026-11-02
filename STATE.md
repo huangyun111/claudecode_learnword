@@ -13,11 +13,13 @@
 
 ## 当前位置
 
-- 阶段：**J · Inverse Graphics 与物理可辨识重建（已完成阶段复盘）**
-- 下一篇主菜：**待路线图扩展**
-- 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-10-27，inverse graphics / differentiable rendering）
+- 阶段：**K · 动态场景、Scene Flow 与 4D 重建**
+- 下一篇主菜：**K2 Canonical space、deformation field 与动态 gauge**
+- 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-02，dynamic reconstruction / scene flow）
 
 ## 已讲清单
+
+- 2026-11-02 · **K1 Optical flow、scene flow 与相机—物体运动分解** —— 从 pixel + depth + camera pose 完整推出 world-frame scene flow，区分 camera-induced optical flow 与真实物体运动；用“近处慢移 / 远处快移”说明单目深度—运动多解，再把 rigid / piecewise rigid / non-rigid motion、canonical / 4D / per-primitive representation、occlusion、brightness constancy 与独立 motion / geometry endpoint 接成动态重建合同
 
 - 2026-10-31 · **阶段 J 复盘：从可导拟合到可辨识物理场景** —— 把 forward model、observation design、parameterization、optimization 与 independent evidence 组织成五份相互校验的合同；用 measurement Jacobian、null-space intersection、information conditioning 与 representation chain rule 区分 differentiable、identifiable 和 recoverable，并以 held-out view / illumination、固定 support geometry 与 matched mechanism controls 防止 image fit 冒充物理恢复
 
@@ -77,6 +79,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **K1 Optical flow、scene flow 与相机—物体运动分解**：能从 pixel + depth + C2W pose 写出两个时刻的 world point 与 scene flow，解释静态背景为何 optical flow 非零但 world motion 为零、同一 2D flow 为何对应不同 metric motion，并为动态重建分开 motion / geometry / rendering endpoints → 复习于 2026-11-03 / 11-05 / 11-09
 
 - **阶段 J 复盘：从可导拟合到可辨识物理场景**：能沿 forward / observation / representation / optimization / evidence 五份合同排查 inverse graphics 系统，手推 Jacobian null direction 与 parameterization chain rule，区分 differentiable、identifiable、recoverable，并为 polarization geometry claim 冻结 matched controls 与 independent endpoints → 复习于 2026-11-01 / 11-03 / 11-07
 
