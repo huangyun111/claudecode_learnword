@@ -17,10 +17,12 @@
 ## 当前位置
 
 - 模块：**H11 · 法律、权利与正义**
-- 下一篇主线：**H11-2 权利、自由与 proportionality**
+- 下一篇主线：**H11-3 平等、分配与社会正义**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-03 · **H11-2 权利、自由与 proportionality** —— 区分权利与普通偏好、negative / positive obligations 以及 absolute / qualified protection，把权利限制拆成 legitimate aim、suitability、necessity / less restrictive means 与 proportionality stricto sensu 四关；用校园人脸识别案例比较证据、替代方案、scope、duration、distribution、safeguards 与 cumulative burden，并说明 right-vs-right、margin of appreciation、ordinary limitation / derogation 及算法规模化限制的边界
 
 - 2026-11-02 · **H11-1 法律、Rule of Law 与正当程序** —— 区分 law、rule by law 与 rule of law，从 publicity / clarity / prospectivity / stability 建立 legal certainty，再把 equality before law、notice、evidence、hearing、impartiality、reason、review、effective remedy 与 access to justice 串成限制任意权力的程序链；说明 discretion 不等于 arbitrariness，并把算法行政放回授权、解释、复核和补救责任
 

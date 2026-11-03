@@ -14,10 +14,12 @@
 ## 当前位置
 
 - 阶段：**K · 动态场景、Scene Flow 与 4D 重建**
-- 下一篇主菜：**K2 Canonical space、deformation field 与动态 gauge**
-- 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-02，dynamic reconstruction / scene flow）
+- 下一篇主菜：**K3 Dynamic NeRF / 4D Gaussian Splatting**
+- 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-03，canonical deformation / dynamic gauge）
 
 ## 已讲清单
+
+- 2026-11-03 · **K2 Canonical space、deformation field 与动态 gauge** —— 用 forward / backward warp 建立跨时间 identity 与共享 template，完整推出任意可逆 canonical 重参数化如何被 radiance field 和 warp 吸收、使 observation-space rendering 不变；说明 cycle consistency 不能消除 gauge，再从 deformation Jacobian 推出 local rigidity 条件 $\mathbf J^\top\mathbf J=\mathbf I$，区分稳定优化的 prior 与真实物理证据，并把 topology change、deformation compensation、visibility、frozen alignment 和独立 4D endpoint 接成动态重建合同
 
 - 2026-11-02 · **K1 Optical flow、scene flow 与相机—物体运动分解** —— 从 pixel + depth + camera pose 完整推出 world-frame scene flow，区分 camera-induced optical flow 与真实物体运动；用“近处慢移 / 远处快移”说明单目深度—运动多解，再把 rigid / piecewise rigid / non-rigid motion、canonical / 4D / per-primitive representation、occlusion、brightness constancy 与独立 motion / geometry endpoint 接成动态重建合同
 
