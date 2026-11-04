@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-11-04 | 时间放进 NeRF，还是放进 Gaussian：Dynamic NeRF 与 4D Gaussian Splatting | K3 | dynamic NeRF, 4D Gaussian Splatting, spacetime field, deformation, per-primitive motion, densification, pruning, visibility, temporal aliasing, real-time rendering |
 | 2026-11-03 | 把每一帧拉回“同一个人”：Canonical Space、Deformation Field 与动态 Gauge | K2 | dynamic reconstruction, canonical space, deformation field, forward warp, backward warp, gauge freedom, cycle consistency, local rigidity, topology change, 4D evidence |
 | 2026-11-02 | 一段 2D 光流为什么还不是 3D 运动：Scene Flow、相机运动与动态重建 | K1 | dynamic reconstruction, optical flow, scene flow, camera motion, object motion, canonical space, deformation field, 4D reconstruction, occlusion |
 | 2026-10-31 | 阶段 J 复盘：从“渲染得像”到“恢复得对”——可辨识物理场景的五道关 | J·复盘 | inverse graphics, differentiable rendering, identifiability, forward model, observation design, parameterization, optimization, independent evidence |

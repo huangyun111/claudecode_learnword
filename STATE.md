@@ -14,10 +14,12 @@
 ## 当前位置
 
 - 阶段：**K · 动态场景、Scene Flow 与 4D 重建**
-- 下一篇主菜：**K3 Dynamic NeRF / 4D Gaussian Splatting**
-- 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-03，canonical deformation / dynamic gauge）
+- 下一篇主菜：**K4 动态重建的观测与证据合同**
+- 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-04 · **K3 Dynamic NeRF / 4D Gaussian Splatting** —— 从 time-conditioned spacetime field 与 canonical backward warp 完整推出动态 volume rendering，再从 per-Gaussian deformation、三维 covariance、投影 Jacobian 和 front-to-back compositing 推出 4DGS；说明 densification / pruning 会改变 support、capacity 与 primitive identity，区分遮挡、离开视野、出现 / 消失和数据缺失，并用采样频率的 aliasing 推导证明训练帧完全一致也不能唯一确定帧间运动，最终把 image、temporal、motion、geometry 与 FPS 拆成独立证据合同
 
 - 2026-11-03 · **K2 Canonical space、deformation field 与动态 gauge** —— 用 forward / backward warp 建立跨时间 identity 与共享 template，完整推出任意可逆 canonical 重参数化如何被 radiance field 和 warp 吸收、使 observation-space rendering 不变；说明 cycle consistency 不能消除 gauge，再从 deformation Jacobian 推出 local rigidity 条件 $\mathbf J^\top\mathbf J=\mathbf I$，区分稳定优化的 prior 与真实物理证据，并把 topology change、deformation compensation、visibility、frozen alignment 和独立 4D endpoint 接成动态重建合同
 
@@ -81,6 +83,10 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **K3 Dynamic NeRF / 4D Gaussian Splatting**：能从 dynamic ray、backward warp、density / radiance 写出离散 volume rendering，解释 per-Gaussian deformation 如何经 covariance projection 和 alpha compositing 形成像素，说明 densification / pruning 为何改变 support / identity、稀疏时间采样为何产生 aliasing，并为 image / motion / geometry / FPS 分开设计 endpoint → 复习于 2026-11-05 / 11-07 / 11-11
+
+- **K2 Canonical space、deformation field 与动态 gauge**：能写出 forward / backward warp 与任意可逆 canonical reparameterization，解释 cycle consistency 为什么不能消除 gauge，从 $\mathbf J^\top\mathbf J=\mathbf I$ 推出 local rigidity，并区分 deformation prior、topology change、module compensation 与独立 4D evidence → 复习于 2026-11-04 / 11-06 / 11-10
 
 - **K1 Optical flow、scene flow 与相机—物体运动分解**：能从 pixel + depth + C2W pose 写出两个时刻的 world point 与 scene flow，解释静态背景为何 optical flow 非零但 world motion 为零、同一 2D flow 为何对应不同 metric motion，并为动态重建分开 motion / geometry / rendering endpoints → 复习于 2026-11-03 / 11-05 / 11-09
 

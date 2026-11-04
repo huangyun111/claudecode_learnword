@@ -17,10 +17,12 @@
 ## 当前位置
 
 - 模块：**H11 · 法律、权利与正义**
-- 下一篇主线：**H11-3 平等、分配与社会正义**
+- 下一篇主线：**H11-4 犯罪、惩罚与司法**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-04 · **H11-3 平等、分配与社会正义** —— 区分 formal / substantive equality，把 equality 补全为比较群体、评价维度、情境与规则，再比较 rights / resources / welfare / opportunity / capability / recognition 六类评价空间；把 equal shares、need、contribution / desert、sufficiency、priority、aggregate welfare 与 Rawlsian justice 拆成不同分配原则，用数值方案和 Gini 公式说明总量、最低者、门槛与分散度不会自动给出同一答案，并把税收、代际分配、程序、算法公平、理由和补救纳入完整社会正义检查
 
 - 2026-11-03 · **H11-2 权利、自由与 proportionality** —— 区分权利与普通偏好、negative / positive obligations 以及 absolute / qualified protection，把权利限制拆成 legitimate aim、suitability、necessity / less restrictive means 与 proportionality stricto sensu 四关；用校园人脸识别案例比较证据、替代方案、scope、duration、distribution、safeguards 与 cumulative burden，并说明 right-vs-right、margin of appreciation、ordinary limitation / derogation 及算法规模化限制的边界
 
@@ -85,6 +87,10 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H11-3 平等、分配与社会正义**：能区分 formal / substantive equality 与 formal / fair opportunity，用 community / currency / baseline / difference / rights / floor / worst-off / need / contribution / opportunity / conversion / distribution / procedure / time 十四问拆解分配争议，并解释 equal shares、sufficiency、priority、aggregate welfare 和 Rawlsian principle 为什么可能选择不同方案 → 复习于 2026-11-05 / 11-07 / 11-11
+
+- **H11-2 权利、自由与 proportionality**：能把限制依次放入 legitimate aim / suitability / necessity / proportionality stricto sensu 四关，区分 negative / positive obligations 与 absolute / qualified rights，并用 evidence / alternative / scope / time / distribution / safeguards 检查算法化限制 → 复习于 2026-11-04 / 11-06 / 11-10
 
 - **H11-1 法律、Rule of Law 与正当程序**：能区分 rule by law / rule of law，用 authority / publicity / clarity / prospectivity / consistency / equality / evidence / impartiality / reason / review / remedy / access 十二问分析一项不利决定，并解释 due process 怎样降低错误、限制伤害和提高纠错能力 → 复习于 2026-11-03 / 11-05 / 11-09
 
