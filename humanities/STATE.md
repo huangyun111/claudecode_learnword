@@ -17,10 +17,12 @@
 ## 当前位置
 
 - 模块：**H11 · 法律、权利与正义**
-- 下一篇主线：**H11-4 犯罪、惩罚与司法**
+- 下一篇主线：**H11 阶段复盘 · 从规则到可实现的权利**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-05 · **H11-4 犯罪、惩罚与司法** —— 区分 crime / harm / criminalization、行为与主观责任，再把 retribution、general / specific deterrence、incapacitation、rehabilitation 与 restoration 拆成不会自动一致的五种刑罚理由；说明无罪推定、控方证明责任、高证明标准、辩护、质证、上诉与 miscarriage-of-justice 补偿怎样分配误判风险，并把量刑比例、个别化与一致性、victim / defendant rights、恢复性司法边界、监狱尊严与算法风险评分纳入完整刑事 decision chain
 
 - 2026-11-04 · **H11-3 平等、分配与社会正义** —— 区分 formal / substantive equality，把 equality 补全为比较群体、评价维度、情境与规则，再比较 rights / resources / welfare / opportunity / capability / recognition 六类评价空间；把 equal shares、need、contribution / desert、sufficiency、priority、aggregate welfare 与 Rawlsian justice 拆成不同分配原则，用数值方案和 Gini 公式说明总量、最低者、门槛与分散度不会自动给出同一答案，并把税收、代际分配、程序、算法公平、理由和补救纳入完整社会正义检查
 

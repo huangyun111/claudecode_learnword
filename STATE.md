@@ -14,10 +14,12 @@
 ## 当前位置
 
 - 阶段：**K · 动态场景、Scene Flow 与 4D 重建**
-- 下一篇主菜：**K4 动态重建的观测与证据合同**
+- 下一篇主菜：**阶段 K 复盘 · 从视频变化到可核验四维场景**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-05 · **K4 动态重建的观测与证据合同** —— 从时变场景与成像方程拆开 image reconstruction、novel-view、temporal prediction 与 physical 4D recovery，推导同步误差随运动速度和 time offset 放大；把 scene flow、long-range tracks、visibility / reappearance、per-time geometry 与 frozen global alignment 接成独立 motion / geometry evidence，再用 held-out view-time 网格、micro / macro / worst-group、困难运动 subgroup、matched / shuffled controls 防止静态背景均值和漂亮渲染替代真实四维恢复
 
 - 2026-11-04 · **K3 Dynamic NeRF / 4D Gaussian Splatting** —— 从 time-conditioned spacetime field 与 canonical backward warp 完整推出动态 volume rendering，再从 per-Gaussian deformation、三维 covariance、投影 Jacobian 和 front-to-back compositing 推出 4DGS；说明 densification / pruning 会改变 support、capacity 与 primitive identity，区分遮挡、离开视野、出现 / 消失和数据缺失，并用采样频率的 aliasing 推导证明训练帧完全一致也不能唯一确定帧间运动，最终把 image、temporal、motion、geometry 与 FPS 拆成独立证据合同
 
