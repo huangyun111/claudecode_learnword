@@ -16,11 +16,13 @@
 
 ## 当前位置
 
-- 模块：**H11 · 法律、权利与正义**
-- 下一篇主线：**H11 阶段复盘 · 从规则到可实现的权利**
+- 模块：**H11 · 法律、权利与正义（已完成）**
+- 下一篇主线：**待路线图扩展**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-06 · **H11 阶段复盘：从规则到可实现的权利** —— 从 right-holder / duty-bearer / institution 出发，把 authority、legal certainty、due process、proportionality、substantive equality、criminal-justice safeguards、access to justice、review、effective remedy 与 institutional learning 串成权利落地闭环；以算法助学金决定说明总体 accuracy 与 human-in-the-loop 不能替代通知、证据、理由、群体 error、真实 override、申诉、补救和同类案件排查
 
 - 2026-11-05 · **H11-4 犯罪、惩罚与司法** —— 区分 crime / harm / criminalization、行为与主观责任，再把 retribution、general / specific deterrence、incapacitation、rehabilitation 与 restoration 拆成不会自动一致的五种刑罚理由；说明无罪推定、控方证明责任、高证明标准、辩护、质证、上诉与 miscarriage-of-justice 补偿怎样分配误判风险，并把量刑比例、个别化与一致性、victim / defendant rights、恢复性司法边界、监狱尊严与算法风险评分纳入完整刑事 decision chain
 
@@ -89,6 +91,10 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H11 阶段复盘：从规则到可实现的权利**：能从 right / holder / duty / institution 出发，沿 authority、clarity、notice、evidence、voice、reason、proportionality、equality、access、review、remedy 与 learning 检查一项不利决定，并解释为什么 paper right、形式人工审核与孤立个案纠正都不足以形成可实现权利 → 复习于 2026-11-07 / 11-09 / 11-13
+
+- **H11-4 犯罪、惩罚与司法**：能区分 adjudication 与 sentencing、retribution / deterrence / incapacitation / rehabilitation / restoration 五种目的，用无罪推定、证明责任、比例、victim / defendant rights、review 与 reentry 检查刑事 decision chain，并解释 risk prediction 为什么不能替代已证明的责任 → 复习于 2026-11-06 / 11-08 / 11-12
 
 - **H11-3 平等、分配与社会正义**：能区分 formal / substantive equality 与 formal / fair opportunity，用 community / currency / baseline / difference / rights / floor / worst-off / need / contribution / opportunity / conversion / distribution / procedure / time 十四问拆解分配争议，并解释 equal shares、sufficiency、priority、aggregate welfare 和 Rawlsian principle 为什么可能选择不同方案 → 复习于 2026-11-05 / 11-07 / 11-11
 

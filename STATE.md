@@ -13,11 +13,13 @@
 
 ## 当前位置
 
-- 阶段：**K · 动态场景、Scene Flow 与 4D 重建**
-- 下一篇主菜：**阶段 K 复盘 · 从视频变化到可核验四维场景**
+- 阶段：**K · 动态场景、Scene Flow 与 4D 重建（已完成）**
+- 下一篇主菜：**待路线图扩展**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-06 · **阶段 K 复盘：从视频变化到可核验四维场景** —— 从世界点轨迹、针孔投影导数与时变 rendering equation 出发，把 frame / gauge、time / synchronization、identity、visibility、motion / geometry、representation 与 evidence 七份合同串成完整 4D reconstruction 装配线；推导 2D flow 的 depth–motion 多解、同步误差、temporal aliasing 与 canonical reparameterization gauge，并用 held-out view-time、long-range tracks、EPE3D、per-time accuracy / completeness、frozen global alignment、worst-group 与 matched controls 约束 physical 4D recovery claim
 
 - 2026-11-05 · **K4 动态重建的观测与证据合同** —— 从时变场景与成像方程拆开 image reconstruction、novel-view、temporal prediction 与 physical 4D recovery，推导同步误差随运动速度和 time offset 放大；把 scene flow、long-range tracks、visibility / reappearance、per-time geometry 与 frozen global alignment 接成独立 motion / geometry evidence，再用 held-out view-time 网格、micro / macro / worst-group、困难运动 subgroup、matched / shuffled controls 防止静态背景均值和漂亮渲染替代真实四维恢复
 
@@ -85,6 +87,10 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **阶段 K 复盘：从视频变化到可核验四维场景**：能从 $\mathbf u\sim\mathbf K[\mathbf R\mid\mathbf t]\mathbf X(t)$ 解释像素为何压缩 geometry / motion / camera / visibility，依次检查 frame、time、identity、visibility、representation、3D endpoint 与 held-out evidence 七份合同，并说明 high PSNR / FPS 为什么不能替代 physical 4D recovery → 复习于 2026-11-07 / 11-09 / 11-13
+
+- **K4 动态重建的观测与证据合同**：能解释同步误差为何近似为 $\|\mathbf v\||\Delta t|$，区分 held-out view / time / view-time / future time，用 EPE3D、long-range tracks、per-time geometry、frozen global alignment 与 worst-group 阻止静态背景和逐帧对齐掩盖动态失败 → 复习于 2026-11-06 / 11-08 / 11-12
 
 - **K3 Dynamic NeRF / 4D Gaussian Splatting**：能从 dynamic ray、backward warp、density / radiance 写出离散 volume rendering，解释 per-Gaussian deformation 如何经 covariance projection 和 alpha compositing 形成像素，说明 densification / pruning 为何改变 support / identity、稀疏时间采样为何产生 aliasing，并为 image / motion / geometry / FPS 分开设计 endpoint → 复习于 2026-11-05 / 11-07 / 11-11
 

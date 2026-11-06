@@ -1,7 +1,7 @@
 # 知识路线图（ROADMAP）
 
 主线：**可控密集预测 → 可控生成 → 世界模型 → 研究证据链 → 论文论证与学术表达**。
-已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–J 主线及阶段复盘；当前进入 **阶段 K（动态场景与 4D 重建）**。
+已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–K 主线及阶段复盘；下一阶段待扩展。
 每天主菜推进一个 ☐ 条目，讲完打勾并在 `STATE.md` 记录。
 
 ---
@@ -88,7 +88,7 @@
 - ☑ **K2 Canonical space、deformation field 与动态 gauge**：canonical identity、forward / backward warp、cycle、topology change、local rigidity 与 deformation compensation　（2026-11-03 ✅）
 - ☑ **K3 Dynamic NeRF / 4D Gaussian Splatting**：时空表示、per-primitive motion、densification / pruning、visibility、temporal aliasing 与实时渲染　（2026-11-04 ✅）
 - ☑ **K4 动态重建的观测与证据合同**：同步多视图、scene flow / tracks / per-time geometry、held-out view-time、motion subgroup 与 matched controls　（2026-11-05 ✅）
-- ☐ **阶段 K 复盘 · 从视频变化到可核验四维场景**：把 frame、time、identity、motion、visibility、representation 与 independent 4D evidence 串成闭环
+- ☑ **阶段 K 复盘 · 从视频变化到可核验四维场景**：把 frame、time、identity、motion、visibility、representation 与 independent 4D evidence 串成闭环　（2026-11-06 ✅）
 
 ---
 

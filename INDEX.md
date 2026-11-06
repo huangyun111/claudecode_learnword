@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-11-06 | 阶段 K 复盘：从视频变化到可核验四维场景——七份合同如何首尾闭环 | K·复盘 | dynamic scene reconstruction, 4D reconstruction, optical flow, scene flow, canonical space, visibility, dynamic NeRF, 4D Gaussian Splatting, held-out view-time, independent evidence |
 | 2026-11-05 | 一段视频“看起来连续”，为什么还不能证明四维场景正确：动态重建的观测与证据合同 | K4 | dynamic reconstruction, synchronized multi-view, scene flow, 3D tracks, per-time geometry, held-out view-time, visibility, subgroup evaluation, matched controls |
 | 2026-11-04 | 时间放进 NeRF，还是放进 Gaussian：Dynamic NeRF 与 4D Gaussian Splatting | K3 | dynamic NeRF, 4D Gaussian Splatting, spacetime field, deformation, per-primitive motion, densification, pruning, visibility, temporal aliasing, real-time rendering |
 | 2026-11-03 | 把每一帧拉回“同一个人”：Canonical Space、Deformation Field 与动态 Gauge | K2 | dynamic reconstruction, canonical space, deformation field, forward warp, backward warp, gauge freedom, cycle consistency, local rigidity, topology change, 4D evidence |
