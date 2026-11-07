@@ -13,11 +13,13 @@
 
 ## 当前位置
 
-- 阶段：**K · 动态场景、Scene Flow 与 4D 重建（已完成）**
-- 下一篇主菜：**待路线图扩展**
+- 阶段：**L · 主动感知、具身几何与闭环采集（进行中）**
+- 下一篇主菜：**L2 · SLAM、pose uncertainty 与 active mapping**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-07 · **L1 Active Perception 与 Next-Best-View** —— 从“最不确定处不等于最值得拍”出发，用 linear-Gaussian measurement model 完整推出 posterior precision update 与 log-det information gain，说明互补视角怎样切断旧观测的 null direction；再把 visibility、coverage、motion cost、risk 与 model mismatch 接入 action utility，并用冻结帧数 / 路径 / 失败预算下的 random、uniform、frontier、uncertainty 和 oracle controls，以及 predicted-vs-realized gain、surface accuracy / completeness、worst-group 和 held-out scenes 约束 active reconstruction claim
 
 - 2026-11-06 · **阶段 K 复盘：从视频变化到可核验四维场景** —— 从世界点轨迹、针孔投影导数与时变 rendering equation 出发，把 frame / gauge、time / synchronization、identity、visibility、motion / geometry、representation 与 evidence 七份合同串成完整 4D reconstruction 装配线；推导 2D flow 的 depth–motion 多解、同步误差、temporal aliasing 与 canonical reparameterization gauge，并用 held-out view-time、long-range tracks、EPE3D、per-time accuracy / completeness、frozen global alignment、worst-group 与 matched controls 约束 physical 4D recovery claim
 
@@ -87,6 +89,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **L1 Active Perception 与 Next-Best-View**：能从 linear-Gaussian measurement model 推出 posterior precision update 与 log-det information gain，解释互补视角为何比重复高分辨率观测更能缩小 uncertainty volume，并用 visibility / coverage / motion / risk / model mismatch 与 predicted-vs-realized gain、独立 geometry endpoint 检查一个 NBV policy → 复习于 2026-11-08 / 11-10 / 11-14
 
 - **阶段 K 复盘：从视频变化到可核验四维场景**：能从 $\mathbf u\sim\mathbf K[\mathbf R\mid\mathbf t]\mathbf X(t)$ 解释像素为何压缩 geometry / motion / camera / visibility，依次检查 frame、time、identity、visibility、representation、3D endpoint 与 held-out evidence 七份合同，并说明 high PSNR / FPS 为什么不能替代 physical 4D recovery → 复习于 2026-11-07 / 11-09 / 11-13
 

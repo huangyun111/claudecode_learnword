@@ -4,6 +4,7 @@
 
 | 日期 | 主题标题 | 模块 | 标签 |
 |---|---|---|---|
+| 2026-11-07 | 同一件“好事”，为什么会有三种不同理由：后果、义务与德性 | H12-1 | normative ethics, consequentialism, utilitarianism, deontology, rights, duty, virtue ethics, practical wisdom, moral uncertainty, AI ethics |
 | 2026-11-06 | 阶段 H11 复盘：权利怎样从纸面承诺变成可纠错的制度 | H11·复盘 | rule of law, rights, due process, proportionality, equality, social justice, criminal justice, access to justice, effective remedy, institutional learning, algorithmic decision |
 | 2026-11-05 | 判一个人“有罪”之后，社会究竟想做什么：犯罪、惩罚与司法 | H11-4 | crime, punishment, criminal justice, retribution, deterrence, incapacitation, rehabilitation, presumption of innocence, sentencing, restorative justice |
 | 2026-11-04 | 一视同仁为什么仍可能不公平：平等、分配与社会正义 | H11-3 | formal equality, substantive equality, distributive justice, equality of opportunity, capability approach, need, desert, sufficiency, priority, Rawls, Gini, intergenerational justice |

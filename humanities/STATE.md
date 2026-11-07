@@ -16,11 +16,13 @@
 
 ## 当前位置
 
-- 模块：**H11 · 法律、权利与正义（已完成）**
-- 下一篇主线：**待路线图扩展**
+- 模块：**H12 · 道德判断、责任与技术伦理（进行中）**
+- 下一篇主线：**H12-2 · 自由意志、因果与 moral responsibility**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-07 · **H12-1 后果、义务与德性** —— 区分 descriptive / normative / metaethics，用药物分配和算法招聘案例比较 consequentialism 对真实 benefit / harm 与 expected value 的关注、deontology 对 duty / rights / consent / means 的约束、virtue ethics 对 character / motive / practical wisdom / moral education 的强调；说明三者都可能讨论后果、规则与品格，差别在解释优先级，并用事实、分配、权利、义务、手段、德性、不确定性、程序与补救十二问把 plural moral reasons 接入可复核的制度判断
 
 - 2026-11-06 · **H11 阶段复盘：从规则到可实现的权利** —— 从 right-holder / duty-bearer / institution 出发，把 authority、legal certainty、due process、proportionality、substantive equality、criminal-justice safeguards、access to justice、review、effective remedy 与 institutional learning 串成权利落地闭环；以算法助学金决定说明总体 accuracy 与 human-in-the-loop 不能替代通知、证据、理由、群体 error、真实 override、申诉、补救和同类案件排查
 
@@ -91,6 +93,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H12-1 后果、义务与德性**：能区分 descriptive / normative ethics，用 consequences / distribution、rights / duties / means、character / practical wisdom 三组问题分析同一选择，说明三种理论为何不是“算总分 / 死守规则 / 凭感觉”，并在事实与道德不确定下加入参与、可逆、复核和补救 → 复习于 2026-11-08 / 11-10 / 11-14
 
 - **H11 阶段复盘：从规则到可实现的权利**：能从 right / holder / duty / institution 出发，沿 authority、clarity、notice、evidence、voice、reason、proportionality、equality、access、review、remedy 与 learning 检查一项不利决定，并解释为什么 paper right、形式人工审核与孤立个案纠正都不足以形成可实现权利 → 复习于 2026-11-07 / 11-09 / 11-13
 

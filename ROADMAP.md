@@ -1,7 +1,7 @@
 # 知识路线图（ROADMAP）
 
-主线：**可控密集预测 → 可控生成 → 世界模型 → 研究证据链 → 论文论证与学术表达**。
-已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–K 主线及阶段复盘；下一阶段待扩展。
+主线：**可控密集预测 → 可控生成 → 世界模型 → 研究证据链 → 论文论证与学术表达 → 主动感知闭环**。
+已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–K 主线及阶段复盘，当前进入 **阶段 L（主动感知、具身几何与闭环采集）**。
 每天主菜推进一个 ☐ 条目，讲完打勾并在 `STATE.md` 记录。
 
 ---
@@ -89,6 +89,14 @@
 - ☑ **K3 Dynamic NeRF / 4D Gaussian Splatting**：时空表示、per-primitive motion、densification / pruning、visibility、temporal aliasing 与实时渲染　（2026-11-04 ✅）
 - ☑ **K4 动态重建的观测与证据合同**：同步多视图、scene flow / tracks / per-time geometry、held-out view-time、motion subgroup 与 matched controls　（2026-11-05 ✅）
 - ☑ **阶段 K 复盘 · 从视频变化到可核验四维场景**：把 frame、time、identity、motion、visibility、representation 与 independent 4D evidence 串成闭环　（2026-11-06 ✅）
+
+## 阶段 L · 主动感知、具身几何与闭环采集
+
+- ☑ **L1 Active Perception 与 Next-Best-View**：从 linear-Gaussian posterior、measurement Jacobian 与 log-det information gain 推导下一视角选择，再把 visibility、coverage、路径、安全、模型失配和独立几何端点接入冻结预算的闭环评估　（2026-11-07 ✅）
+- ☐ **L2 SLAM、pose uncertainty 与 active mapping**：当相机位置和场景地图同时未知时，怎样联合定位、建图、loop closure 与探索，并避免 pose error 被 neural map 吸收
+- ☐ **L3 Task-aware embodied geometry**：从“把场景看完整”转向为 navigation / manipulation 收集恰好足够的几何，理解 affordance、reachability、contact 与 task-conditioned utility
+- ☐ **L4 主动多模态与物理采集**：联合选择 viewpoint、illumination、analyzer / sensor 与 acquisition budget，用 intervention 切断 geometry / material / lighting 多解
+- ☐ **阶段 L 复盘 · 从被动输入到可核验闭环**：把 belief、action、observation、update、cost、safety 与 independent task evidence 串成主动感知闭环
 
 ---
 
