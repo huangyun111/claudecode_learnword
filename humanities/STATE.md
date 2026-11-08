@@ -17,10 +17,12 @@
 ## 当前位置
 
 - 模块：**H12 · 道德判断、责任与技术伦理（进行中）**
-- 下一篇主线：**H12-2 · 自由意志、因果与 moral responsibility**
+- 下一篇主线：**H12-3 · Care ethics、关系与依赖**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-08 · **H12-2 自由意志、因果与 moral responsibility** —— 区分 causal / role / moral responsibility 与 legal liability，比较 incompatibilism、compatibilism 与 skeptical / revisionist approaches，再用 control / epistemic conditions 拆解 alternative possibilities、reasons-responsiveness、knowledge、foreseeability、intention、recklessness、negligence、coercion、incapacity 与 ignorance；通过 resultant / circumstantial / constitutive / causal moral luck 区分主观过错、真实损害与修复义务，并把 many hands 下的设计、管理、部署、操作、采购和机构责任接入 answerability、保护、补偿与制度学习
 
 - 2026-11-07 · **H12-1 后果、义务与德性** —— 区分 descriptive / normative / metaethics，用药物分配和算法招聘案例比较 consequentialism 对真实 benefit / harm 与 expected value 的关注、deontology 对 duty / rights / consent / means 的约束、virtue ethics 对 character / motive / practical wisdom / moral education 的强调；说明三者都可能讨论后果、规则与品格，差别在解释优先级，并用事实、分配、权利、义务、手段、德性、不确定性、程序与补救十二问把 plural moral reasons 接入可复核的制度判断
 
@@ -93,6 +95,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H12-2 自由意志、因果与 moral responsibility**：能区分 causal / role / moral / legal responsibility，用 capacity / alternatives / reasons / knowledge / foreseeability / intent / pressure / ignorance / luck / role / response 检查一项责任判断，说明因果解释为何既不自动定罪也不自动免责，并把 many hands 分成可回答、可修复的责任维度 → 复习于 2026-11-09 / 11-11 / 11-15
 
 - **H12-1 后果、义务与德性**：能区分 descriptive / normative ethics，用 consequences / distribution、rights / duties / means、character / practical wisdom 三组问题分析同一选择，说明三种理论为何不是“算总分 / 死守规则 / 凭感觉”，并在事实与道德不确定下加入参与、可逆、复核和补救 → 复习于 2026-11-08 / 11-10 / 11-14
 

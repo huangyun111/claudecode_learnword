@@ -14,10 +14,12 @@
 ## 当前位置
 
 - 阶段：**L · 主动感知、具身几何与闭环采集（进行中）**
-- 下一篇主菜：**L2 · SLAM、pose uncertainty 与 active mapping**
+- 下一篇主菜：**L3 · Task-aware embodied geometry**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-08 · **L2 SLAM、pose uncertainty 与 active mapping** —— 从 pose 与 map 共同解释 measurement residual 出发，写出 $p(\mathbf X,\mathbf M\mid\mathbf Z,\mathbf U)$ 的 factorization 与 MAP objective，经 linearization、normal equation、information matrix 和 Schur complement 说明 pose–map cross-covariance 怎样削弱表面信息；再把 gauge、loop closure、false closure、neural-map compensation 与 frontier / relocalization / closure utility 接入 active mapping，并用冻结路径 / 帧数 / capacity 下的 trajectory、loop、geometry、efficiency 与 predicted-vs-realized gain 约束闭环建图主张
 
 - 2026-11-07 · **L1 Active Perception 与 Next-Best-View** —— 从“最不确定处不等于最值得拍”出发，用 linear-Gaussian measurement model 完整推出 posterior precision update 与 log-det information gain，说明互补视角怎样切断旧观测的 null direction；再把 visibility、coverage、motion cost、risk 与 model mismatch 接入 action utility，并用冻结帧数 / 路径 / 失败预算下的 random、uniform、frontier、uncertainty 和 oracle controls，以及 predicted-vs-realized gain、surface accuracy / completeness、worst-group 和 held-out scenes 约束 active reconstruction claim
 
@@ -89,6 +91,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **L2 SLAM、pose uncertainty 与 active mapping**：能写出 joint posterior 与 factor-graph MAP objective，从 $\mathbf H$ 的 pose–map block 和 Schur complement 解释为何 pose uncertainty 会吃掉一部分 map information，说明 gauge、true / false loop closure 和 neural-map compensation，并用 trajectory / loop / geometry / efficiency 与 realized gain 检查 active SLAM → 复习于 2026-11-09 / 11-11 / 11-15
 
 - **L1 Active Perception 与 Next-Best-View**：能从 linear-Gaussian measurement model 推出 posterior precision update 与 log-det information gain，解释互补视角为何比重复高分辨率观测更能缩小 uncertainty volume，并用 visibility / coverage / motion / risk / model mismatch 与 predicted-vs-realized gain、独立 geometry endpoint 检查一个 NBV policy → 复习于 2026-11-08 / 11-10 / 11-14
 

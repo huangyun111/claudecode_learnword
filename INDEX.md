@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-11-08 | 地图和相机位置都不知道时，下一步该往哪里走：SLAM、Pose Uncertainty 与 Active Mapping | L2 | SLAM, pose uncertainty, factor graph, bundle adjustment, loop closure, active mapping, Schur complement, neural implicit map, geometry evidence |
 | 2026-11-07 | 相机下一步该往哪里看：Active Perception、Next-Best-View 与信息增益 | L1 | active perception, next-best-view, Bayesian experimental design, information gain, Fisher information, visibility, active reconstruction, coverage, uncertainty calibration |
 | 2026-11-06 | 阶段 K 复盘：从视频变化到可核验四维场景——七份合同如何首尾闭环 | K·复盘 | dynamic scene reconstruction, 4D reconstruction, optical flow, scene flow, canonical space, visibility, dynamic NeRF, 4D Gaussian Splatting, held-out view-time, independent evidence |
 | 2026-11-05 | 一段视频“看起来连续”，为什么还不能证明四维场景正确：动态重建的观测与证据合同 | K4 | dynamic reconstruction, synchronized multi-view, scene flow, 3D tracks, per-time geometry, held-out view-time, visibility, subgroup evaluation, matched controls |
