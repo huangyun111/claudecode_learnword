@@ -94,7 +94,7 @@
 
 - ☑ **L1 Active Perception 与 Next-Best-View**：从 linear-Gaussian posterior、measurement Jacobian 与 log-det information gain 推导下一视角选择，再把 visibility、coverage、路径、安全、模型失配和独立几何端点接入冻结预算的闭环评估　（2026-11-07 ✅）
 - ☑ **L2 SLAM、pose uncertainty 与 active mapping**：当相机位置和场景地图同时未知时，怎样联合定位、建图、loop closure 与探索，并避免 pose error 被 neural map 吸收　（2026-11-08 ✅）
-- ☐ **L3 Task-aware embodied geometry**：从“把场景看完整”转向为 navigation / manipulation 收集恰好足够的几何，理解 affordance、reachability、contact 与 task-conditioned utility
+- ☑ **L3 Task-aware embodied geometry**：从“把场景看完整”转向为 navigation / manipulation 收集恰好足够的几何，理解 affordance、reachability、contact 与 task-conditioned utility　（2026-11-09 ✅）
 - ☐ **L4 主动多模态与物理采集**：联合选择 viewpoint、illumination、analyzer / sensor 与 acquisition budget，用 intervention 切断 geometry / material / lighting 多解
 - ☐ **阶段 L 复盘 · 从被动输入到可核验闭环**：把 belief、action、observation、update、cost、safety 与 independent task evidence 串成主动感知闭环
 

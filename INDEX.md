@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-11-09 | 不是把世界扫得最完整：Task-aware Embodied Geometry 怎样重建“恰好够用”的三维 | L3 | task-aware geometry, embodied perception, affordance, reachability, contact, configuration space, value of information, navigation, manipulation, independent task evidence |
 | 2026-11-08 | 地图和相机位置都不知道时，下一步该往哪里走：SLAM、Pose Uncertainty 与 Active Mapping | L2 | SLAM, pose uncertainty, factor graph, bundle adjustment, loop closure, active mapping, Schur complement, neural implicit map, geometry evidence |
 | 2026-11-07 | 相机下一步该往哪里看：Active Perception、Next-Best-View 与信息增益 | L1 | active perception, next-best-view, Bayesian experimental design, information gain, Fisher information, visibility, active reconstruction, coverage, uncertainty calibration |
 | 2026-11-06 | 阶段 K 复盘：从视频变化到可核验四维场景——七份合同如何首尾闭环 | K·复盘 | dynamic scene reconstruction, 4D reconstruction, optical flow, scene flow, canonical space, visibility, dynamic NeRF, 4D Gaussian Splatting, held-out view-time, independent evidence |

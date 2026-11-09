@@ -14,10 +14,12 @@
 ## 当前位置
 
 - 阶段：**L · 主动感知、具身几何与闭环采集（进行中）**
-- 下一篇主菜：**L3 · Task-aware embodied geometry**
+- 下一篇主菜：**L4 · 主动多模态与物理采集**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-09 · **L3 Task-aware embodied geometry** —— 从 geometry belief 与 task loss 出发，推出 posterior expected task loss、Bayes risk 和 task-conditioned value of information，说明“知道更多”与“足以改变决策”并不等价；再用 configuration space、uncertainty margin、affordance、reachability、friction cone、contact geometry 和 task-weighted error 把 navigation / manipulation 的局部需求接入闭环采集，同时要求 complete-surface geometry、task-region geometry、decision calibration、真实执行与 safety / worst-group 四类独立证据，防止任务成功和几何正确互相冒充
 
 - 2026-11-08 · **L2 SLAM、pose uncertainty 与 active mapping** —— 从 pose 与 map 共同解释 measurement residual 出发，写出 $p(\mathbf X,\mathbf M\mid\mathbf Z,\mathbf U)$ 的 factorization 与 MAP objective，经 linearization、normal equation、information matrix 和 Schur complement 说明 pose–map cross-covariance 怎样削弱表面信息；再把 gauge、loop closure、false closure、neural-map compensation 与 frontier / relocalization / closure utility 接入 active mapping，并用冻结路径 / 帧数 / capacity 下的 trajectory、loop、geometry、efficiency 与 predicted-vs-realized gain 约束闭环建图主张
 
@@ -91,6 +93,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **L3 Task-aware embodied geometry**：能从 geometry belief 写出 posterior expected task loss、Bayes risk 与 task-conditioned VOI，解释 configuration space、affordance、reachability 和 friction cone 怎样把几何接到 navigation / manipulation，并用 complete-surface / task-region geometry、decision calibration、execution 与 safety endpoints 防止 task success 冒充 geometry correctness → 复习于 2026-11-10 / 11-12 / 11-16
 
 - **L2 SLAM、pose uncertainty 与 active mapping**：能写出 joint posterior 与 factor-graph MAP objective，从 $\mathbf H$ 的 pose–map block 和 Schur complement 解释为何 pose uncertainty 会吃掉一部分 map information，说明 gauge、true / false loop closure 和 neural-map compensation，并用 trajectory / loop / geometry / efficiency 与 realized gain 检查 active SLAM → 复习于 2026-11-09 / 11-11 / 11-15
 

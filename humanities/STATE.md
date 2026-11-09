@@ -17,10 +17,12 @@
 ## 当前位置
 
 - 模块：**H12 · 道德判断、责任与技术伦理（进行中）**
-- 下一篇主线：**H12-3 · Care ethics、关系与依赖**
+- 下一篇主线：**H12-4 · 技术伦理与责任链**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-09 · **H12-3 Care ethics、关系与依赖** —— 从“家属自愿照护”的表面选择进入 relational self，说明 care ethics 并非用温情替代原则，而是用 attentiveness、responsibility、competence 与 responsiveness 检查需要怎样被看见、组织、实施和反馈；再区分生命共有的 dependency 与制度放大的 vulnerability，用 relational autonomy 解释能力、真实选项、资源、关系、制度和声音怎样共同支持自主，并把 need / voice、partiality / justice、照护者二次依赖、性别 / 阶层 / 迁移负担及 AI care 的隐私、尊严、责任与 remedy 接成完整照护链
 
 - 2026-11-08 · **H12-2 自由意志、因果与 moral responsibility** —— 区分 causal / role / moral responsibility 与 legal liability，比较 incompatibilism、compatibilism 与 skeptical / revisionist approaches，再用 control / epistemic conditions 拆解 alternative possibilities、reasons-responsiveness、knowledge、foreseeability、intention、recklessness、negligence、coercion、incapacity 与 ignorance；通过 resultant / circumstantial / constitutive / causal moral luck 区分主观过错、真实损害与修复义务，并把 many hands 下的设计、管理、部署、操作、采购和机构责任接入 answerability、保护、补偿与制度学习
 
@@ -95,6 +97,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H12-3 Care ethics、关系与依赖**：能用 attention / responsibility / competence / response 检查一条 care chain，区分共有 dependency 与制度制造的 vulnerability，解释 relational autonomy 为什么不是反对自主，并用 need / voice / relation / burden / justice / institution / remedy 分析照护安排与 AI care → 复习于 2026-11-10 / 11-12 / 11-16
 
 - **H12-2 自由意志、因果与 moral responsibility**：能区分 causal / role / moral / legal responsibility，用 capacity / alternatives / reasons / knowledge / foreseeability / intent / pressure / ignorance / luck / role / response 检查一项责任判断，说明因果解释为何既不自动定罪也不自动免责，并把 many hands 分成可回答、可修复的责任维度 → 复习于 2026-11-09 / 11-11 / 11-15
 
