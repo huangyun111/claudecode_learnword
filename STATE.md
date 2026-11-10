@@ -14,10 +14,12 @@
 ## 当前位置
 
 - 阶段：**L · 主动感知、具身几何与闭环采集（进行中）**
-- 下一篇主菜：**L4 · 主动多模态与物理采集**
+- 下一篇主菜：**阶段 L 复盘 · 从被动输入到可核验闭环**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-10 · **L4 主动多模态与物理采集** —— 把 viewpoint、illumination、analyzer angle、sensor 与 exposure 统一写成 acquisition action，从 local linearization 推出 measurement Jacobian、Fisher information、posterior precision update 与 log-det information gain，说明主动视角、photometric stereo、Stokes projection、RGB-D / NIR / tactile 等模态怎样通过互补 measurement equation 切断 geometry–material–lighting 多解；再把 visibility、validity、calibration、synchronization、time / energy / safety budget 与 predicted-vs-realized gain 接入闭环，并要求 complete-surface geometry、material、lighting 与 acquisition cost 四类独立端点
 
 - 2026-11-09 · **L3 Task-aware embodied geometry** —— 从 geometry belief 与 task loss 出发，推出 posterior expected task loss、Bayes risk 和 task-conditioned value of information，说明“知道更多”与“足以改变决策”并不等价；再用 configuration space、uncertainty margin、affordance、reachability、friction cone、contact geometry 和 task-weighted error 把 navigation / manipulation 的局部需求接入闭环采集，同时要求 complete-surface geometry、task-region geometry、decision calibration、真实执行与 safety / worst-group 四类独立证据，防止任务成功和几何正确互相冒充
 
@@ -93,6 +95,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **L4 主动多模态与物理采集**：能从 $\mathbf y_a=f(\boldsymbol\theta;a)+\boldsymbol\varepsilon_a$ 推出 $\mathbf\Lambda_{t+1}=\mathbf\Lambda_t+\mathbf J_a^\top\mathbf R_a^{-1}\mathbf J_a$，解释 viewpoint / light / analyzer / sensor 怎样提供互补 measurement direction，并用 calibration、validity、budget 与 predicted-vs-realized independent endpoint 防止 planner score 冒充真实物理收益 → 复习于 2026-11-11 / 11-13 / 11-17
 
 - **L3 Task-aware embodied geometry**：能从 geometry belief 写出 posterior expected task loss、Bayes risk 与 task-conditioned VOI，解释 configuration space、affordance、reachability 和 friction cone 怎样把几何接到 navigation / manipulation，并用 complete-surface / task-region geometry、decision calibration、execution 与 safety endpoints 防止 task success 冒充 geometry correctness → 复习于 2026-11-10 / 11-12 / 11-16
 

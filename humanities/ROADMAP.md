@@ -109,7 +109,7 @@
 - ☑ **H12-1 后果、义务与德性**：区分 descriptive / normative ethics，比较 consequentialism、deontology 与 virtue ethics 的解释优先级、力量、盲点和冲突，并把三种视角用于算法化决定　（2026-11-07 ✅）
 - ☑ **H12-2 自由意志、因果与 moral responsibility**：因果解释、能力、控制、意图、强迫、无知与运气怎样影响责任归属　（2026-11-08 ✅）
 - ☑ **H12-3 Care ethics、关系与依赖**：照护、脆弱性、角色关系与不平等怎样补充抽象的自主个体模型　（2026-11-09 ✅）
-- ☐ **H12-4 技术伦理与责任链**：从 design、data、deployment 到 procurement、oversight、incident 与 remedy，分析 AI / 平台 / 自动化系统中的责任分配
+- ☑ **H12-4 技术伦理与责任链**：从 design、data、deployment 到 procurement、oversight、incident 与 remedy，分析 AI / 平台 / 自动化系统中的责任分配　（2026-11-10 ✅）
 - ☐ **H12 阶段复盘 · 从价值冲突到可纠错实践**：把后果、权利、德性、责任、关系、制度与补救串成完整规范判断链
 
 ---

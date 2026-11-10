@@ -4,6 +4,7 @@
 
 | 日期 | 主题标题 | 模块 | 标签 |
 |---|---|---|---|
+| 2026-11-10 | 当系统出错，责任为什么总在接口处消失：技术伦理与责任链 | H12-4 | technology ethics, AI accountability, responsibility chain, lifecycle governance, procurement, human oversight, incident response, remedy, auditability, traceability |
 | 2026-11-09 | 一个人说“我自愿”，为什么还不够：Care Ethics、关系与依赖 | H12-3 | care ethics, relational autonomy, dependency, vulnerability, care work, attentiveness, responsibility, competence, responsiveness, partiality, justice, technology ethics |
 | 2026-11-08 | 理解一个行为，会不会就等于原谅它：自由意志、因果与道德责任 | H12-2 | free will, determinism, moral responsibility, causal responsibility, control, knowledge, intention, coercion, excuse, moral luck, collective responsibility, AI responsibility |
 | 2026-11-07 | 同一件“好事”，为什么会有三种不同理由：后果、义务与德性 | H12-1 | normative ethics, consequentialism, utilitarianism, deontology, rights, duty, virtue ethics, practical wisdom, moral uncertainty, AI ethics |
