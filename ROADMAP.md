@@ -96,7 +96,7 @@
 - ☑ **L2 SLAM、pose uncertainty 与 active mapping**：当相机位置和场景地图同时未知时，怎样联合定位、建图、loop closure 与探索，并避免 pose error 被 neural map 吸收　（2026-11-08 ✅）
 - ☑ **L3 Task-aware embodied geometry**：从“把场景看完整”转向为 navigation / manipulation 收集恰好足够的几何，理解 affordance、reachability、contact 与 task-conditioned utility　（2026-11-09 ✅）
 - ☑ **L4 主动多模态与物理采集**：联合选择 viewpoint、illumination、analyzer / sensor 与 acquisition budget，用 intervention 切断 geometry / material / lighting 多解　（2026-11-10 ✅）
-- ☐ **阶段 L 复盘 · 从被动输入到可核验闭环**：把 belief、action、observation、update、cost、safety 与 independent task evidence 串成主动感知闭环
+- ☑ **阶段 L 复盘 · 从被动输入到可核验闭环**：把 belief、action、observation、update、cost、safety 与 independent task evidence 串成主动感知闭环　（2026-11-11 ✅）
 
 ---
 

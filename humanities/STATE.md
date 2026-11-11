@@ -16,11 +16,13 @@
 
 ## 当前位置
 
-- 模块：**H12 · 道德判断、责任与技术伦理（进行中）**
-- 下一篇主线：**H12 阶段复盘 · 从价值冲突到可纠错实践**
+- 模块：**H12 · 道德判断、责任与技术伦理（已完成）**
+- 下一篇主线：**待扩展下一模块路线图**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-11 · **H12 阶段复盘：从价值冲突到可纠错实践** —— 从急诊 AI 分诊的总体收益、群体伤害、形式人工监督、跨组织责任与历史个案补救出发，先区分事实 / uncertainty 与 normative priority，再把 consequences / distribution、rights / duties、virtue / practical wisdom、causal / role / moral / legal / forward-looking responsibility、care / relational autonomy 与 lifecycle institution 串成七环判断链；强调成熟分歧需要公开价值权重、真实 voice、review、remedy 与 institutional learning，让伦理从原则清单落实为可回答、可复核、可纠正的实践
 
 - 2026-11-10 · **H12-4 技术伦理与责任链** —— 从“医院说模型建议、供应商说医生决定”的责任漂移出发，区分 ethical principle、responsibility allocation、accountability、liability 与 remedy，沿 authority / control / knowledge / benefit / capacity / duty 分配义务；再把 legitimate purpose、data provenance、model evaluation、procurement contract、context-specific deployment、实质 human oversight、post-deployment monitoring、incident / hazard、evidence preservation、person-facing remedy 与 decommissioning 串成生命周期闭环，说明 many hands 需要分层角色与可检查接口，而不是平均分责或把最后点击者当替罪羊
 
@@ -99,6 +101,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H12 阶段复盘：从价值冲突到可纠错实践**：能先区分 fact / uncertainty / normative priority，再用 consequences / distribution、rights / duties、virtue / practical wisdom、control / knowledge / role、need / voice / burden 与 accountability / remedy / learning 分析复杂决定，并说明价值冲突为何不能靠原则口号消失、却能通过公开理由和纠错制度提高分歧质量 → 复习于 2026-11-12 / 11-14 / 11-18
 
 - **H12-4 技术伦理与责任链**：能区分 principle / responsibility / accountability / liability / remedy，沿 authority / control / knowledge / benefit / capacity / duty 分配角色，并用 purpose / data / model / procurement / deployment / oversight / monitoring / incident / remedy / exit 检查一条技术生命周期责任链 → 复习于 2026-11-11 / 11-13 / 11-17
 

@@ -13,11 +13,13 @@
 
 ## 当前位置
 
-- 阶段：**L · 主动感知、具身几何与闭环采集（进行中）**
-- 下一篇主菜：**阶段 L 复盘 · 从被动输入到可核验闭环**
+- 阶段：**L · 主动感知、具身几何与闭环采集（已完成）**
+- 下一篇主菜：**待扩展下一阶段路线图**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-11 · **阶段 L 复盘：从被动输入到可核验闭环** —— 把主动感知统一为 $b_t(\theta)\rightarrow a_t\rightarrow y_t\rightarrow b_{t+1}(\theta)$ 的 sequential decision loop，从 linear-Gaussian observation 完整推出 measurement Jacobian、Fisher information、posterior precision update 与 log-det information gain，再用 task-conditioned VOI 区分“减少 uncertainty”与“改变正确决定”；把 reachability、visibility、calibration、budget、cost、risk 和 hard safety constraint 接入 action utility，并以 predicted-vs-realized gain、independent geometry / task / physical endpoint、failure / subgroup 与 planner recalibration 封闭最后一条反馈边
 
 - 2026-11-10 · **L4 主动多模态与物理采集** —— 把 viewpoint、illumination、analyzer angle、sensor 与 exposure 统一写成 acquisition action，从 local linearization 推出 measurement Jacobian、Fisher information、posterior precision update 与 log-det information gain，说明主动视角、photometric stereo、Stokes projection、RGB-D / NIR / tactile 等模态怎样通过互补 measurement equation 切断 geometry–material–lighting 多解；再把 visibility、validity、calibration、synchronization、time / energy / safety budget 与 predicted-vs-realized gain 接入闭环，并要求 complete-surface geometry、material、lighting 与 acquisition cost 四类独立端点
 
@@ -95,6 +97,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **阶段 L 复盘：从被动输入到可核验闭环**：能从 belief / action / observation / update 写出主动感知循环，推出 precision update 与 information gain，区分 global information 与 task-conditioned VOI，把 cost / risk / safety / budget 接入 policy，并用 predicted-vs-realized gain、independent endpoint、failure / subgroup 与 feedback calibration 检查一条 closed-loop claim → 复习于 2026-11-12 / 11-14 / 11-18
 
 - **L4 主动多模态与物理采集**：能从 $\mathbf y_a=f(\boldsymbol\theta;a)+\boldsymbol\varepsilon_a$ 推出 $\mathbf\Lambda_{t+1}=\mathbf\Lambda_t+\mathbf J_a^\top\mathbf R_a^{-1}\mathbf J_a$，解释 viewpoint / light / analyzer / sensor 怎样提供互补 measurement direction，并用 calibration、validity、budget 与 predicted-vs-realized independent endpoint 防止 planner score 冒充真实物理收益 → 复习于 2026-11-11 / 11-13 / 11-17
 
