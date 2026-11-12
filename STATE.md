@@ -13,11 +13,13 @@
 
 ## 当前位置
 
-- 阶段：**L · 主动感知、具身几何与闭环采集（已完成）**
-- 下一篇主菜：**待扩展下一阶段路线图**
+- 阶段：**M · 开放词汇三维语义、场景图与空间智能**
+- 下一篇主菜：**M2 Object-centric Mapping 与 3D Scene Graph**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-12 · **M1 Open-Vocabulary 3D Scene Understanding** —— 从 closed-set classifier 的固定类别边界出发，把 image pixel feature、text embedding 与 3D point feature 放进共享空间；完整推出 pixel-to-world backprojection、同一三维点的 reliability-weighted least-squares fusion、recursive update 与 cosine / softmax text query，说明语言开放性不等于 unknown rejection、prompt robustness 或几何正确，并用 pose / visibility / occlusion、feature bleeding、seen / unseen / tail、query stability、independent 3D endpoint 与 matched RGB / polarization controls 约束开放词汇三维主张
 
 - 2026-11-11 · **阶段 L 复盘：从被动输入到可核验闭环** —— 把主动感知统一为 $b_t(\theta)\rightarrow a_t\rightarrow y_t\rightarrow b_{t+1}(\theta)$ 的 sequential decision loop，从 linear-Gaussian observation 完整推出 measurement Jacobian、Fisher information、posterior precision update 与 log-det information gain，再用 task-conditioned VOI 区分“减少 uncertainty”与“改变正确决定”；把 reachability、visibility、calibration、budget、cost、risk 和 hard safety constraint 接入 action utility，并以 predicted-vs-realized gain、independent geometry / task / physical endpoint、failure / subgroup 与 planner recalibration 封闭最后一条反馈边
 
@@ -97,6 +99,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **M1 Open-Vocabulary 3D Scene Understanding**：能从 pixel / text shared embedding 写出 cosine query，从 $\mathbf X_w=\mathbf R_{cw}(z\mathbf K^{-1}\tilde{\mathbf p})+\mathbf t_{cw}$ 把二维 feature 放回三维，再由 weighted least squares 推出 $\mathbf f_j=\sum_i w_{ij}\mathbf z_{ij}/\sum_i w_{ij}$；能解释 open vocabulary 为什么不等于 unknown rejection，并用 pose / visibility、prompt stability、seen / unseen / tail 与独立 geometry / task endpoints 检查一条 semantic-3D claim → 复习于 2026-11-13 / 11-15 / 11-19
 
 - **阶段 L 复盘：从被动输入到可核验闭环**：能从 belief / action / observation / update 写出主动感知循环，推出 precision update 与 information gain，区分 global information 与 task-conditioned VOI，把 cost / risk / safety / budget 接入 policy，并用 predicted-vs-realized gain、independent endpoint、failure / subgroup 与 feedback calibration 检查一条 closed-loop claim → 复习于 2026-11-12 / 11-14 / 11-18
 

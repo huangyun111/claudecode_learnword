@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-11-12 | 让三维地图听懂任意词：Open-Vocabulary 3D Scene Understanding 如何把语言特征放回空间 | M1 | open-vocabulary 3D, semantic mapping, CLIP, dense embedding, multi-view fusion, backprojection, cosine similarity, prompt sensitivity, uncertainty, geometry evidence |
 | 2026-11-11 | 阶段 L 复盘：从“拍得更多”到“问得更对”——主动感知闭环的七个接口 | L·复盘 | active perception, belief state, Bayesian experimental design, next-best-view, active SLAM, task-aware geometry, multimodal acquisition, safety, realized gain, independent evidence |
 | 2026-11-10 | 不只决定往哪里看：主动多模态与物理采集怎样选择视角、光、偏振和传感器 | L4 | active multimodal acquisition, experimental design, viewpoint, illumination, polarization, RGB-D, Fisher information, identifiability, inverse rendering, acquisition budget |
 | 2026-11-09 | 不是把世界扫得最完整：Task-aware Embodied Geometry 怎样重建“恰好够用”的三维 | L3 | task-aware geometry, embodied perception, affordance, reachability, contact, configuration space, value of information, navigation, manipulation, independent task evidence |

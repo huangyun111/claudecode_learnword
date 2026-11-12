@@ -4,6 +4,7 @@
 
 | 日期 | 主题标题 | 模块 | 标签 |
 |---|---|---|---|
+| 2026-11-12 | 一只小便池为什么能进入艺术史：艺术、审美与“谁有权命名” | H13-1 | art definition, aesthetics, taste, representation, expression, formalism, readymade, artworld, institution, canon, Duchamp, cultural production |
 | 2026-11-11 | 做出一个“正确决定”为什么还不够：从价值冲突到可纠错实践 | H12·复盘 | normative ethics, consequences, rights, duties, virtue, moral responsibility, care ethics, accountability, remedy, institutional learning, technology ethics |
 | 2026-11-10 | 当系统出错，责任为什么总在接口处消失：技术伦理与责任链 | H12-4 | technology ethics, AI accountability, responsibility chain, lifecycle governance, procurement, human oversight, incident response, remedy, auditability, traceability |
 | 2026-11-09 | 一个人说“我自愿”，为什么还不够：Care Ethics、关系与依赖 | H12-3 | care ethics, relational autonomy, dependency, vulnerability, care work, attentiveness, responsibility, competence, responsiveness, partiality, justice, technology ethics |

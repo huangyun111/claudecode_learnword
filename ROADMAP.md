@@ -1,7 +1,7 @@
 # 知识路线图（ROADMAP）
 
-主线：**可控密集预测 → 可控生成 → 世界模型 → 研究证据链 → 论文论证与学术表达 → 主动感知闭环**。
-已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–K 主线及阶段复盘，当前进入 **阶段 L（主动感知、具身几何与闭环采集）**。
+主线：**可控密集预测 → 可控生成 → 世界模型 → 研究证据链 → 论文论证与学术表达 → 主动感知闭环 → 空间智能**。
+已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–L 主线及阶段复盘，当前进入 **阶段 M（开放词汇三维语义、场景图与空间智能）**。
 每天主菜推进一个 ☐ 条目，讲完打勾并在 `STATE.md` 记录。
 
 ---
@@ -97,6 +97,14 @@
 - ☑ **L3 Task-aware embodied geometry**：从“把场景看完整”转向为 navigation / manipulation 收集恰好足够的几何，理解 affordance、reachability、contact 与 task-conditioned utility　（2026-11-09 ✅）
 - ☑ **L4 主动多模态与物理采集**：联合选择 viewpoint、illumination、analyzer / sensor 与 acquisition budget，用 intervention 切断 geometry / material / lighting 多解　（2026-11-10 ✅）
 - ☑ **阶段 L 复盘 · 从被动输入到可核验闭环**：把 belief、action、observation、update、cost、safety 与 independent task evidence 串成主动感知闭环　（2026-11-11 ✅）
+
+## 阶段 M · 开放词汇三维语义、场景图与空间智能
+
+- ☑ **M1 Open-Vocabulary 3D Scene Understanding**：把 image pixel、text query 与 3D point 放进共享 embedding space，理解 multi-view feature lifting、reliability-aware fusion、prompt sensitivity 与 geometry / semantic evidence 边界　（2026-11-12 ✅）
+- ☐ **M2 Object-centric Mapping 与 3D Scene Graph**：从逐点标签走向 object identity、属性、关系与层级，理解 instance association、relation uncertainty 和 graph consistency
+- ☐ **M3 Language Grounding 与 Embodied Instruction**：把“红椅子旁边的桌子”落到三维区域、可达动作和任务约束，区分 text similarity、spatial grounding 与真实执行
+- ☐ **M4 Continual / Open-world 3D Memory**：处理新增物体、场景变化、未知类别、长期漂移与遗忘，让地图既能更新又保留 provenance
+- ☐ **阶段 M 复盘 · 从几何地图到可查询空间智能**：把 geometry、semantics、objects、relations、language、memory 与 independent task evidence 串成开放世界三维理解闭环
 
 ---
 
