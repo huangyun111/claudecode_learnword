@@ -14,10 +14,12 @@
 ## 当前位置
 
 - 阶段：**M · 开放词汇三维语义、场景图与空间智能**
-- 下一篇主菜：**M2 Object-centric Mapping 与 3D Scene Graph**
+- 下一篇主菜：**M3 Language Grounding 与 Embodied Instruction**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-13 · **M2 Object-centric Mapping 与 3D Scene Graph** —— 从 observation instance 与 persistent object identity 的分离出发，把每帧 mask / point set / feature 接入跨帧 data association；完整推出由 3D IoU、position uncertainty、cosine feature、semantic compatibility 与 temporal prior 组成的 association cost，以及带一对一约束的 global assignment，说明 Hungarian 等全局匹配只能优化给定 cost、不能修复错误 pose / mask / feature；再把 object node、directional / frame-dependent / probabilistic relation、provenance 与 graph consistency 接成可纠错 scene graph，并用 split / merge / duplicate、identity switch、edge calibration、independent geometry 与 task endpoint 约束 object-centric mapping claim
 
 - 2026-11-12 · **M1 Open-Vocabulary 3D Scene Understanding** —— 从 closed-set classifier 的固定类别边界出发，把 image pixel feature、text embedding 与 3D point feature 放进共享空间；完整推出 pixel-to-world backprojection、同一三维点的 reliability-weighted least-squares fusion、recursive update 与 cosine / softmax text query，说明语言开放性不等于 unknown rejection、prompt robustness 或几何正确，并用 pose / visibility / occlusion、feature bleeding、seen / unseen / tail、query stability、independent 3D endpoint 与 matched RGB / polarization controls 约束开放词汇三维主张
 
@@ -99,6 +101,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **M2 Object-centric Mapping 与 3D Scene Graph**：能区分 observation instance 与 persistent object identity，写出由 geometry / position / feature / semantics / time 组成的 association cost 与带一对一约束的 global assignment；能解释 node / edge 为什么要保留 frame、uncertainty 与 provenance，并用 split / merge / duplicate、identity switch、relation calibration、independent geometry / task endpoints 检查一条 object-centric mapping claim → 复习于 2026-11-14 / 11-16 / 11-20
 
 - **M1 Open-Vocabulary 3D Scene Understanding**：能从 pixel / text shared embedding 写出 cosine query，从 $\mathbf X_w=\mathbf R_{cw}(z\mathbf K^{-1}\tilde{\mathbf p})+\mathbf t_{cw}$ 把二维 feature 放回三维，再由 weighted least squares 推出 $\mathbf f_j=\sum_i w_{ij}\mathbf z_{ij}/\sum_i w_{ij}$；能解释 open vocabulary 为什么不等于 unknown rejection，并用 pose / visibility、prompt stability、seen / unseen / tail 与独立 geometry / task endpoints 检查一条 semantic-3D claim → 复习于 2026-11-13 / 11-15 / 11-19
 

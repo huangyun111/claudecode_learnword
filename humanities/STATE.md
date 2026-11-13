@@ -17,10 +17,12 @@
 ## 当前位置
 
 - 模块：**H13 · 艺术、审美与文化生产**
-- 下一篇主线：**H13-2 赞助、市场、博物馆与 Canon**
+- 下一篇主线：**H13-3 机械复制、摄影、电影与大众文化**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-13 · **H13-2 赞助、市场、博物馆与 Canon** —— 从 Renaissance commission 把题材、材料、地点、期限与观众写进创作前提的场景出发，说明 patronage 如何在作品出现前分配资源与可能性；比较 commission 与 art market 的风险结构，区分 aesthetic value、historical importance 与 market price，再沿 collector / dealer、museum 的 collect / conserve / research / interpret / exhibit、textbook / syllabus 与公共传播解释 cumulative visibility 如何形成 canon；同时用 survival bias、archive asymmetry、provenance、restitution、community participation 与 institutional critique 说明经典既包含长期比较的判断，也受保存条件和制度权力塑造，因而需要公开理由与可修订接口
 
 - 2026-11-12 · **H13-1 什么是艺术，审美判断能否讲道理** —— 从杜尚 readymade 把“像不像、做得难不难、好不好看”同时抽走的冲击出发，区分 art status、aesthetic value、personal liking 与 historical importance 四种判断；比较 representation / imitation、expression、formalism、historical / institutional 与 cluster approaches 的解释力和盲点，再用 Hume / Kant 引出的 taste problem 说明审美既不等于客观测量，也不等于无理由偏好；最终把 object / form、intention / action、context / history、institution / power、audience / experience 与 time / revision 六层接成可讨论、可修正的艺术判断框架
 
@@ -103,6 +105,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H13-2 赞助、市场、博物馆与 Canon**：能沿 maker / patron / contract / market / collector / museum / canon / revision 重建一件作品的公共生命，区分 aesthetic value、historical importance 与 market price，并用 cumulative visibility、survival bias、provenance、institutional power 与 public correction 解释经典为何既不是纯质量榜也不是阴谋名单 → 复习于 2026-11-14 / 11-16 / 11-20
 
 - **H13-1 什么是艺术，审美判断能否讲道理**：能区分“是艺术 / 是好艺术 / 我喜欢 / 有历史重要性”，用 representation / expression / form / history / institution / cluster 六种镜头解释同一作品，并沿 object、intention、context、institution、audience、time 六问说明审美判断为什么既需要个人经验，也可以借助比较、知识、理由与反例修正 → 复习于 2026-11-13 / 11-15 / 11-19
 
