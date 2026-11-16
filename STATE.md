@@ -14,10 +14,12 @@
 ## 当前位置
 
 - 阶段：**M · 开放词汇三维语义、场景图与空间智能**
-- 下一篇主菜：**M3 Language Grounding 与 Embodied Instruction**
+- 下一篇主菜：**M4 Continual / Open-world 3D Memory**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-16 · **M3 Language Grounding 与 Embodied Instruction** —— 从“红椅子旁边的桌子”拆出 target、anchor、attribute、relation、reference frame、goal region、action 与 constraint，完整推出由 target / anchor unary、relation likelihood 与 context compatibility 组成的 joint grounding posterior，说明 semantic-only 为什么会选错 instance、`near` 为何需要尺度与 uncertainty、left / front 为何依赖 frame；再把 grounded object 经 free-space、visibility、reachability、support 与 safety 转成可执行 goal region，并用 belief update、expected clarification value、reference / spatial / execution / interaction 四层成绩单约束“听懂并行动”的主张
 
 - 2026-11-13 · **M2 Object-centric Mapping 与 3D Scene Graph** —— 从 observation instance 与 persistent object identity 的分离出发，把每帧 mask / point set / feature 接入跨帧 data association；完整推出由 3D IoU、position uncertainty、cosine feature、semantic compatibility 与 temporal prior 组成的 association cost，以及带一对一约束的 global assignment，说明 Hungarian 等全局匹配只能优化给定 cost、不能修复错误 pose / mask / feature；再把 object node、directional / frame-dependent / probabilistic relation、provenance 与 graph consistency 接成可纠错 scene graph，并用 split / merge / duplicate、identity switch、edge calibration、independent geometry 与 task endpoint 约束 object-centric mapping claim
 
@@ -101,6 +103,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **M3 Language Grounding 与 Embodied Instruction**：能把 target / anchor / relation / frame / region / action / constraint 分开，写出 $p(j,k\mid u,\mathcal M)\propto\phi_t(j)\phi_a(k)\phi_r(j,k;F)\phi_c(j,k)$，解释 `near` 的尺度与 uncertainty、object 到可达 goal region、belief update 与 clarification value，并用 reference / spatial / planning / execution / safety 分层检查 embodied claim → 复习于 2026-11-17 / 11-19 / 11-23
 
 - **M2 Object-centric Mapping 与 3D Scene Graph**：能区分 observation instance 与 persistent object identity，写出由 geometry / position / feature / semantics / time 组成的 association cost 与带一对一约束的 global assignment；能解释 node / edge 为什么要保留 frame、uncertainty 与 provenance，并用 split / merge / duplicate、identity switch、relation calibration、independent geometry / task endpoints 检查一条 object-centric mapping claim → 复习于 2026-11-14 / 11-16 / 11-20
 

@@ -17,10 +17,12 @@
 ## 当前位置
 
 - 模块：**H13 · 艺术、审美与文化生产**
-- 下一篇主线：**H13-3 机械复制、摄影、电影与大众文化**
+- 下一篇主线：**H13-4 数字平台、生成式 AI 与文化劳动**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-16 · **H13-3 机械复制、摄影、电影与大众文化** —— 从人们先在课本与屏幕上“见过”《蒙娜丽莎》的场景出发，把 mechanical reproduction 区分为速度、规模、稳定性、边际成本与发行组织的联合变化；再沿 original / provenance 与 Benjamin 的 aura、摄影中的 framing / selection / caption、电影的 montage 与集体生产、high fixed cost / low marginal cost 的 mass audience、distribution concentration 及 Adorno / Horkheimer 的 culture industry 讨论复制怎样同时扩大接触、重组作者劳动、制造共同经验并放大标准化风险；最后用 audience agency、版本稀缺、media diversity 与 provenance 说明复制不是原作终结或群众被动化的单线故事
 
 - 2026-11-13 · **H13-2 赞助、市场、博物馆与 Canon** —— 从 Renaissance commission 把题材、材料、地点、期限与观众写进创作前提的场景出发，说明 patronage 如何在作品出现前分配资源与可能性；比较 commission 与 art market 的风险结构，区分 aesthetic value、historical importance 与 market price，再沿 collector / dealer、museum 的 collect / conserve / research / interpret / exhibit、textbook / syllabus 与公共传播解释 cumulative visibility 如何形成 canon；同时用 survival bias、archive asymmetry、provenance、restitution、community participation 与 institutional critique 说明经典既包含长期比较的判断，也受保存条件和制度权力塑造，因而需要公开理由与可修订接口
 
@@ -105,6 +107,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H13-3 机械复制、摄影、电影与大众文化**：能用 fixed cost / marginal cost 解释可复制媒介为何追求大规模 audience，区分 original / aura / reproduction / version，说明摄影选择、电影 montage、distribution concentration 与 culture industry 怎样共同塑造意义，并沿 technology / production / form / distribution / audience / feedback / memory 检查复制带来的 access 与 standardization → 复习于 2026-11-17 / 11-19 / 11-23
 
 - **H13-2 赞助、市场、博物馆与 Canon**：能沿 maker / patron / contract / market / collector / museum / canon / revision 重建一件作品的公共生命，区分 aesthetic value、historical importance 与 market price，并用 cumulative visibility、survival bias、provenance、institutional power 与 public correction 解释经典为何既不是纯质量榜也不是阴谋名单 → 复习于 2026-11-14 / 11-16 / 11-20
 
