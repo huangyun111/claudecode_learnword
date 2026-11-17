@@ -14,10 +14,12 @@
 ## 当前位置
 
 - 阶段：**M · 开放词汇三维语义、场景图与空间智能**
-- 下一篇主菜：**M4 Continual / Open-world 3D Memory**
+- 下一篇主菜：**阶段 M 复盘 · 从几何地图到可查询空间智能**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-17 · **M4 Continual / Open-world 3D Memory** —— 从 observation、world state 与 memory belief 的分离出发，为 persistent object node 加入 existence probability、state covariance、version 与 evidence ledger；完整推出带 survival prediction 的 Bernoulli existence Bayes update，说明 missed detection 的证据强度为什么依赖 visibility、$P_D$ 与 $P_F$，再把 unknown object buffer、change likelihood、pose / sensor / feature drift、memory-level update 与 model-level continual learning、active / episodic / consolidated / archive memory 以及 tombstone / provenance 接成长期三维记忆合同，并用 current-state、change、unknown、identity、forgetting / resource 与 task / audit 六层成绩单约束“终身记忆”主张
 
 - 2026-11-16 · **M3 Language Grounding 与 Embodied Instruction** —— 从“红椅子旁边的桌子”拆出 target、anchor、attribute、relation、reference frame、goal region、action 与 constraint，完整推出由 target / anchor unary、relation likelihood 与 context compatibility 组成的 joint grounding posterior，说明 semantic-only 为什么会选错 instance、`near` 为何需要尺度与 uncertainty、left / front 为何依赖 frame；再把 grounded object 经 free-space、visibility、reachability、support 与 safety 转成可执行 goal region，并用 belief update、expected clarification value、reference / spatial / execution / interaction 四层成绩单约束“听懂并行动”的主张
 
@@ -103,6 +105,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **M4 Continual / Open-world 3D Memory**：能区分 observation / world state / memory belief，推出 detection 与 missed detection 下的 Bernoulli existence update，解释 visibility-aware negative evidence、unknown buffer、change / drift 分型、map update 与 model continual learning 的边界，并用 version、provenance、tombstone 与分层 memory 检查长期地图 → 复习于 2026-11-18 / 11-20 / 11-24
 
 - **M3 Language Grounding 与 Embodied Instruction**：能把 target / anchor / relation / frame / region / action / constraint 分开，写出 $p(j,k\mid u,\mathcal M)\propto\phi_t(j)\phi_a(k)\phi_r(j,k;F)\phi_c(j,k)$，解释 `near` 的尺度与 uncertainty、object 到可达 goal region、belief update 与 clarification value，并用 reference / spatial / planning / execution / safety 分层检查 embodied claim → 复习于 2026-11-17 / 11-19 / 11-23
 

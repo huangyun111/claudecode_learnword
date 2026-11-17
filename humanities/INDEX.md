@@ -4,6 +4,7 @@
 
 | 日期 | 主题标题 | 模块 | 标签 |
 |---|---|---|---|
+| 2026-11-17 | 当创作进入算法流水线：数字平台、生成式 AI 与文化劳动怎样重新分配权力 | H13-4 | digital platform, recommender system, generative AI, cultural labor, training data, authorship, style imitation, copyright, attention economy, platform governance, cultural diversity, creator economy |
 | 2026-11-16 | 当《蒙娜丽莎》进入手机屏幕：机械复制、摄影、电影怎样重写艺术与大众文化 | H13-3 | mechanical reproduction, photography, film, mass culture, Walter Benjamin, aura, authenticity, montage, culture industry, audience, media, original, authorship |
 | 2026-11-13 | 一件作品怎样从画室走进“艺术史”：赞助、市场、博物馆与 Canon | H13-2 | patronage, commission, art market, gallery, auction, museum, collection, exhibition, provenance, canon, cultural capital, institutional critique |
 | 2026-11-12 | 一只小便池为什么能进入艺术史：艺术、审美与“谁有权命名” | H13-1 | art definition, aesthetics, taste, representation, expression, formalism, readymade, artworld, institution, canon, Duchamp, cultural production |
