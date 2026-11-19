@@ -4,6 +4,7 @@
 
 | 日期 | 主题标题 | 模块 | 标签 |
 |---|---|---|---|
+| 2026-11-19 | 一件作品不是“自己成为经典”的：意义、价值与公共生命怎样被共同生产 | H13·复盘 | art, aesthetics, cultural production, patronage, market, museum, canon, mechanical reproduction, platform, generative AI, cultural labor, audience, provenance, public life |
 | 2026-11-17 | 当创作进入算法流水线：数字平台、生成式 AI 与文化劳动怎样重新分配权力 | H13-4 | digital platform, recommender system, generative AI, cultural labor, training data, authorship, style imitation, copyright, attention economy, platform governance, cultural diversity, creator economy |
 | 2026-11-16 | 当《蒙娜丽莎》进入手机屏幕：机械复制、摄影、电影怎样重写艺术与大众文化 | H13-3 | mechanical reproduction, photography, film, mass culture, Walter Benjamin, aura, authenticity, montage, culture industry, audience, media, original, authorship |
 | 2026-11-13 | 一件作品怎样从画室走进“艺术史”：赞助、市场、博物馆与 Canon | H13-2 | patronage, commission, art market, gallery, auction, museum, collection, exhibition, provenance, canon, cultural capital, institutional critique |

@@ -13,11 +13,13 @@
 
 ## 当前位置
 
-- 阶段：**M · 开放词汇三维语义、场景图与空间智能**
-- 下一篇主菜：**阶段 M 复盘 · 从几何地图到可查询空间智能**
+- 阶段：**M · 开放词汇三维语义、场景图与空间智能（已完成）**
+- 下一篇主菜：**下一阶段待结合后续学习与研究需求扩展路线图**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-19 · **阶段 M 复盘：从几何地图到可查询空间智能** —— 把空间地图写成由 geometry、open-vocabulary feature、persistent object、probabilistic relation 与 versioned evidence ledger 组成的 posterior belief；从 pixel-to-world 与 reliability-weighted feature fusion 出发，接入 observation-to-object global association、带 frame / time / uncertainty 的 scene graph、target / anchor / relation / context joint grounding、goal-region feasibility，以及 survival / birth / detection / miss 下的 existence update，再用 freshness、provenance 与执行后新观测封闭 answer / clarify / active observe / act / reject → memory repair 回路，并以 geometry、semantic、object / graph、language、change / memory 与 embodied task 六层成绩单约束“空间智能”主张
 
 - 2026-11-17 · **M4 Continual / Open-world 3D Memory** —— 从 observation、world state 与 memory belief 的分离出发，为 persistent object node 加入 existence probability、state covariance、version 与 evidence ledger；完整推出带 survival prediction 的 Bernoulli existence Bayes update，说明 missed detection 的证据强度为什么依赖 visibility、$P_D$ 与 $P_F$，再把 unknown object buffer、change likelihood、pose / sensor / feature drift、memory-level update 与 model-level continual learning、active / episodic / consolidated / archive memory 以及 tombstone / provenance 接成长期三维记忆合同，并用 current-state、change、unknown、identity、forgetting / resource 与 task / audit 六层成绩单约束“终身记忆”主张
 
@@ -105,6 +107,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **阶段 M 复盘：从几何地图到可查询空间智能**：能画出 observation → geometry → 3D feature → persistent object / relation → language grounding → current memory → action → new observation 的闭环，区分 feature / object / relation / belief，解释 existence、freshness、provenance 与 feasibility 为什么必须进入当前查询，并用 geometry / semantics / identity / relation / memory / task 六层独立证据检查“空间智能”主张 → 复习于 2026-11-20 / 11-22 / 11-26
 
 - **M4 Continual / Open-world 3D Memory**：能区分 observation / world state / memory belief，推出 detection 与 missed detection 下的 Bernoulli existence update，解释 visibility-aware negative evidence、unknown buffer、change / drift 分型、map update 与 model continual learning 的边界，并用 version、provenance、tombstone 与分层 memory 检查长期地图 → 复习于 2026-11-18 / 11-20 / 11-24
 

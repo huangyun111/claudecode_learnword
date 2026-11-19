@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-11-19 | 阶段 M 复盘：从“能贴标签”到“能回答、能行动、能改口”的空间智能 | M·复盘 | open-vocabulary 3D, object-centric mapping, 3D scene graph, language grounding, embodied instruction, open-world memory, provenance, uncertainty, spatial intelligence, independent evidence |
 | 2026-11-17 | 地图不能只会“记住”：Continual / Open-world 3D Memory 怎样面对变化、未知与遗忘 | M4 | continual 3D mapping, open-world memory, change detection, object persistence, unknown rejection, Bayesian filtering, provenance, forgetting, lifelong robotics, embodied AI |
 | 2026-11-16 | 让机器人真正听懂“红椅子旁边的桌子”：Language Grounding 怎样从文本走到三维行动 | M3 | language grounding, embodied instruction, referring expression, 3D scene graph, spatial relation, affordance, reachability, POMDP, uncertainty, task success |
 | 2026-11-13 | 不再给每个点贴标签：Object-centric Mapping 与 3D Scene Graph 怎样让地图记住“谁是谁” | M2 | object-centric mapping, 3D scene graph, instance association, data association, object identity, graph relation, uncertainty, multi-view fusion, open vocabulary, embodied planning |

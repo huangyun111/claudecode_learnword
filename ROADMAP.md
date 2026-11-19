@@ -104,7 +104,7 @@
 - ☑ **M2 Object-centric Mapping 与 3D Scene Graph**：从逐点标签走向 object identity、属性、关系与层级，理解 instance association、relation uncertainty 和 graph consistency　（2026-11-13 ✅）
 - ☑ **M3 Language Grounding 与 Embodied Instruction**：把“红椅子旁边的桌子”落到三维区域、可达动作和任务约束，区分 text similarity、spatial grounding 与真实执行　（2026-11-16 ✅）
 - ☑ **M4 Continual / Open-world 3D Memory**：处理新增物体、场景变化、未知类别、长期漂移与遗忘，让地图既能更新又保留 provenance　（2026-11-17 ✅）
-- ☐ **阶段 M 复盘 · 从几何地图到可查询空间智能**：把 geometry、semantics、objects、relations、language、memory 与 independent task evidence 串成开放世界三维理解闭环
+- ☑ **阶段 M 复盘 · 从几何地图到可查询空间智能**：把 geometry、semantics、objects、relations、language、memory 与 independent task evidence 串成开放世界三维理解闭环　（2026-11-19 ✅）
 
 ---
 

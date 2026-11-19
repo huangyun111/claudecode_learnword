@@ -16,11 +16,13 @@
 
 ## 当前位置
 
-- 模块：**H13 · 艺术、审美与文化生产**
-- 下一篇主线：**H13 阶段复盘 · 一件作品怎样获得意义、价值与公共生命**
+- 模块：**H13 · 艺术、审美与文化生产（已完成）**
+- 下一篇主线：**下一模块待结合后续兴趣与现实议题扩展路线图**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-19 · **H13 阶段复盘：一件作品怎样获得意义、价值与公共生命** —— 从“锁在阁楼五百年的好画能否成为名作”出发，先区分 art status、aesthetic value、personal liking、historical importance 与 market price，再沿创作资源 / 委托 / 劳动、市场 / 收藏、博物馆 / 保存 / Canon、mechanical reproduction / 发行、平台 ranking / attention、生成式 AI 的 task recomposition / training provenance / authorship / hidden labor，以及 audience interpretation / community feedback / public revision 串成文化公共生命链；用 variety、balance、visibility、survival capacity、access、voice、memory 与 revision 检查文化多样性，说明价值既不是天才自然显现，也不能被还原成单一权力阴谋
 
 - 2026-11-17 · **H13-4 数字平台、生成式 AI 与文化劳动** —— 从独立创作者同时生产作品、互动数据与平台指标的场景出发，把文化生产重画为 creation / training data → model → ranking → attention → metric / revenue → next creation 的双重回路；说明推荐系统既读取也塑造偏好，creator economy 在扩大 access 时也把制作、分发、算法与收入风险转给个人，再沿 task bundle 的 automation / augmentation / recomposition / demand expansion、hidden labor、training provenance / consent / license / attribution / compensation / cultural rights、work similarity / style / identity / market substitution 与 human expressive control 拆解生成式 AI 争议，最后用 variety / balance / visibility / survival capacity 和多方激励说明文化多样性与治理不能被内容数量或单一法律口号替代
 
@@ -109,6 +111,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H13 阶段复盘：一件作品怎样获得意义、价值与公共生命**：能区分 art status / aesthetic value / personal liking / historical importance / market price，沿 resource / production / market / museum / reproduction / platform / audience / revision 追踪作品的公共生命，解释 Canon 如何同时包含判断与 archive inequality，并用 variety / balance / visibility / survival capacity / access / voice / memory / revision 检查文化多样性 → 复习于 2026-11-20 / 11-22 / 11-26
 
 - **H13-4 数字平台、生成式 AI 与文化劳动**：能沿 input / model / human decision / ranking / attention / revenue / remedy 追踪文化生产，说明推荐怎样既测量又塑造偏好，区分 task automation / augmentation、具体作品 / 风格 / identity / market substitution，并用 provenance、consent、license、attribution、compensation、cultural rights 与 diversity 的 variety / balance / visibility / survival capacity 检查一条 AI 文化主张 → 复习于 2026-11-18 / 11-20 / 11-24
 
