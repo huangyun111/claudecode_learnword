@@ -13,11 +13,13 @@
 
 ## 当前位置
 
-- 阶段：**M · 开放词汇三维语义、场景图与空间智能（已完成）**
-- 下一篇主菜：**下一阶段待结合后续学习与研究需求扩展路线图**
+- 阶段：**N · Robot Learning、VLA 与具身策略（进行中）**
+- 下一篇主菜：**N2 Vision-Language-Action 架构与 Action Tokenization**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-20 · **N1 Imitation Learning、Behavior Cloning 与 DAgger** —— 从 trajectory / state / observation / action contract 出发，把 expert demonstration maximum likelihood 展开为离散 action cross-entropy 与固定方差 Gaussian continuous policy 的 MSE；区分 expert-induced $d_{\pi^*}$ 与 learner-induced $d_{\pi_\theta}$，用 union bound 和 horizon 求和推出 Behavior Cloning 的 worst-case $O(T^2\epsilon)$ compounding error，再用 DAgger 在 learner 实际访问 state 上查询 expert recovery action、聚合数据并把量级改善到相应假设下的 $O(T\epsilon)$；最后把 multimodal action、partial observability、causal confusion、action / frame / rate contract、VLA action token 与 open-loop / closed-loop evidence 分账
 
 - 2026-11-19 · **阶段 M 复盘：从几何地图到可查询空间智能** —— 把空间地图写成由 geometry、open-vocabulary feature、persistent object、probabilistic relation 与 versioned evidence ledger 组成的 posterior belief；从 pixel-to-world 与 reliability-weighted feature fusion 出发，接入 observation-to-object global association、带 frame / time / uncertainty 的 scene graph、target / anchor / relation / context joint grounding、goal-region feasibility，以及 survival / birth / detection / miss 下的 existence update，再用 freshness、provenance 与执行后新观测封闭 answer / clarify / active observe / act / reject → memory repair 回路，并以 geometry、semantic、object / graph、language、change / memory 与 embodied task 六层成绩单约束“空间智能”主张
 
@@ -107,6 +109,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **N1 Imitation Learning、Behavior Cloning 与 DAgger**：能从 expert demonstration likelihood 推出离散 action cross-entropy 与连续 Gaussian policy MSE，区分 $d_{\pi^*}$ / $d_{\pi_\theta}$，用 union bound 与 horizon 求和解释 $O(T^2\epsilon)$ compounding error，并说明 DAgger 为什么要在 learner-visited state 上补 recovery label；评价时分开 open-loop action fit 与 closed-loop success / intervention / recovery / safety → 复习于 2026-11-21 / 11-23 / 11-27
 
 - **阶段 M 复盘：从几何地图到可查询空间智能**：能画出 observation → geometry → 3D feature → persistent object / relation → language grounding → current memory → action → new observation 的闭环，区分 feature / object / relation / belief，解释 existence、freshness、provenance 与 feasibility 为什么必须进入当前查询，并用 geometry / semantics / identity / relation / memory / task 六层独立证据检查“空间智能”主张 → 复习于 2026-11-20 / 11-22 / 11-26
 
