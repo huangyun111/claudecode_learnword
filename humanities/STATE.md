@@ -17,10 +17,12 @@
 ## 当前位置
 
 - 模块：**H14 · 心理、认知与社会行为（进行中）**
-- 下一篇主线：**H14-2 启发式、偏差与不确定判断**
+- 下一篇主线：**H14-3 动机、情绪与自我调节**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-23 · **H14-2 启发式、偏差与不确定判断** —— 从低 prevalence 检测的 natural-frequency tree 出发，完整算出 sensitivity、false-positive rate 与 base rate 怎样共同决定 posterior，区分 $P(E\mid H)$ 与 $P(H\mid E)$；再沿 representativeness 对 base rate / sample size / conjunction / regression 的遗漏、availability 对 retrieval ease 与 world frequency 的混淆、anchoring 的起点依赖，以及 Prospect Theory 中 reference-dependent gain / loss、loss aversion 与 framing effect，说明 heuristic 既可能系统偏离也可能在匹配环境中高效；最后把 base-rate-first、自然频数、outside view、独立估计、双向 framing、probability record 与 calibration 接成可执行纠错流程
 
 - 2026-11-20 · **H14-1 知觉、注意与重建性记忆** —— 从同一场十秒事故为何产生三个真诚版本出发，区分 sensation 与 perception，用 evidence / prior 和 signal-detection criterion 说明知觉不是固定开关；再沿 selective attention、inattentional / change blindness、limited-capacity working memory、encoding / storage / retrieval 与 reconstructive episodic memory 解释为什么注视不等于看见、生动不等于准确；通过 source monitoring、Loftus–Palmer misinformation effect 和 initial uncontaminated confidence 的程序条件，把 witness、学习、短视频与 synthetic media 接到尽早保存原始描述、非诱导询问、独立 corroboration 与 provenance 的纠错链
 
@@ -113,6 +115,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H14-2 启发式、偏差与不确定判断**：能用 natural frequency tree 从 prevalence / sensitivity / false-positive rate 算 posterior，区分 representativeness / availability / anchoring 与单次随机 error，解释 reference point、loss aversion、gain / loss framing 和 ecological rationality 的边界，并用 base rate / likelihood / sample / selection / anchor / denominator / feedback 检查一项不确定判断 → 复习于 2026-11-24 / 11-26 / 11-30
 
 - **H14-1 知觉、注意与重建性记忆**：能区分 sensation / perception / attention / working memory / episodic retrieval，用 signal / noise / criterion 解释 hit / miss / false alarm，说明 inattentional blindness、encoding failure、reconstructive memory、source monitoring 与 misinformation effect 的边界，并用 first uncontaminated report、non-leading question、confidence timing、provenance 与 independent corroboration 检查一条 eyewitness / media claim → 复习于 2026-11-21 / 11-23 / 11-27
 

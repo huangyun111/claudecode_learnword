@@ -14,10 +14,12 @@
 ## 当前位置
 
 - 阶段：**N · Robot Learning、VLA 与具身策略（进行中）**
-- 下一篇主菜：**N2 Vision-Language-Action 架构与 Action Tokenization**
+- 下一篇主菜：**N3 Generative Policy 与 Diffusion Policy**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-23 · **N2 Vision-Language-Action 架构与 Action Tokenization** —— 从 image / language / optional proprioception / embodiment metadata 的 context contract 出发，说明 vision patch、language token、state projection 与 attention mask 怎样进入 multimodal Transformer；完整推出连续 action 在 per-dimension range 上的 clipping、$K$-bin quantization、bin-center decoding 与 in-range 误差上界 $(h-l)/(2K)$，再把 autoregressive token likelihood、teacher forcing、action ordering、prediction / execution horizon 和 receding-horizon chunk 接到真实控制；以 RT-1、RT-2 与 OpenVLA 区分 VLA 接口，并用 token fit、decoded command、controller、closed-loop task、unseen subgroup 与 safety 六层边界防止 action NLL 冒充具身能力
 
 - 2026-11-20 · **N1 Imitation Learning、Behavior Cloning 与 DAgger** —— 从 trajectory / state / observation / action contract 出发，把 expert demonstration maximum likelihood 展开为离散 action cross-entropy 与固定方差 Gaussian continuous policy 的 MSE；区分 expert-induced $d_{\pi^*}$ 与 learner-induced $d_{\pi_\theta}$，用 union bound 和 horizon 求和推出 Behavior Cloning 的 worst-case $O(T^2\epsilon)$ compounding error，再用 DAgger 在 learner 实际访问 state 上查询 expert recovery action、聚合数据并把量级改善到相应假设下的 $O(T\epsilon)$；最后把 multimodal action、partial observability、causal confusion、action / frame / rate contract、VLA action token 与 open-loop / closed-loop evidence 分账
 
@@ -109,6 +111,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **N2 Vision-Language-Action 架构与 Action Tokenization**：能画出 vision / language / proprioception → multimodal tokens → Transformer → action tokens / chunk → controller → new observation，推出 scalar action 的 $K$-bin encode / bin-center decode 与 $(h-l)/(2K)$ 误差界，区分 prediction / execution horizon、teacher-forced token fit 与 closed-loop control success，并用 frame / unit / rate / latency / safety contract 检查 VLA 主张 → 复习于 2026-11-24 / 11-26 / 11-30
 
 - **N1 Imitation Learning、Behavior Cloning 与 DAgger**：能从 expert demonstration likelihood 推出离散 action cross-entropy 与连续 Gaussian policy MSE，区分 $d_{\pi^*}$ / $d_{\pi_\theta}$，用 union bound 与 horizon 求和解释 $O(T^2\epsilon)$ compounding error，并说明 DAgger 为什么要在 learner-visited state 上补 recovery label；评价时分开 open-loop action fit 与 closed-loop success / intervention / recovery / safety → 复习于 2026-11-21 / 11-23 / 11-27
 

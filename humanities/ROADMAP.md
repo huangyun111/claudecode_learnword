@@ -125,7 +125,7 @@
 > 解决：人怎样从有限感官与注意形成知觉和记忆，怎样在不确定性中判断，又怎样被情绪、动机、群体与制度情境共同塑造
 
 - ☑ **H14-1 知觉、注意与重建性记忆**：区分 sensation / perception / attention / working memory / episodic retrieval，理解 inattentional blindness、source monitoring、misinformation effect 与证词程序　（2026-11-20 ✅）
-- ☐ **H14-2 启发式、偏差与不确定判断**：base rate、representativeness、availability、anchoring、loss aversion 与 framing 何时帮助快速决策、何时系统性误导
+- ☑ **H14-2 启发式、偏差与不确定判断**：base rate、representativeness、availability、anchoring、loss aversion 与 framing 何时帮助快速决策、何时系统性误导　（2026-11-23 ✅）
 - ☐ **H14-3 动机、情绪与自我调节**：需要、目标、reward、habit、stress 与 emotion 怎样共同影响行动，为什么“知道正确”不等于“做得到”
 - ☐ **H14-4 社会影响、从众与群体边界**：规范性 / 信息性影响、authority、social identity、in-group / out-group、group polarization 与 dissent
 - ☐ **H14 阶段复盘 · 从有限心智到可纠错判断**：把感觉、注意、记忆、启发式、情绪、动机、身份、群体与制度接口串成心理—社会行为闭环
