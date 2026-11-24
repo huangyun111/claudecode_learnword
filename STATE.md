@@ -14,10 +14,12 @@
 ## 当前位置
 
 - 阶段：**N · Robot Learning、VLA 与具身策略（进行中）**
-- 下一篇主菜：**N3 Generative Policy 与 Diffusion Policy**
+- 下一篇主菜：**N4 数据混合、Embodiment Alignment 与安全评估**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-24 · **N3 Generative Policy 与 Diffusion Policy** —— 从同一 context 下左绕 / 右绕两种有效动作出发，推出固定方差 Gaussian maximum likelihood 等价于 action MSE、其总体最优是 conditional mean，因此多峰分布可能被平均到低密度危险区域；再把未来 $H_p$ 步动作组成 action chunk，完整展开 forward noising、$\bar\alpha_k$ 闭式采样、conditional noise-prediction objective、clean-action estimate 与 reverse denoising / score，说明随机初值怎样进入不同 mode；最后用 prediction / execution horizon、receding-horizon feedback、mode switching、latency、covariate shift、best-of-N oracle 与 closed-loop / safety endpoint 约束 generative policy 主张
 
 - 2026-11-23 · **N2 Vision-Language-Action 架构与 Action Tokenization** —— 从 image / language / optional proprioception / embodiment metadata 的 context contract 出发，说明 vision patch、language token、state projection 与 attention mask 怎样进入 multimodal Transformer；完整推出连续 action 在 per-dimension range 上的 clipping、$K$-bin quantization、bin-center decoding 与 in-range 误差上界 $(h-l)/(2K)$，再把 autoregressive token likelihood、teacher forcing、action ordering、prediction / execution horizon 和 receding-horizon chunk 接到真实控制；以 RT-1、RT-2 与 OpenVLA 区分 VLA 接口，并用 token fit、decoded command、controller、closed-loop task、unseen subgroup 与 safety 六层边界防止 action NLL 冒充具身能力
 
@@ -111,6 +113,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **N3 Generative Policy 与 Diffusion Policy**：能推出 fixed-variance Gaussian NLL 为什么等价于 action MSE、双峰 action 的 conditional mean 为何可能不可执行，写出 action-chunk forward diffusion 与 conditional noise-prediction loss，区分 $H_o$ / $H_p$ / $H_e$、distribution fit / best-of-N / closed-loop success，并用 latency、mode consistency、covariate shift 与 safety endpoint 检查 generative policy claim → 复习于 2026-11-25 / 11-27 / 12-01
 
 - **N2 Vision-Language-Action 架构与 Action Tokenization**：能画出 vision / language / proprioception → multimodal tokens → Transformer → action tokens / chunk → controller → new observation，推出 scalar action 的 $K$-bin encode / bin-center decode 与 $(h-l)/(2K)$ 误差界，区分 prediction / execution horizon、teacher-forced token fit 与 closed-loop control success，并用 frame / unit / rate / latency / safety contract 检查 VLA 主张 → 复习于 2026-11-24 / 11-26 / 11-30
 

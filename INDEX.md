@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-11-24 | 同一个场景有两条都对的动作：Generative Policy 与 Diffusion Policy 怎样避免“平均出一条错路” | N3 | generative policy, Diffusion Policy, multimodal action, action chunk, conditional diffusion, denoising, score, receding-horizon control, imitation learning |
 | 2026-11-23 | 一张图、一句指令，怎样变成机器人动作：VLA 架构与 Action Tokenization | N2 | Vision-Language-Action, VLA, multimodal Transformer, action tokenization, quantization, autoregressive policy, action chunk, proprioception, closed-loop control |
 | 2026-11-20 | 机器人照着专家做，为什么越走越偏：Behavior Cloning、Covariate Shift 与 DAgger | N1 | imitation learning, behavior cloning, covariate shift, compounding error, DAgger, robot policy, closed-loop control, VLA, action token, recovery |
 | 2026-11-19 | 阶段 M 复盘：从“能贴标签”到“能回答、能行动、能改口”的空间智能 | M·复盘 | open-vocabulary 3D, object-centric mapping, 3D scene graph, language grounding, embodied instruction, open-world memory, provenance, uncertainty, spatial intelligence, independent evidence |

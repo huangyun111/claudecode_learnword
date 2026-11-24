@@ -4,6 +4,7 @@
 
 | 日期 | 主题标题 | 模块 | 标签 |
 |---|---|---|---|
+| 2026-11-24 | 明明知道该做，为什么还是做不到：动机、情绪、习惯与自我调节 | H14-3 | motivation, self-determination theory, reward, goal, habit, emotion, stress, self-regulation, implementation intention, procrastination |
 | 2026-11-23 | 一个病例很像某种病，为什么仍可能大概率没病：启发式、偏差与不确定判断 | H14-2 | heuristic, bias, base rate, representativeness, availability, anchoring, Bayesian reasoning, loss aversion, framing, prospect theory, ecological rationality |
 | 2026-11-20 | 眼睛看见了，大脑就记住了吗：知觉、注意与记忆为何不是录像 | H14-1 | sensation, perception, attention, inattentional blindness, working memory, episodic memory, reconstructive memory, misinformation effect, source monitoring, eyewitness |
 | 2026-11-19 | 一件作品不是“自己成为经典”的：意义、价值与公共生命怎样被共同生产 | H13·复盘 | art, aesthetics, cultural production, patronage, market, museum, canon, mechanical reproduction, platform, generative AI, cultural labor, audience, provenance, public life |

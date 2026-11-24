@@ -17,10 +17,12 @@
 ## 当前位置
 
 - 模块：**H14 · 心理、认知与社会行为（进行中）**
-- 下一篇主线：**H14-3 动机、情绪与自我调节**
+- 下一篇主线：**H14-4 社会影响、从众与群体边界**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-24 · **H14-3 动机、情绪与自我调节** —— 从“明知该睡却继续刷视频”的 intention–behavior gap 出发，区分 motivation 的方向 / 强度 / 持续、Self-Determination Theory 的 autonomy / competence / relatedness 与外部调节到内化的连续谱；再用即时 reward、prediction error、goal-directed outcome evaluation 与 context cue–response habit 解释为什么长期目标会在当下竞争中落败，以 Gross process model 区分 situation / attention / appraisal / response 等 emotion-regulation 接口，并用 allostasis / chronic load 连接 stress、恢复与习惯接管；最后把目标—状态—行动—反馈闭环、if–then implementation intention、procrastination 的短期情绪缓解、环境 friction 与结构约束接成可执行而非人格化的自我调节框架
 
 - 2026-11-23 · **H14-2 启发式、偏差与不确定判断** —— 从低 prevalence 检测的 natural-frequency tree 出发，完整算出 sensitivity、false-positive rate 与 base rate 怎样共同决定 posterior，区分 $P(E\mid H)$ 与 $P(H\mid E)$；再沿 representativeness 对 base rate / sample size / conjunction / regression 的遗漏、availability 对 retrieval ease 与 world frequency 的混淆、anchoring 的起点依赖，以及 Prospect Theory 中 reference-dependent gain / loss、loss aversion 与 framing effect，说明 heuristic 既可能系统偏离也可能在匹配环境中高效；最后把 base-rate-first、自然频数、outside view、独立估计、双向 framing、probability record 与 calibration 接成可执行纠错流程
 
@@ -115,6 +117,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H14-3 动机、情绪与自我调节**：能区分 goal、motivation quality、reward、habit、emotion、stress、resource 与 environmental friction，解释 goal-directed / habitual control、Gross process model、allostasis 与 if–then implementation intention 分别解决哪一段接口，并用 goal / cue / skill / emotion / resource / feedback / recovery / structure 检查一次 intention–behavior gap → 复习于 2026-11-25 / 11-27 / 12-01
 
 - **H14-2 启发式、偏差与不确定判断**：能用 natural frequency tree 从 prevalence / sensitivity / false-positive rate 算 posterior，区分 representativeness / availability / anchoring 与单次随机 error，解释 reference point、loss aversion、gain / loss framing 和 ecological rationality 的边界，并用 base rate / likelihood / sample / selection / anchor / denominator / feedback 检查一项不确定判断 → 复习于 2026-11-24 / 11-26 / 11-30
 

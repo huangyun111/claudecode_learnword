@@ -110,7 +110,7 @@
 
 - ☑ **N1 Imitation Learning、Behavior Cloning 与 DAgger**：从 expert demonstration 的 maximum likelihood 推出离散 action cross-entropy 与连续 Gaussian policy MSE，理解 learner-induced covariate shift、$O(T^2\epsilon)$ compounding error、recovery data 与 closed-loop evaluation　（2026-11-20 ✅）
 - ☑ **N2 Vision-Language-Action 架构与 Action Tokenization**：image / language / proprioception 怎样进入 Transformer，连续动作如何离散、分块和自回归预测，以及 token likelihood 与 control success 的边界　（2026-11-23 ✅）
-- ☐ **N3 Generative Policy 与 Diffusion Policy**：为什么多峰连续动作不能只用单 Gaussian / MSE，怎样用 action chunk、denoising 与 receding-horizon execution 表达多种可行动作
+- ☑ **N3 Generative Policy 与 Diffusion Policy**：为什么多峰连续动作不能只用单 Gaussian / MSE，怎样用 action chunk、denoising 与 receding-horizon execution 表达多种可行动作　（2026-11-24 ✅）
 - ☐ **N4 数据混合、Embodiment Alignment 与安全评估**：跨 robot action space、teleoperation / autonomous data、quality weighting、recovery / intervention、unseen task / scene / embodiment 与 safety endpoint
 - ☐ **阶段 N 复盘 · 从 Demonstration 到可核验具身策略**：把 observation、language、spatial belief、action representation、policy rollout、recovery、embodiment 与 independent task evidence 串成闭环
 
