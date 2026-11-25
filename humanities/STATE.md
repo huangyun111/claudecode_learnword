@@ -17,10 +17,12 @@
 ## 当前位置
 
 - 模块：**H14 · 心理、认知与社会行为（进行中）**
-- 下一篇主线：**H14-4 社会影响、从众与群体边界**
+- 下一篇主线：**H14 阶段复盘 · 从有限心智到可纠错判断**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-25 · **H14-4 社会影响、从众与群体边界** —— 从九人上线会议中一人发现风险却面对一致意见的场景出发，区分 informational influence、normative influence、public compliance、private acceptance 与 authority relation；用 Asch 范式说明 unanimity、ally 与 independence，用意见相关性解释多数人数为何不等于独立证据，再把 Milgram 研究放回合法性、角色、渐进承诺、责任与目的认同的条件中；随后沿 social categorization / identity、in-group favouritism 与 out-group hostility 的边界解释 group prototype 和 group polarization，并把 dissent 的打破一致、暴露 hidden information、深化处理与留下 audit trail 接入独立判断—讨论—复核—反馈的制度纠错链
 
 - 2026-11-24 · **H14-3 动机、情绪与自我调节** —— 从“明知该睡却继续刷视频”的 intention–behavior gap 出发，区分 motivation 的方向 / 强度 / 持续、Self-Determination Theory 的 autonomy / competence / relatedness 与外部调节到内化的连续谱；再用即时 reward、prediction error、goal-directed outcome evaluation 与 context cue–response habit 解释为什么长期目标会在当下竞争中落败，以 Gross process model 区分 situation / attention / appraisal / response 等 emotion-regulation 接口，并用 allostasis / chronic load 连接 stress、恢复与习惯接管；最后把目标—状态—行动—反馈闭环、if–then implementation intention、procrastination 的短期情绪缓解、环境 friction 与结构约束接成可执行而非人格化的自我调节框架
 
@@ -117,6 +119,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H14-4 社会影响、从众与群体边界**：能区分 informational / normative influence、conformity / obedience 与 public compliance / private acceptance，解释意见相关性、unanimity、authority legitimacy、social identity、in-group favouritism / out-group hostility 与 group polarization 的条件，并用 independent judgment / dissent / stop right / review / audit trail 检查群体纠错能力 → 复习于 2026-11-26 / 11-28 / 12-02
 
 - **H14-3 动机、情绪与自我调节**：能区分 goal、motivation quality、reward、habit、emotion、stress、resource 与 environmental friction，解释 goal-directed / habitual control、Gross process model、allostasis 与 if–then implementation intention 分别解决哪一段接口，并用 goal / cue / skill / emotion / resource / feedback / recovery / structure 检查一次 intention–behavior gap → 复习于 2026-11-25 / 11-27 / 12-01
 
