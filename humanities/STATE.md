@@ -16,11 +16,13 @@
 
 ## 当前位置
 
-- 模块：**H14 · 心理、认知与社会行为（进行中）**
-- 下一篇主线：**H14 阶段复盘 · 从有限心智到可纠错判断**
+- 模块：**H14 · 心理、认知与社会行为（已完成）**
+- 下一篇主线：**待路线图扩展（可进入语言与沟通、健康与医学、教育与学习，或按近期兴趣插入专题）**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-26 · **H14 阶段复盘：从有限心智到可纠错判断** —— 从同一事故产生三个真诚但冲突版本的场景出发，把 sensation / selective attention / prior-guided perception、working memory / reconstructive episodic retrieval / source monitoring、representativeness / availability / anchoring / framing、goal / reward / habit / emotion / stress / resource，以及 informational / normative influence、authority、social identity 与 dissent 串成刺激—注意—知觉—记忆—判断—行动—群体反馈—再修正的心理社会闭环；以原始记录、自然频数、独立估计、uncertainty、stop / review rule、低成本异议、calibration 与 revision trail 建立不依赖完美理性的制度纠错接口
 
 - 2026-11-25 · **H14-4 社会影响、从众与群体边界** —— 从九人上线会议中一人发现风险却面对一致意见的场景出发，区分 informational influence、normative influence、public compliance、private acceptance 与 authority relation；用 Asch 范式说明 unanimity、ally 与 independence，用意见相关性解释多数人数为何不等于独立证据，再把 Milgram 研究放回合法性、角色、渐进承诺、责任与目的认同的条件中；随后沿 social categorization / identity、in-group favouritism 与 out-group hostility 的边界解释 group prototype 和 group polarization，并把 dissent 的打破一致、暴露 hidden information、深化处理与留下 audit trail 接入独立判断—讨论—复核—反馈的制度纠错链
 
@@ -119,6 +121,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H14 阶段复盘：从有限心智到可纠错判断**：能沿 environment / attention / perception / memory / judgment / motivation-emotion / action-expression / social response / revision 串起心理社会闭环，区分 evidence / interpretation / source、heuristic / environment fit、private judgment / public compliance，并用 original record、base rate、independent estimate、uncertainty、dissent、review rule、calibration 与 revision trail 检查一项重要判断 → 复习于 2026-11-27 / 11-29 / 12-03
 
 - **H14-4 社会影响、从众与群体边界**：能区分 informational / normative influence、conformity / obedience 与 public compliance / private acceptance，解释意见相关性、unanimity、authority legitimacy、social identity、in-group favouritism / out-group hostility 与 group polarization 的条件，并用 independent judgment / dissent / stop right / review / audit trail 检查群体纠错能力 → 复习于 2026-11-26 / 11-28 / 12-02
 

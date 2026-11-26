@@ -13,11 +13,13 @@
 
 ## 当前位置
 
-- 阶段：**N · Robot Learning、VLA 与具身策略（进行中）**
-- 下一篇主菜：**阶段 N 复盘 · 从 Demonstration 到可核验具身策略**
+- 阶段：**N · Robot Learning、VLA 与具身策略（已完成）**
+- 下一篇主菜：**待路线图扩展（可进入 robot planning / reinforcement learning / world-model control，或按当前研究与面试需求插入专题）**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
 
 ## 已讲清单
+
+- 2026-11-26 · **阶段 N 复盘：从 Demonstration 到可核验具身策略** —— 把真实部署写成 world state → observation → policy action / chunk → embodiment adapter / controller → next state 的闭环，从 Behavior Cloning 在 $d_{\pi^*}$ 上的单步 fit 与 $O(T^2\epsilon)$ compounding error 出发，接入 DAgger learner-state / recovery data；再把 VLA token 的 quantization error 与 frame / unit / rate / latency / bound action contract、Diffusion Policy 的 multimodal chunk 与 receding-horizon execution、跨 embodiment 的 target mixture / semantic alignment / held-out transfer 串成双反馈系统，最后以 data / representation / distribution / command / closed-loop / safety / generalization 七层成绩单和 unsafe proposal / executed harm / intervention / recovery 分账约束具身策略主张
 
 - 2026-11-25 · **N4 数据混合、Embodiment Alignment 与安全评估** —— 从不同 robot trajectory 直接拼接会按 transition 数量隐式定义 mixture objective 出发，写出 $R_{\text{target}}=\sum_e\pi_eR_e$，区分 target weight $\pi_e$、sampling probability $q_e$ 与 importance correction $\pi_e/q_e$，再把 episode / transition / task / embodiment 的 sampling unit、teleoperation / autonomous / intervention / recovery phase 与 quality provenance 接入可审计数据账本；随后用 frame / unit / rate / semantics / dimension / latency / physical bound 建立 action contract，区分 schema / semantic / functional alignment，并以 task / object / scene / embodiment 分轴 split、macro / micro / worst-group、unsafe proposal / executed harm / intervention / recovery / success 分账约束跨 embodiment 与 safety claim
 
@@ -115,6 +117,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **阶段 N 复盘：从 Demonstration 到可核验具身策略**：能画出 task / data / context / action / policy / adapter / rollout / evidence / repair 的双反馈闭环，区分 $d_{\pi^*}$ / $d_{\pi_\theta}$、token / physical command、mode coverage / feasible action、schema / semantic / functional alignment，并用 open-loop fit、closed-loop success、unsafe proposal、executed harm、intervention、recovery、latency 与 worst-group 检查一条具身策略主张 → 复习于 2026-11-27 / 11-29 / 12-03
 
 - **N4 数据混合、Embodiment Alignment 与安全评估**：能写出 target mixture risk，区分 $\pi_e$ / $q_e$ / exposure 与 transition / episode / task / embodiment sampling，说明 action normalization 为什么不等于 semantic / functional alignment，并用 task / object / scene / embodiment split、macro / micro / worst-group 以及 unsafe proposal / executed harm / intervention / recovery / success 检查跨机器人与安全主张 → 复习于 2026-11-26 / 11-28 / 12-02
 

@@ -1,7 +1,7 @@
 # 知识路线图（ROADMAP）
 
 主线：**可控密集预测 → 可控生成 → 世界模型 → 研究证据链 → 论文论证与学术表达 → 主动感知闭环 → 空间智能 → 具身策略**。
-已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–M 主线及阶段复盘，当前进入 **阶段 N（Robot Learning、VLA 与具身策略）**。
+已从 **阶段 B（可控生成 / 扩散系统化）** 起步，完成 A–N 主线及阶段复盘；下一阶段待扩展。
 每天主菜推进一个 ☐ 条目，讲完打勾并在 `STATE.md` 记录。
 
 ---
@@ -112,7 +112,7 @@
 - ☑ **N2 Vision-Language-Action 架构与 Action Tokenization**：image / language / proprioception 怎样进入 Transformer，连续动作如何离散、分块和自回归预测，以及 token likelihood 与 control success 的边界　（2026-11-23 ✅）
 - ☑ **N3 Generative Policy 与 Diffusion Policy**：为什么多峰连续动作不能只用单 Gaussian / MSE，怎样用 action chunk、denoising 与 receding-horizon execution 表达多种可行动作　（2026-11-24 ✅）
 - ☑ **N4 数据混合、Embodiment Alignment 与安全评估**：跨 robot action space、teleoperation / autonomous data、quality weighting、recovery / intervention、unseen task / scene / embodiment 与 safety endpoint　（2026-11-25 ✅）
-- ☐ **阶段 N 复盘 · 从 Demonstration 到可核验具身策略**：把 observation、language、spatial belief、action representation、policy rollout、recovery、embodiment 与 independent task evidence 串成闭环
+- ☑ **阶段 N 复盘 · 从 Demonstration 到可核验具身策略**：把 observation、language、spatial belief、action representation、policy rollout、recovery、embodiment 与 independent task evidence 串成闭环　（2026-11-26 ✅）
 
 ---
 

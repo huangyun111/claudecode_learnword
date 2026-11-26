@@ -4,6 +4,7 @@
 
 | 日期 | 主题标题 | 模块 | 标签 |
 |---|---|---|---|
+| 2026-11-26 | 我们不是“先看清，再理性决定”：从有限心智到可纠错判断 | H14·复盘 | perception, attention, memory, heuristic, Bayesian reasoning, motivation, emotion, habit, social influence, authority, group identity, dissent, decision process |
 | 2026-11-25 | 明明看见多数人错了，为什么还会跟着点头：社会影响、从众与群体边界 | H14-4 | social influence, conformity, informational influence, normative influence, obedience, authority, social identity, in-group, out-group, group polarization, dissent |
 | 2026-11-24 | 明明知道该做，为什么还是做不到：动机、情绪、习惯与自我调节 | H14-3 | motivation, self-determination theory, reward, goal, habit, emotion, stress, self-regulation, implementation intention, procrastination |
 | 2026-11-23 | 一个病例很像某种病，为什么仍可能大概率没病：启发式、偏差与不确定判断 | H14-2 | heuristic, bias, base rate, representativeness, availability, anchoring, Bayesian reasoning, loss aversion, framing, prospect theory, ecological rationality |
