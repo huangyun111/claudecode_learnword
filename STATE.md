@@ -13,11 +13,13 @@
 
 ## 当前位置
 
-- 阶段：**N · Robot Learning、VLA 与具身策略（已完成）**
-- 下一篇主菜：**待路线图扩展（可进入 robot planning / reinforcement learning / world-model control，或按当前研究与面试需求插入专题）**
-- 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-04，Dynamic NeRF / 4D Gaussian Splatting）
+- 阶段：**O · Reinforcement Learning、规划与长期控制**
+- 下一篇主菜：**O2 Monte Carlo、Temporal-Difference、Q-learning 与 Exploration**
+- 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-27，robot world model 的预测—规划—真实闭环证据边界）
 
 ## 已讲清单
+
+- 2026-11-27 · **O1 MDP、Return、Value Function 与 Bellman Equation** —— 从 action 改变后续 state distribution 的长期决策问题出发，把 MDP 写成 state / action / transition / reward / discount / initial-state contract，区分完整 state 与 partial observation；再从 $G_t=r_t+\gamma G_{t+1}$ 逐步推出 $V^\pi$、$Q^\pi$ 与 Bellman expectation equation，说明 policy evaluation 的 expectation 与 optimal control 的 `max` 如何改变问题，并用 Value Iteration 展示 delayed reward 从终点向前传播；最后以 reward misspecification、state aliasing、offline OOD action、hard safety constraint 与 world-model real-loop evidence 约束“高 value”主张
 
 - 2026-11-26 · **阶段 N 复盘：从 Demonstration 到可核验具身策略** —— 把真实部署写成 world state → observation → policy action / chunk → embodiment adapter / controller → next state 的闭环，从 Behavior Cloning 在 $d_{\pi^*}$ 上的单步 fit 与 $O(T^2\epsilon)$ compounding error 出发，接入 DAgger learner-state / recovery data；再把 VLA token 的 quantization error 与 frame / unit / rate / latency / bound action contract、Diffusion Policy 的 multimodal chunk 与 receding-horizon execution、跨 embodiment 的 target mixture / semantic alignment / held-out transfer 串成双反馈系统，最后以 data / representation / distribution / command / closed-loop / safety / generalization 七层成绩单和 unsafe proposal / executed harm / intervention / recovery 分账约束具身策略主张
 
@@ -117,6 +119,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **O1 MDP、Return、Value Function 与 Bellman Equation**：能写出 MDP 的 state / action / transition / reward / discount contract，区分 state / observation 与 Markov / partial observability，从 $G_t=r_t+\gamma G_{t+1}$ 推出 $V^\pi/Q^\pi$ 的 Bellman expectation equation，并说明 optimality equation 的 `max`、Value Iteration、reward misspecification 与 offline OOD action 风险 → 复习于 2026-11-28 / 11-30 / 12-04
 
 - **阶段 N 复盘：从 Demonstration 到可核验具身策略**：能画出 task / data / context / action / policy / adapter / rollout / evidence / repair 的双反馈闭环，区分 $d_{\pi^*}$ / $d_{\pi_\theta}$、token / physical command、mode coverage / feasible action、schema / semantic / functional alignment，并用 open-loop fit、closed-loop success、unsafe proposal、executed harm、intervention、recovery、latency 与 worst-group 检查一条具身策略主张 → 复习于 2026-11-27 / 11-29 / 12-03
 

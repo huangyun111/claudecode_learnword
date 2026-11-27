@@ -16,11 +16,13 @@
 
 ## 当前位置
 
-- 模块：**H14 · 心理、认知与社会行为（已完成）**
-- 下一篇主线：**待路线图扩展（可进入语言与沟通、健康与医学、教育与学习，或按近期兴趣插入专题）**
+- 模块：**H15 · 健康、医学与公共卫生**
+- 下一篇主线：**H15-2 传染病与流行病学**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-27 · **H15-1 症状、诊断、筛查与医学决策** —— 从无症状者筛查阳性却不能直接翻译成“已经得病”出发，区分 symptom / sign / test result / diagnosis / prognosis，以 2×2 表和自然频数展开 sensitivity、specificity、PPV / NPV 与 pre-test probability 的条件方向；再区分 screening programme 与 diagnostic testing，用 lead-time bias、length bias、false positive / overdiagnosis、reference standard 与 verification bias 说明“更多、更早发现”为什么不是最终健康收益，最后把 evidence update、confirmatory pathway、action threshold、treatment benefit / harm 与 access 接成可复核医学决策链
 
 - 2026-11-26 · **H14 阶段复盘：从有限心智到可纠错判断** —— 从同一事故产生三个真诚但冲突版本的场景出发，把 sensation / selective attention / prior-guided perception、working memory / reconstructive episodic retrieval / source monitoring、representativeness / availability / anchoring / framing、goal / reward / habit / emotion / stress / resource，以及 informational / normative influence、authority、social identity 与 dissent 串成刺激—注意—知觉—记忆—判断—行动—群体反馈—再修正的心理社会闭环；以原始记录、自然频数、独立估计、uncertainty、stop / review rule、低成本异议、calibration 与 revision trail 建立不依赖完美理性的制度纠错接口
 
@@ -121,6 +123,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H15-1 症状、诊断、筛查与医学决策**：能区分 symptom / sign / test result / diagnosis / prognosis / screening，用自然频数说明 sensitivity / specificity 与 PPV / NPV 的条件方向及 prevalence 影响，区分 false positive / overdiagnosis / lead-time bias，并用 intended population / reference standard / confirmatory pathway / benefit / harm / access 检查一项筛查主张 → 复习于 2026-11-28 / 11-30 / 12-04
 
 - **H14 阶段复盘：从有限心智到可纠错判断**：能沿 environment / attention / perception / memory / judgment / motivation-emotion / action-expression / social response / revision 串起心理社会闭环，区分 evidence / interpretation / source、heuristic / environment fit、private judgment / public compliance，并用 original record、base rate、independent estimate、uncertainty、dissent、review rule、calibration 与 revision trail 检查一项重要判断 → 复习于 2026-11-27 / 11-29 / 12-03
 

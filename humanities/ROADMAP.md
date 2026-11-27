@@ -130,6 +130,15 @@
 - ☑ **H14-4 社会影响、从众与群体边界**：规范性 / 信息性影响、authority、social identity、in-group / out-group、group polarization 与 dissent　（2026-11-25 ✅）
 - ☑ **H14 阶段复盘 · 从有限心智到可纠错判断**：把感觉、注意、记忆、启发式、情绪、动机、身份、群体与制度接口串成心理—社会行为闭环　（2026-11-26 ✅）
 
+## 模块 H15 · 健康、医学与公共卫生
+> 解决：身体变化怎样变成医学证据、个人行动与群体政策，以及“查得更多”为什么不自动等于“更健康”
+
+- ☑ **H15-1 症状、诊断、筛查与医学决策**：区分 symptom / sign / test / diagnosis / prognosis，用 sensitivity、specificity、predictive value、pre-test probability、reference standard、overdiagnosis 与 action threshold 理解一项检查何时改变行动　（2026-11-27 ✅）
+- ☐ **H15-2 传染病与流行病学**：incidence、prevalence、$R_0/R_t$、generation interval、surveillance、outbreak investigation 与 intervention 怎样共同描述传播
+- ☐ **H15-3 慢性病、风险因素与社会决定因素**：从 individual risk 到 population health，区分 association / causation、primary / secondary / tertiary prevention，并理解环境、劳动、收入与照护条件
+- ☐ **H15-4 医学证据、卫生系统与资源分配**：randomized trial、observational evidence、absolute benefit / harm、access、triage、cost-effectiveness 与 universal coverage 怎样进入公共决策
+- ☐ **H15 阶段复盘 · 从身体信号到可纠错健康系统**：把测量、诊断、传播、风险、干预、证据、可及性与反馈串成个人—人群健康闭环
+
 ---
 
 > 路线图不是死的：可随时插入临时主题（科技史、科学哲学、艺术史…）、调整顺序，或按时事临场切入。

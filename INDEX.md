@@ -4,6 +4,7 @@
 
 | 日期 | 主菜标题 | 阶段 | 标签 |
 |---|---|---|---|
+| 2026-11-27 | 机器人拿到奖励，为什么还需要 Bellman Equation：MDP、Return 与长期决策 | O1 | reinforcement learning, MDP, Markov property, policy, return, value function, Bellman equation, dynamic programming, robot control |
 | 2026-11-26 | 阶段 N 复盘：从“会模仿动作”到可核验的具身策略闭环 | N·复盘 | imitation learning, VLA, action tokenization, generative policy, Diffusion Policy, data mixture, embodiment alignment, closed-loop evaluation, recovery, robot safety |
 | 2026-11-25 | 把百万条机器人轨迹倒进同一个模型，为什么不等于学会所有机器人：数据混合、Embodiment Alignment 与安全评估 | N4 | data mixture, cross-embodiment learning, embodiment alignment, action contract, teleoperation, recovery data, importance weighting, generalization split, robot safety, intervention |
 | 2026-11-24 | 同一个场景有两条都对的动作：Generative Policy 与 Diffusion Policy 怎样避免“平均出一条错路” | N3 | generative policy, Diffusion Policy, multimodal action, action chunk, conditional diffusion, denoising, score, receding-horizon control, imitation learning |

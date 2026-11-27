@@ -114,6 +114,14 @@
 - ☑ **N4 数据混合、Embodiment Alignment 与安全评估**：跨 robot action space、teleoperation / autonomous data、quality weighting、recovery / intervention、unseen task / scene / embodiment 与 safety endpoint　（2026-11-25 ✅）
 - ☑ **阶段 N 复盘 · 从 Demonstration 到可核验具身策略**：把 observation、language、spatial belief、action representation、policy rollout、recovery、embodiment 与 independent task evidence 串成闭环　（2026-11-26 ✅）
 
+## 阶段 O · Reinforcement Learning、规划与长期控制
+
+- ☑ **O1 MDP、Return、Value Function 与 Bellman Equation**：从 state / action / transition / reward contract 出发，完整推出 discounted return、$V^\pi/Q^\pi$、Bellman expectation / optimality equation，并区分 policy evaluation、control 与 reward / state misspecification　（2026-11-27 ✅）
+- ☐ **O2 Monte Carlo、Temporal-Difference、Q-learning 与 Exploration**：没有完整 transition model 时，怎样从 rollout sample 学 value，理解 bootstrapping、on-policy / off-policy、$\epsilon$-greedy 与 distribution coverage
+- ☐ **O3 Policy Gradient、Actor-Critic、PPO 与 SAC**：怎样直接优化 stochastic policy，用 baseline / advantage 降方差，并理解 trust region、entropy 与 continuous control
+- ☐ **O4 Model-based / Offline RL、World-model Planning 与 Safety**：学习 transition / reward model、imagined rollout、MPC、offline extrapolation error、constrained decision 与 real-world validation
+- ☐ **阶段 O 复盘 · 从 Reward 到可核验长期控制**：把 MDP、value、exploration、policy optimization、world model、offline data 与 safety evidence 串成长期决策闭环
+
 ---
 
 > 路线图不是死的：可随时插入临时主题、调整顺序，或按实验需求临场改方向。
