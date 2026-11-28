@@ -4,6 +4,7 @@
 
 | 日期 | 主题标题 | 模块 | 标签 |
 |---|---|---|---|
+| 2026-11-28 | 病例曲线往上走，是传播变快了，还是我们看得更清楚了：传染病与流行病学 | H15-2 | infectious disease, epidemiology, incidence, prevalence, attack rate, surveillance, R0, Rt, generation interval, epidemic curve, outbreak investigation, intervention |
 | 2026-11-27 | 体检报告有箭头，为什么还不等于生病：症状、诊断、筛查与医学决策 | H15-1 | health, medicine, symptom, sign, diagnosis, screening, sensitivity, specificity, predictive value, reference standard, overdiagnosis, medical decision |
 | 2026-11-26 | 我们不是“先看清，再理性决定”：从有限心智到可纠错判断 | H14·复盘 | perception, attention, memory, heuristic, Bayesian reasoning, motivation, emotion, habit, social influence, authority, group identity, dissent, decision process |
 | 2026-11-25 | 明明看见多数人错了，为什么还会跟着点头：社会影响、从众与群体边界 | H14-4 | social influence, conformity, informational influence, normative influence, obedience, authority, social identity, in-group, out-group, group polarization, dissent |

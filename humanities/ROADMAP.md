@@ -134,7 +134,7 @@
 > 解决：身体变化怎样变成医学证据、个人行动与群体政策，以及“查得更多”为什么不自动等于“更健康”
 
 - ☑ **H15-1 症状、诊断、筛查与医学决策**：区分 symptom / sign / test / diagnosis / prognosis，用 sensitivity、specificity、predictive value、pre-test probability、reference standard、overdiagnosis 与 action threshold 理解一项检查何时改变行动　（2026-11-27 ✅）
-- ☐ **H15-2 传染病与流行病学**：incidence、prevalence、$R_0/R_t$、generation interval、surveillance、outbreak investigation 与 intervention 怎样共同描述传播
+- ☑ **H15-2 传染病与流行病学**：incidence、prevalence、$R_0/R_t$、generation interval、surveillance、outbreak investigation 与 intervention 怎样共同描述传播　（2026-11-28 ✅）
 - ☐ **H15-3 慢性病、风险因素与社会决定因素**：从 individual risk 到 population health，区分 association / causation、primary / secondary / tertiary prevention，并理解环境、劳动、收入与照护条件
 - ☐ **H15-4 医学证据、卫生系统与资源分配**：randomized trial、observational evidence、absolute benefit / harm、access、triage、cost-effectiveness 与 universal coverage 怎样进入公共决策
 - ☐ **H15 阶段复盘 · 从身体信号到可纠错健康系统**：把测量、诊断、传播、风险、干预、证据、可及性与反馈串成个人—人群健康闭环

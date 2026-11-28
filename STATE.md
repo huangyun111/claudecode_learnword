@@ -14,10 +14,12 @@
 ## 当前位置
 
 - 阶段：**O · Reinforcement Learning、规划与长期控制**
-- 下一篇主菜：**O2 Monte Carlo、Temporal-Difference、Q-learning 与 Exploration**
+- 下一篇主菜：**O3 Policy Gradient、Actor-Critic、PPO 与 SAC**
 - 前沿速览节奏：建议每周二 / 周五各一次（最近：2026-11-27，robot world model 的预测—规划—真实闭环证据边界）
 
 ## 已讲清单
+
+- 2026-11-28 · **O2 Monte Carlo、Temporal-Difference、Q-learning 与 Exploration** —— 从 $V^\pi(s)=\mathbb E_\pi[G_t\mid S_t=s]$ 出发，区分 Monte Carlo 用完整 observed return、等 episode 结束且不 bootstrapping，与 TD(0) 用 $R_{t+1}+\gamma V(S_{t+1})$ one-step target online 更新的 bias–variance trade-off；再把 TD error 解释为局部 Bellman inconsistency，说明 fixed point 上成立的是条件期望为零而非每次 sample 为零；随后从 $Q^\pi(s,a)$ 进入 control，对比 SARSA 的 on-policy next action 与 Q-learning 的 off-policy greedy `max` target，并用 $\epsilon$-greedy、coverage、maximization bias、deadly triad、OOD extrapolation 与 safety ledger 约束“学到高 value”的证据范围
 
 - 2026-11-27 · **O1 MDP、Return、Value Function 与 Bellman Equation** —— 从 action 改变后续 state distribution 的长期决策问题出发，把 MDP 写成 state / action / transition / reward / discount / initial-state contract，区分完整 state 与 partial observation；再从 $G_t=r_t+\gamma G_{t+1}$ 逐步推出 $V^\pi$、$Q^\pi$ 与 Bellman expectation equation，说明 policy evaluation 的 expectation 与 optimal control 的 `max` 如何改变问题，并用 Value Iteration 展示 delayed reward 从终点向前传播；最后以 reward misspecification、state aliasing、offline OOD action、hard safety constraint 与 world-model real-loop evidence 约束“高 value”主张
 
@@ -119,6 +121,8 @@
 - 2026-10-19 · **阶段 H 复盘：从主张到可核验决定** —— 把 claim 的 $P,T,K,O,\Pi,S$ 契约、constraint–mechanism–prediction 设计链、paired effect / uncertainty / harm decision rule、Results evidence routing、argument graph 与 rebuttal 修复串成一条可审计的论文论证闭环
 
 ## 复习队列（间隔复习：1天 / 3天 / 7天 后各回顾一次要点）
+
+- **O2 Monte Carlo、Temporal-Difference、Q-learning 与 Exploration**：能从 $V^\pi(s)=\mathbb E[G_t\mid S_t=s]$ 写出 MC 与 TD(0) update，解释 bootstrapping / TD error / bias–variance trade-off，区分 SARSA on-policy 与 Q-learning off-policy target，并说明 $\epsilon$-greedy 为什么不自动保证 state-action coverage、OOD `max` 与安全探索为何需要额外证据 → 复习于 2026-11-29 / 12-01 / 12-05
 
 - **O1 MDP、Return、Value Function 与 Bellman Equation**：能写出 MDP 的 state / action / transition / reward / discount contract，区分 state / observation 与 Markov / partial observability，从 $G_t=r_t+\gamma G_{t+1}$ 推出 $V^\pi/Q^\pi$ 的 Bellman expectation equation，并说明 optimality equation 的 `max`、Value Iteration、reward misspecification 与 offline OOD action 风险 → 复习于 2026-11-28 / 11-30 / 12-04
 

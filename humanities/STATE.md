@@ -17,10 +17,12 @@
 ## 当前位置
 
 - 模块：**H15 · 健康、医学与公共卫生**
-- 下一篇主线：**H15-2 传染病与流行病学**
+- 下一篇主线：**H15-3 慢性病、风险因素与社会决定因素**
 - 节奏：每周 2–3 篇（建议和技术线错开，用零碎时间看）
 
 ## 已讲清单
+
+- 2026-11-28 · **H15-2 传染病与流行病学** —— 从“报告病例翻倍是否等于真实感染翻倍”出发，先用 incidence / person-time、prevalence stock–flow 与 attack rate 区分新发生、当前存量和 outbreak 累积风险，再把感染经症状、就医、检测、case definition 与 reporting delay 才进入 surveillance 的 detection funnel 单列为观测过程；随后区分特定 susceptible 初始条件下的 $R_0$ 与现实条件下的 $R_t$，用 renewal equation $I_t=R_t\sum_s I_{t-s}w_s$ 说明 generation interval 怎样改变日历增长速度，并把 contact × transmission probability × infectious duration、heterogeneous cluster、多源 surveillance、epidemic curve、outbreak investigation 与 intervention counterfactual 接成边调查、边控制、边反馈修正的公共卫生闭环
 
 - 2026-11-27 · **H15-1 症状、诊断、筛查与医学决策** —— 从无症状者筛查阳性却不能直接翻译成“已经得病”出发，区分 symptom / sign / test result / diagnosis / prognosis，以 2×2 表和自然频数展开 sensitivity、specificity、PPV / NPV 与 pre-test probability 的条件方向；再区分 screening programme 与 diagnostic testing，用 lead-time bias、length bias、false positive / overdiagnosis、reference standard 与 verification bias 说明“更多、更早发现”为什么不是最终健康收益，最后把 evidence update、confirmatory pathway、action threshold、treatment benefit / harm 与 access 接成可复核医学决策链
 
@@ -123,6 +125,8 @@
 - 2026-10-19 · **H8 阶段复盘：可纠错的信息生态** —— 把公共领域的 access、agenda 与 frame、注意力市场的 visibility 分配、错误信息的 exposure—sharing—belief—action 链，以及 provenance、核验、friction、申诉和制度学习连成完整回路；健康生态不承诺消灭错误，而是让错误可见、纠正可达、分配权可问责
 
 ## 复习队列（轻量：记住"框架和洞见"，不必背细节）
+
+- **H15-2 传染病与流行病学**：能区分 incidence / prevalence / attack rate，说明 reported case 是 infection 经 detection funnel 与 delay 的观测，用 $R_0/R_t$ 与 generation interval / renewal equation 解释传播规模和速度，并沿 denominator / date / case definition / surveillance source / intervention mechanism / counterfactual / subgroup 检查一条疫情数字或防控主张 → 复习于 2026-11-29 / 12-01 / 12-05
 
 - **H15-1 症状、诊断、筛查与医学决策**：能区分 symptom / sign / test result / diagnosis / prognosis / screening，用自然频数说明 sensitivity / specificity 与 PPV / NPV 的条件方向及 prevalence 影响，区分 false positive / overdiagnosis / lead-time bias，并用 intended population / reference standard / confirmatory pathway / benefit / harm / access 检查一项筛查主张 → 复习于 2026-11-28 / 11-30 / 12-04
 

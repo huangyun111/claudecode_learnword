@@ -117,7 +117,7 @@
 ## 阶段 O · Reinforcement Learning、规划与长期控制
 
 - ☑ **O1 MDP、Return、Value Function 与 Bellman Equation**：从 state / action / transition / reward contract 出发，完整推出 discounted return、$V^\pi/Q^\pi$、Bellman expectation / optimality equation，并区分 policy evaluation、control 与 reward / state misspecification　（2026-11-27 ✅）
-- ☐ **O2 Monte Carlo、Temporal-Difference、Q-learning 与 Exploration**：没有完整 transition model 时，怎样从 rollout sample 学 value，理解 bootstrapping、on-policy / off-policy、$\epsilon$-greedy 与 distribution coverage
+- ☑ **O2 Monte Carlo、Temporal-Difference、Q-learning 与 Exploration**：没有完整 transition model 时，怎样从 rollout sample 学 value，理解 bootstrapping、on-policy / off-policy、$\epsilon$-greedy 与 distribution coverage　（2026-11-28 ✅）
 - ☐ **O3 Policy Gradient、Actor-Critic、PPO 与 SAC**：怎样直接优化 stochastic policy，用 baseline / advantage 降方差，并理解 trust region、entropy 与 continuous control
 - ☐ **O4 Model-based / Offline RL、World-model Planning 与 Safety**：学习 transition / reward model、imagined rollout、MPC、offline extrapolation error、constrained decision 与 real-world validation
 - ☐ **阶段 O 复盘 · 从 Reward 到可核验长期控制**：把 MDP、value、exploration、policy optimization、world model、offline data 与 safety evidence 串成长期决策闭环
